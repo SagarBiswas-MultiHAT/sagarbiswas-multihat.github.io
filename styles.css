@@ -121,7 +121,6 @@ a {
     padding: 8px 16px;
     border-radius: 999px;
     font-size: 0.9rem;
-    transition: 0.3s ease;
     box-shadow: 0 0 20px rgba(255, 53, 93, 0.25);
 }
 
@@ -238,10 +237,19 @@ main {
 
 .profile img {
     width: 100%;
+    height: auto;
+    aspect-ratio: 480 / 486;
     display: block;
     border-radius: 14px;
     border: 1px solid rgba(56, 255, 154, 0.3);
     background: #05080c;
+}
+
+img[src*="denvercoder1-github-readme-stats.vercel.app"] {
+    width: min(100%, 328px);
+    height: auto;
+    aspect-ratio: 312 / 150;
+    display: inline-block;
 }
 
 .profile figcaption {
