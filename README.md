@@ -33,7 +33,9 @@ portfolio/
 │  │  ├─ Blog2 - Vibe Coding & Tech Debt.png
 │  │  ├─ Blog3 - Anonymity.png
 │  │  ├─ Blog4 - Wi-Fi security alert.png
-│  │  └─ Blog5 - Quantum Crypto.png
+│  │  ├─ Blog5 - Quantum Crypto.png
+│  │  ├─ Blog6 - WSL2, Kali-Linux, Installation.png
+│  │  └─ Blog7 - Take a FULL-PAGE Screenshot Using Inspect.png
 │  ├─ certifications/
 │  ├─ resume/
 │  ├─ favicon.svg
@@ -42,15 +44,19 @@ portfolio/
 │  └─ profile_eg.svg
 └─ blog/
 	├─ index.html
+	├─ full-page-screenshot-using-inspect.html
 	├─ anonymity-opsec.html
 	├─ printer-attack-starts-with-a-printer.html
 	├─ quantum-cryptography.html
 	├─ vibe-coding-tech-debt.html
-	└─ wifi-security-alert.html
+	├─ wifi-security-alert.html
+	└─ wsl2-kali-winkex-installation.html
 ```
 
 ## Latest Blog Posts
 
+- WSL2 + Kali Linux + Win‑KeX (GUI) Installation Guide (Beginner‑Friendly)
+- Easiest Way to Take a FULL-PAGE Screenshot Using Inspect!
 - Wi‑Fi Security Alert: MAC Blocking Isn’t Enough — What to Do Instead
 - Why Quantum Computers Will Break Your Encryption (And Why We're Ready)
 - Complete, Forever Anonymity Doesn't Exist — Here's What Actually Works
