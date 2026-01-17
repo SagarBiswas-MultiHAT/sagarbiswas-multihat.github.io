@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Sagar Biswas Blog</title>
+    <link>https://sagarbiswas-multihat.github.io/blog/</link>
+    <description>Security awareness posts and engineering reflections by Sagar Biswas.</description>
+    <language>en</language>
+    <lastBuildDate>Sat, 18 Jan 2026 00:00:00 +0600</lastBuildDate>
+    <item>
+      <title>Why Quantum Computers Will Break Your Encryption (And Why We're Ready)</title>
+      <link>https://sagarbiswas-multihat.github.io/blog/quantum-cryptography.html</link>
+      <guid>https://sagarbiswas-multihat.github.io/blog/quantum-cryptography.html</guid>
+      <pubDate>Sat, 18 Jan 2026 00:00:00 +0600</pubDate>
+      <description>Quantum computers threaten RSA and ECC encryption. NIST's post-quantum standards exist today. Learn what organizations should do now.</description>
+    </item>
+    <item>
+      <title>Wi‑Fi Security Alert: MAC Blocking Isn’t Enough — What to Do Instead</title>
+      <link>https://sagarbiswas-multihat.github.io/blog/wifi-security-alert.html</link>
+      <guid>https://sagarbiswas-multihat.github.io/blog/wifi-security-alert.html</guid>
+      <pubDate>Fri, 17 Jan 2026 00:00:00 +0600</pubDate>
+      <description>Blocking a device by MAC address is easy to bypass. The safest fix is a Wi‑Fi password change plus tighter router settings.</description>
+    </item>
+    <item>
+      <title>Complete, Forever Anonymity Doesn't Exist — Here's What Actually Works</title>
+      <link>https://sagarbiswas-multihat.github.io/blog/anonymity-opsec.html</link>
+      <guid>https://sagarbiswas-multihat.github.io/blog/anonymity-opsec.html</guid>
+      <pubDate>Fri, 17 Jan 2026 00:00:00 +0600</pubDate>
+      <description>Nation-state actors can correlate metadata and behavior. VPNs and proxies help, but real anonymity depends on identity separation, fewer actions, and avoiding linking accounts.</description>
+    </item>
+    <item>
+      <title>🧨 Fun Fact: A Cyberattack That Can Start With… a Printer 🖨️</title>
+      <link>https://sagarbiswas-multihat.github.io/blog/printer-attack-starts-with-a-printer.html</link>
+      <guid>https://sagarbiswas-multihat.github.io/blog/printer-attack-starts-with-a-printer.html</guid>
+      <pubDate>Fri, 17 Jan 2026 00:00:00 +0600</pubDate>
+      <description>How a printer can become the easiest entry point into a company network — and how to secure it before attackers do.</description>
+    </item>
+    <item>
+      <title>Vibe Coding মানে দ্রুত কাজের আড়ালে ধীরে ধীরে টেক ডেবট জমা করা</title>
+      <link>https://sagarbiswas-multihat.github.io/blog/vibe-coding-tech-debt.html</link>
+      <guid>https://sagarbiswas-multihat.github.io/blog/vibe-coding-tech-debt.html</guid>
+      <pubDate>Fri, 17 Jan 2026 00:00:00 +0600</pubDate>
+      <description>AI দিয়ে দ্রুত ডেলিভারি সম্ভব, কিন্তু ভুল সিদ্ধান্তে তৈরি হয় বাড়তি জটিলতা। কী রাখবেন, কী বাদ দেবেন — এই লেখায় আছে সহজ ব্যাখ্যা।</description>
+    </item>
+  </channel>
+</rss>
