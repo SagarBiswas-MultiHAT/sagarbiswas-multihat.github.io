@@ -624,7 +624,7 @@ img[src*="denvercoder1-github-readme-stats.vercel.app"] {
     display: grid;
     place-items: center;
     font-size: 2.4rem;
-    color: #ff0000;
+    color: #ffffff;
     /* background: radial-gradient(circle, rgba(57, 255, 135, 0.9) 0%, rgba(57, 255, 135, 0.6) 45%, rgba(57, 255, 135, 0) 70%); */
     opacity: 0.9;
     transition: transform 0.2s ease, opacity 0.2s ease;
