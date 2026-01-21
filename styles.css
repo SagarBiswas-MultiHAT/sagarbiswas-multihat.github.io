@@ -589,6 +589,65 @@ img[src*="denvercoder1-github-readme-stats.vercel.app"] {
     font-size: 0.95rem;
 }
 
+.video-feature {
+    margin: 32px 0 12px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 24px;
+    align-items: center;
+    background: var(--card);
+    border: 1px solid rgba(255, 53, 93, 0.2);
+    border-radius: 18px;
+    padding: 20px;
+    box-shadow: var(--shadow);
+}
+
+.video-feature__link {
+    position: relative;
+    display: block;
+    border-radius: 16px;
+    overflow: hidden;
+    border: 1px solid rgba(56, 255, 154, 0.3);
+}
+
+.video-feature__thumb {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 4 / 3;
+    display: block;
+    background: #05080c;
+}
+
+.video-feature__play {
+    position: absolute;
+    inset: 0;
+    display: grid;
+    place-items: center;
+    font-size: 2.4rem;
+    color: #ff0000;
+    /* background: radial-gradient(circle, rgba(57, 255, 135, 0.9) 0%, rgba(57, 255, 135, 0.6) 45%, rgba(57, 255, 135, 0) 70%); */
+    opacity: 0.9;
+    transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+.video-feature__link:hover .video-feature__play,
+.video-feature__link:focus-visible .video-feature__play {
+    transform: scale(1.05);
+    opacity: 1;
+}
+
+.video-feature__content {
+    display: grid;
+    gap: 10px;
+}
+
+.video-feature__eyebrow {
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    font-size: 0.75rem;
+    color: var(--danger);
+}
+
 .centered {
     text-align: center;
 }
@@ -669,6 +728,6 @@ img[src*="denvercoder1-github-readme-stats.vercel.app"] {
     }
 }
 
-html{
+html {
     zoom: 125%;
 }
