@@ -704,12 +704,28 @@ img[src*="denvercoder1-github-readme-stats.vercel.app"] {
 
 @media (max-width: 900px) {
     .nav {
-        flex-direction: column;
-        align-items: flex-start;
+        flex-direction: row;
+        align-items: center;
+        padding: 14px 16px;
     }
 
     .nav-links {
-        flex-wrap: wrap;
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        overflow-y: hidden;
+        max-width: 100%;
+        gap: 14px;
+        padding-bottom: 4px;
+        scrollbar-width: none;
+    }
+
+    .nav-links::-webkit-scrollbar {
+        display: none;
+    }
+
+    .logo,
+    .cta {
+        flex-shrink: 0;
     }
 
     .blog-card {
@@ -719,7 +735,7 @@ img[src*="denvercoder1-github-readme-stats.vercel.app"] {
 
 @media (max-width: 600px) {
     .hero {
-        padding-top: 100px;
+        padding-top: 84px;
     }
 
     .hero-actions {
@@ -728,6 +744,6 @@ img[src*="denvercoder1-github-readme-stats.vercel.app"] {
     }
 }
 
-html {
+html{
     zoom: 115%;
 }
