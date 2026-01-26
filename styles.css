@@ -452,6 +452,8 @@ img[src*="denvercoder1-github-readme-stats.vercel.app"] {
 
 .blog-hero img {
     width: 100%;
+    height: auto;
+    aspect-ratio: 16 / 9;
     border-radius: 18px;
     border: 1px solid rgba(56, 255, 154, 0.25);
 }
