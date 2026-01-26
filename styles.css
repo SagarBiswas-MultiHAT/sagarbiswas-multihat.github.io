@@ -132,7 +132,7 @@ main {
 }
 
 .hero {
-    max-width: 1200px;
+    width: 95%;
     margin: 0 auto;
     padding: 80px 32px 48px;
     display: grid;
@@ -316,7 +316,7 @@ img[src*="denvercoder1-github-readme-stats.vercel.app"] {
 }
 
 .section {
-    max-width: 1200px;
+    width: 95%;
     margin: 0 auto;
     padding: 60px 32px;
 }
