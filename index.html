@@ -750,6 +750,13 @@
           <p>Showcasing my YouTube community.</p>
           <a class="project-link" href="https://youtu.be/oUp4SWSrYYk?si=IZ42G5qZhZwRucHG" target="_blank"
             rel="noopener noreferrer">Watch on YouTube</a>
+          <!--
+Security & privacy best practice:
+
+- noopener(security): prevents the new tab from accessing window.opener (avoids tabnabbing attacks), window.opener becomes null. prevents tab hijacking 
+- noreferrer(privacy ): prevents sending the referrer URL and also disables window.opener. (hides referrer + also blocks opener)
+Used with target="_blank" for safe external links.
+          -->
         </div>
       </div>
     </section>
@@ -910,8 +917,8 @@
         <div class="resume-actions">
           <a class="primary" href="assets/resume/Resume%20-%20Sagar%20Biswar.jpg" target="_blank"
             rel="noopener noreferrer">View Resume</a>
-          <a class="secondary" href="https://drive.google.com/file/d/1wtxAAYgkqimya6XechR0oxE6vpBx4hD6/view?usp=sharing"
-            download>Download</a>
+          <a class="secondary" href="https://drive.google.com/file/d/1Nmw1AilvcUpdACU9OHfCFCIWXuxciAJK/view?usp=sharing"
+            target="_blank" rel="noopener noreferrer" download>Download</a>
         </div>
       </div>
     </section>
