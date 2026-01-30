@@ -1,0 +1,10 @@
+# llms.txt
+
+Site: Sagar Biswas — MultiHAT-in-Training
+URL: https://sagarbiswas-multihat.github.io/
+Language: en, bn
+Contact: eng.sagar.aiub@gmail.com
+
+Purpose: Personal portfolio and security-awareness blog.
+Crawl: Allowed
+Sitemap: https://sagarbiswas-multihat.github.io/sitemap.xml

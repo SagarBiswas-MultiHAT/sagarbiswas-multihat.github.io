@@ -1,0 +1,14 @@
+{
+  "name": "sagarbiswas-multihat-portfolio",
+  "private": true,
+  "scripts": {
+    "minify:css": "node tools/minify-css.mjs",
+    "minify:js": "node tools/minify-js.mjs",
+    "build": "npm run minify:css && npm run minify:js"
+  },
+  "devDependencies": {
+    "cssnano": "^6.0.0",
+    "postcss": "^8.4.38",
+    "terser": "^5.30.0"
+  }
+}

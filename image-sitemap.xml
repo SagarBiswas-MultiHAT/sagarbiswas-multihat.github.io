@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>https://sagarbiswas-multihat.github.io/</loc>
+    <image:image>
+      <image:loc>https://sagarbiswas-multihat.github.io/assets/og-preview.svg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://sagarbiswas-multihat.github.io/assets/profile-480.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://sagarbiswas-multihat.github.io/assets/profile-360.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://sagarbiswas-multihat.github.io/blog/</loc>
+    <image:image>
+      <image:loc>https://sagarbiswas-multihat.github.io/assets/blogs/blog6-wsl2-kali-1200.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://sagarbiswas-multihat.github.io/assets/blogs/blog7-fullpage-screenshot-1200.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://sagarbiswas-multihat.github.io/assets/blogs/blog1-printer-1200.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://sagarbiswas-multihat.github.io/assets/blogs/blog2-vibe-coding-1200.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://sagarbiswas-multihat.github.io/assets/blogs/blog3-anonymity-1200.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://sagarbiswas-multihat.github.io/assets/blogs/blog4-wifi-alert-1200.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://sagarbiswas-multihat.github.io/assets/blogs/blog5-quantum-crypto-1200.png</image:loc>
+    </image:image>
+  </url>
+  <!-- /* NOTE: add additional image entries for new assets and local GitHub card snapshots. */ -->
+</urlset>

@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WSL2 + Kali + Win‑KeX Guide | Sagar Biswas</title>
+    <meta name="description"
+        content="A notebook-style, beginner-friendly WSL2 + Kali Linux + Win‑KeX setup guide with exact commands, prompt answers, screenshots, and fixes." />
+    <meta name="author" content="Sagar Biswas" />
+    <meta name="theme-color" content="#04070a" />
+    <meta name="robots" content="index,follow,max-image-preview:large" />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:site_name" content="Sagar Biswas | MultiHAT-in-Training" />
+    <meta property="article:author" content="https://sagarbiswas-multihat.github.io/" />
+    <meta property="article:section" content="WSL2 & Kali Linux" />
+    <meta property="article:tag" content="WSL2" />
+    <meta property="article:tag" content="Kali Linux" />
+    <meta property="article:tag" content="Win-KeX" />
+    <meta property="article:tag" content="Windows" />
+    <meta property="article:tag" content="Beginner Guide" />
+    <meta property="og:title" content="WSL2 + Kali + Win‑KeX Guide" />
+    <meta property="og:description"
+        content="End‑to‑end WSL2 + Kali + Win‑KeX guide: prerequisites, exact commands, prompt answers, and common fixes." />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="https://sagarbiswas-multihat.github.io/blog/wsl2-kali-winkex-installation.html" />
+    <meta property="article:published_time" content="2026-01-17T00:00:00+06:00" />
+    <meta property="article:modified_time" content="2026-01-18T00:00:00+06:00" />
+    <meta property="og:image" content="https://sagarbiswas-multihat.github.io/assets/blogs/blog6-wsl2-kali-1200.png" />
+    <meta property="og:image:alt" content="WSL2 Kali Linux Win-KeX installation guide cover" />
+    <meta property="og:image:type" content="image/png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="675" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="WSL2 + Kali + Win‑KeX Guide" />
+    <meta name="twitter:description"
+        content="Beginner‑friendly WSL2 + Kali + Win‑KeX setup with exact commands, prompt answers, screenshots, and fixes." />
+    <meta name="twitter:image" content="https://sagarbiswas-multihat.github.io/assets/blogs/blog6-wsl2-kali-1200.png" />
+    <meta name="twitter:image:alt" content="WSL2 Kali Linux Win-KeX installation guide cover" />
+    <link rel="canonical" href="https://sagarbiswas-multihat.github.io/blog/wsl2-kali-winkex-installation.html" />
+    <link rel="alternate" hreflang="en"
+        href="https://sagarbiswas-multihat.github.io/blog/wsl2-kali-winkex-installation.html" />
+    <link rel="alternate" hreflang="x-default" href="https://sagarbiswas-multihat.github.io/blog/" />
+    <!-- TODO: add hreflang alternates when translations exist. -->
+    <link rel="alternate" type="application/rss+xml" title="Sagar Biswas Blog RSS"
+        href="https://sagarbiswas-multihat.github.io/rss.xml" />
+    <link rel="stylesheet" href="../styles.min.css" />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "BlogPosting",
+        "headline": "WSL2 + Kali + Win‑KeX Guide",
+        "description": "A notebook-style, beginner-friendly WSL2 + Kali Linux + Win‑KeX setup guide with exact commands, prompt answers, screenshots, and fixes.",
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://sagarbiswas-multihat.github.io/assets/blogs/blog6-wsl2-kali-1200.png",
+          "width": 1200,
+          "height": 675
+        },
+        "author": {
+          "@type": "Person",
+          "name": "Sagar Biswas",
+          "url": "https://sagarbiswas-multihat.github.io/",
+          "sameAs": [
+            "https://github.com/SagarBiswas-MultiHAT",
+            "https://www.linkedin.com/in/sagarbiswas-multihat/",
+            "https://www.youtube.com/@Sagar-MultiHAT"
+          ]
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "Sagar Biswas",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://sagarbiswas-multihat.github.io/assets/og-preview.svg"
+          }
+        },
+        "datePublished": "2026-01-17",
+        "dateModified": "2026-01-18",
+        "keywords": ["WSL2", "Kali Linux", "Win-KeX", "Windows Security", "Linux Setup"],
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https://sagarbiswas-multihat.github.io/blog/wsl2-kali-winkex-installation.html"
+        }
+      }
+    </script>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://sagarbiswas-multihat.github.io/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Blog",
+            "item": "https://sagarbiswas-multihat.github.io/blog/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "WSL2 + Kali + Win‑KeX Installation",
+            "item": "https://sagarbiswas-multihat.github.io/blog/wsl2-kali-winkex-installation.html"
+          }
+        ]
+      }
+    </script>
+</head>
+
+<body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <div class="grid"></div>
+    <div class="noise"></div>
+
+    <header class="site-header" id="top">
+        <nav class="nav">
+            <a class="logo" href="../index.html" aria-label="Go to homepage">
+                <span>MultiHAT</span>
+                <span class="dot">•</span>
+                <span>Ops</span>
+            </a>
+            <div class="nav-links">
+                <a href="../index.html#about">About</a>
+                <a href="../index.html#projects">Projects</a>
+                <a href="../index.html#contact">Contact</a>
+            </div>
+            <a class="cta" href="../index.html#contact">Engage</a>
+        </nav>
+    </header>
+
+    <main id="main" class="section">
+        <div class="section-header">
+            <p class="eyebrow">Windows · WSL2 · Kali Linux</p>
+            <h1>WSL2 + Kali Linux + Win‑KeX (GUI) Installation Guide (Beginner‑Friendly)</h1>
+            <p>
+                If you’re on Windows and want a clean, beginner‑friendly setup for WSL2 + Kali Linux + Win‑KeX (Kali
+                GUI),
+                I wrote a notebook‑style guide that covers everything end‑to‑end with exact commands, prompt answers,
+                screenshots, and common fixes.
+            </p>
+            <p><strong>Other parts are cooking… Stay tuned for updates!</strong></p>
+        </div>
+        <figure class="blog-hero">
+            <img src="../assets/blogs/blog6-wsl2-kali-1200.png"
+                srcset="../assets/blogs/blog6-wsl2-kali-480.png 480w, ../assets/blogs/blog6-wsl2-kali-800.png 800w, ../assets/blogs/blog6-wsl2-kali-1200.png 1200w"
+                sizes="(max-width: 600px) 100vw, (max-width: 1100px) 90vw, 1200px"
+                alt="WSL2 Kali Linux Win-KeX installation guide cover" width="1200" height="675" loading="eager"
+                fetchpriority="high" decoding="async" />
+            <figcaption><br>WSL2 + Kali + Win‑KeX, step‑by‑step, beginner‑safe.</figcaption>
+        </figure>
+
+        <article class="blog-article">
+            <h2>What’s inside (all sections included)</h2>
+            <ul>
+                <li><strong>0) Prerequisites</strong> — virtualization check (Task Manager + BIOS/UEFI note), latest GPU
+                    drivers, and required Windows features.</li>
+                <li><strong>1) Update WSL</strong> — PowerShell as Admin: <code>wsl --update</code>,
+                    <code>wsl --version</code>, status checks.
+                </li>
+                <li><strong>2) Install Kali Linux</strong> — <code>wsl --list --online</code> and
+                    <code>wsl --install -d kali-linux</code>.
+                </li>
+                <li><strong>3) Set Kali default</strong> — <code>wsl --setdefault kali-linux</code> plus first launch
+                    notes.</li>
+                <li><strong>4) Update packages</strong> — <code>sudo apt update</code> + mirror fixes if updates fail.
+                </li>
+                <li><strong>5) Install Win‑KeX</strong> — <code>sudo apt install kali-win-kex</code> and
+                    <code>kex --win</code>, with the recommended prompt answer.
+                </li>
+                <li><strong>6) (Optional) Kali toolkit</strong> — <code>sudo apt install kali-linux-large</code> with
+                    recommended prompt answers.</li>
+                <li><strong>Fixes & tips</strong> — kex not found, dpkg interrupted, stopping KeX vs stopping WSL, and
+                    more.</li>
+            </ul>
+
+            <h2>Recommended prompt answers (quick highlights)</h2>
+            <ul>
+                <li><strong>KeX view‑only password?</strong> → <strong>n</strong> (so you can interact normally).</li>
+                <li><strong>Kismet setuid root?</strong> → <strong>Yes</strong>.</li>
+                <li><strong>Non‑superusers capture packets?</strong> → <strong>Yes</strong> (Wireshark group).</li>
+                <li><strong>sslh: inetd vs standalone?</strong> → <strong>standalone</strong>.</li>
+            </ul>
+
+            <h2>Quick commands you’ll use a lot</h2>
+            <ul>
+                <li><code>kex --status</code> / <code>kex --stop</code> / <code>kex --win</code> / <code>kex --sl</code>
+                </li>
+                <li><code>wsl --terminate kali-linux</code> / <code>wsl --shutdown</code></li>
+            </ul>
+
+            <h2>Repo link</h2>
+            <p>
+                Full notebook‑style guide: <a style="font-weight: bold; color: red;"
+                    href="https://github.com/SagarBiswas-MultiHAT/WSL-Installation_Guide">WSL-Installation_Guide</a>
+            </p>
+
+            <p>
+                If anyone gets stuck at any step (WSL, mirrors, KeX, Wireshark permissions, dpkg errors),
+                DM what you’re seeing and I will help.
+            </p>
+
+            <p class="section-note">
+                <strong>Educational note:</strong> This post is for learning and safe setup guidance.
+            </p>
+
+            <div class="tag-list">
+                <span class="tag">WSL2</span>
+                <span class="tag">Kali Linux</span>
+                <span class="tag">Win‑KeX</span>
+                <span class="tag">Windows Setup</span>
+                <span class="tag">Beginner Guide</span>
+            </div>
+        </article>
+    </main>
+
+    <footer class="site-footer">
+        <div>
+            <span>© 2026 Sagar Biswas</span>
+            <span class="sep">|</span>
+            <a href="../index.html">Back to home</a>
+        </div>
+        <div>
+            <span>Blog</span>
+            <span class="sep">|</span>
+            <a href="index.html">All posts</a>
+        </div>
+    </footer>
+</body>
+
+</html>

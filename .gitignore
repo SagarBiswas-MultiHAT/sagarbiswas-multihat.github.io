@@ -1,0 +1,9 @@
+# Python virtual environment
+.venv/
+**/.venv/
+
+
+# Project folder
+Techniques/
+
+ .vscode, node_modules, .DS_Store, Thumbs.db

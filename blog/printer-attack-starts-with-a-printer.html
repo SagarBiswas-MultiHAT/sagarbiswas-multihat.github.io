@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Printer Attack: The Silent Entry Point | Sagar Biswas</title>
+    <meta name="description"
+        content="How a printer can become the easiest entry point into a company network — and how to secure it before attackers do." />
+    <meta name="author" content="Sagar Biswas" />
+    <meta name="theme-color" content="#04070a" />
+    <meta name="robots" content="index,follow,max-image-preview:large" />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:site_name" content="Sagar Biswas | MultiHAT-in-Training" />
+    <meta property="article:author" content="https://sagarbiswas-multihat.github.io/" />
+    <meta property="article:section" content="Security Awareness" />
+    <meta property="article:tag" content="Printer Security" />
+    <meta property="article:tag" content="IoT Security" />
+    <meta property="article:tag" content="Attack Surface" />
+    <meta property="article:tag" content="Network Security" />
+    <meta property="article:tag" content="Security Awareness" />
+    <meta property="og:title" content="Printer Attack: The Silent Entry Point" />
+    <meta property="og:description"
+        content="Printers are often ignored, under-patched, and trusted by everything. Here’s how that turns them into silent entry points for attackers." />
+    <meta property="og:type" content="article" />
+    <meta property="og:url"
+        content="https://sagarbiswas-multihat.github.io/blog/printer-attack-starts-with-a-printer.html" />
+    <meta property="article:published_time" content="2026-01-17T00:00:00+06:00" />
+    <meta property="article:modified_time" content="2026-01-18T00:00:00+06:00" />
+    <meta property="og:image" content="https://sagarbiswas-multihat.github.io/assets/blogs/blog1-printer-1200.png" />
+    <meta property="og:image:alt" content="Printer compromise awareness illustration" />
+    <meta property="og:image:type" content="image/png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="675" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Printer Attack: The Silent Entry Point" />
+    <meta name="twitter:description"
+        content="Printers are often the weakest link. Learn how one compromise can expose an entire network." />
+    <meta name="twitter:image" content="https://sagarbiswas-multihat.github.io/assets/blogs/blog1-printer-1200.png" />
+    <meta name="twitter:image:alt" content="Printer compromise awareness illustration" />
+    <link rel="canonical"
+        href="https://sagarbiswas-multihat.github.io/blog/printer-attack-starts-with-a-printer.html" />
+    <link rel="alternate" hreflang="en"
+        href="https://sagarbiswas-multihat.github.io/blog/printer-attack-starts-with-a-printer.html" />
+    <link rel="alternate" hreflang="x-default" href="https://sagarbiswas-multihat.github.io/blog/" />
+    <!-- TODO: add hreflang alternates when translations exist. -->
+    <link rel="alternate" type="application/rss+xml" title="Sagar Biswas Blog RSS"
+        href="https://sagarbiswas-multihat.github.io/rss.xml" />
+    <link rel="stylesheet" href="../styles.min.css" />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "BlogPosting",
+        "headline": "Printer Attack: The Silent Entry Point",
+        "description": "How a printer can become the easiest entry point into a company network — and how to secure it before attackers do.",
+                "image": {
+                    "@type": "ImageObject",
+                    "url": "https://sagarbiswas-multihat.github.io/assets/blogs/blog1-printer-1200.png",
+                    "width": 1200,
+                    "height": 675
+                },
+        "author": {
+          "@type": "Person",
+                    "name": "Sagar Biswas",
+                                        "url": "https://sagarbiswas-multihat.github.io/",
+                                        "sameAs": [
+                                                "https://github.com/SagarBiswas-MultiHAT",
+                                                "https://www.linkedin.com/in/sagarbiswas-multihat/",
+                                                "https://www.youtube.com/@Sagar-MultiHAT"
+                                        ]
+        },
+                "publisher": {
+                    "@type": "Organization",
+                    "name": "Sagar Biswas",
+                    "logo": {
+                        "@type": "ImageObject",
+                        "url": "https://sagarbiswas-multihat.github.io/assets/og-preview.svg"
+                    }
+                },
+        "datePublished": "2026-01-17",
+        "dateModified": "2026-01-18",
+        "keywords": ["Printer Security", "IoT Security", "Attack Surface", "Network Security", "Security Awareness"],
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https://sagarbiswas-multihat.github.io/blog/printer-attack-starts-with-a-printer.html"
+        }
+      }
+    </script>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://sagarbiswas-multihat.github.io/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Blog",
+            "item": "https://sagarbiswas-multihat.github.io/blog/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Printer Attack",
+            "item": "https://sagarbiswas-multihat.github.io/blog/printer-attack-starts-with-a-printer.html"
+          }
+        ]
+      }
+    </script>
+</head>
+
+<body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <div class="grid"></div>
+    <div class="noise"></div>
+
+    <header class="site-header" id="top">
+        <nav class="nav">
+            <a class="logo" href="../index.html" aria-label="Go to homepage">
+                <span>MultiHAT</span>
+                <span class="dot">•</span>
+                <span>Ops</span>
+            </a>
+            <div class="nav-links">
+                <a href="../index.html#about">About</a>
+                <a href="../index.html#projects">Projects</a>
+                <a href="../index.html#contact">Contact</a>
+            </div>
+            <a class="cta" href="../index.html#contact">Engage</a>
+        </nav>
+    </header>
+
+    <main id="main" class="section">
+        <div class="section-header">
+            <p class="eyebrow">Security Awareness · Attack Surface</p>
+            <h1>🧨 Fun Fact: A Cyberattack That Can Start With… a Printer 🖨️</h1>
+            <p>
+                I used to think the same thing most people do — attackers go after servers and laptops first.
+                Then I saw a real-world test where the easiest way in was a printer that nobody secured.
+            </p>
+            <p>
+                This post explains why printers are attractive targets and what quick wins actually reduce risk.
+            </p>
+        </div>
+
+        <figure class="blog-hero">
+            <img src="../assets/blogs/blog1-printer-1200.png"
+                srcset="../assets/blogs/blog1-printer-480.png 480w, ../assets/blogs/blog1-printer-800.png 800w, ../assets/blogs/blog1-printer-1200.png 1200w"
+                sizes="(max-width: 600px) 100vw, (max-width: 1100px) 90vw, 1200px"
+                alt="A printer prints a warning about a compromised network" width="1200" height="675" loading="eager"
+                fetchpriority="high" decoding="async" />
+            <figcaption>Printers are computers with ink — and often with weak defenses.</figcaption>
+        </figure>
+
+        <article class="blog-article">
+            <h2>🧠 What went wrong</h2>
+            <p>
+                Office printers are often treated like “dumb machines,” so they get overlooked. In practice,
+                they run firmware that isn’t updated, keep default admin passwords, expose open management
+                ports, and sit quietly inside trusted internal networks.
+            </p>
+
+            <ul class="blog-list">
+                <li>Outdated firmware</li>
+                <li>Default credentials</li>
+                <li>Open management ports</li>
+                <li>Trusted placement inside the network</li>
+            </ul>
+
+            <h2>🧨 How the attack happened</h2>
+            <p>
+                Attackers scanned the network, found a vulnerable printer with default credentials and no
+                encryption, and got in. From there they could read print jobs, capture sensitive documents,
+                move laterally to other systems, and even install malicious firmware to keep a silent backdoor.
+            </p>
+
+            <h2>😨 The creepiest part</h2>
+            <p>
+                In one case, the attackers remotely printed the message: “Your network has been compromised.”
+                The printer itself delivered the warning — after the compromise was already done.
+            </p>
+
+            <h2>🧠 Another fun (and scary) fact</h2>
+            <p>
+                In 2018, a security researcher demonstrated that many printers could be hacked using
+                only a web browser. No malware. No phishing. Just insecure defaults.
+            </p>
+
+            <h2>⚠️ Why this matters</h2>
+            <p>
+                Printers often have access to internal IP ranges, sensitive documents, and trusted VLANs.
+                Once compromised, they become the perfect invisible attacker.
+            </p>
+
+            <h2>💬 Final thought</h2>
+            <p>
+                The most dangerous device on a network isn’t always the obvious one. Sometimes it’s the
+                ignored device in the corner — quietly printing papers… and opening doors for attackers.
+                Secure everything. Even the printer.
+            </p>
+
+            <p class="section-note">
+                <strong>Educational use only:</strong> This post is for awareness and defensive learning. Do not
+                use this information for unauthorized access.
+            </p>
+
+            <div class="tag-list">
+                <span class="tag">Printer Security</span>
+                <span class="tag">IoT Security</span>
+                <span class="tag">Attack Surface</span>
+                <span class="tag">Network Security</span>
+                <span class="tag">Security Awareness</span>
+            </div>
+        </article>
+    </main>
+
+    <footer class="site-footer">
+        <div>
+            <span>© 2026 Sagar Biswas</span>
+            <span class="sep">|</span>
+            <a href="../index.html">Back to home</a>
+        </div>
+        <div>
+            <span>Blog</span>
+            <span class="sep">|</span>
+            <a href="index.html">All posts</a>
+        </div>
+    </footer>
+</body>
+
+</html>
