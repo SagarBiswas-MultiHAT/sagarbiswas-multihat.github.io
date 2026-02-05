@@ -16,26 +16,49 @@
   <url>
     <loc>https://sagarbiswas-multihat.github.io/blog/</loc>
     <image:image>
-      <image:loc>https://sagarbiswas-multihat.github.io/assets/blogs/blog6-wsl2-kali-1200.png</image:loc>
+      <image:loc>https://sagarbiswas-multihat.github.io/assets/og-preview.svg</image:loc>
     </image:image>
-    <image:image>
-      <image:loc>https://sagarbiswas-multihat.github.io/assets/blogs/blog7-fullpage-screenshot-1200.png</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>https://sagarbiswas-multihat.github.io/assets/blogs/blog1-printer-1200.png</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>https://sagarbiswas-multihat.github.io/assets/blogs/blog2-vibe-coding-1200.png</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>https://sagarbiswas-multihat.github.io/assets/blogs/blog3-anonymity-1200.png</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>https://sagarbiswas-multihat.github.io/assets/blogs/blog4-wifi-alert-1200.png</image:loc>
-    </image:image>
+  </url>
+  <url>
+    <loc>https://sagarbiswas-multihat.github.io/blog/quantum-cryptography.html</loc>
     <image:image>
       <image:loc>https://sagarbiswas-multihat.github.io/assets/blogs/blog5-quantum-crypto-1200.png</image:loc>
     </image:image>
   </url>
-  <!-- /* NOTE: add additional image entries for new assets and local GitHub card snapshots. */ -->
+  <url>
+    <loc>https://sagarbiswas-multihat.github.io/blog/anonymity-opsec.html</loc>
+    <image:image>
+      <image:loc>https://sagarbiswas-multihat.github.io/assets/blogs/blog3-anonymity-1200.png</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://sagarbiswas-multihat.github.io/blog/full-page-screenshot-using-inspect.html</loc>
+    <image:image>
+      <image:loc>https://sagarbiswas-multihat.github.io/assets/blogs/blog7-fullpage-screenshot-1200.png</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://sagarbiswas-multihat.github.io/blog/printer-attack-starts-with-a-printer.html</loc>
+    <image:image>
+      <image:loc>https://sagarbiswas-multihat.github.io/assets/blogs/blog1-printer-1200.png</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://sagarbiswas-multihat.github.io/blog/vibe-coding-tech-debt.html</loc>
+    <image:image>
+      <image:loc>https://sagarbiswas-multihat.github.io/assets/blogs/blog2-vibe-coding-1200.png</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://sagarbiswas-multihat.github.io/blog/wifi-security-alert.html</loc>
+    <image:image>
+      <image:loc>https://sagarbiswas-multihat.github.io/assets/blogs/blog4-wifi-alert-1200.png</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://sagarbiswas-multihat.github.io/blog/wsl2-kali-winkex-installation.html</loc>
+    <image:image>
+      <image:loc>https://sagarbiswas-multihat.github.io/assets/blogs/blog6-wsl2-kali-1200.png</image:loc>
+    </image:image>
+  </url>
 </urlset>

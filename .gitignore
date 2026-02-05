@@ -2,8 +2,13 @@
 .venv/
 **/.venv/
 
+# Node.js dependencies
+node_modules/
 
 # Project folder
 Techniques/
 
- .vscode, node_modules, .DS_Store, Thumbs.db
+# IDE and system files
+.vscode
+.DS_Store
+Thumbs.db

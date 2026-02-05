@@ -2,61 +2,61 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://sagarbiswas-multihat.github.io/</loc>
-    <lastmod>2026-01-30</lastmod>
+    <lastmod>2026-02-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://sagarbiswas-multihat.github.io/blog/</loc>
-    <lastmod>2026-01-30</lastmod>
+    <lastmod>2026-02-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://sagarbiswas-multihat.github.io/resume.html</loc>
-    <lastmod>2026-01-30</lastmod>
+    <lastmod>2026-02-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://sagarbiswas-multihat.github.io/blog/wsl2-kali-winkex-installation.html</loc>
-    <lastmod>2026-01-30</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://sagarbiswas-multihat.github.io/blog/full-page-screenshot-using-inspect.html</loc>
-    <lastmod>2026-01-30</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://sagarbiswas-multihat.github.io/blog/printer-attack-starts-with-a-printer.html</loc>
-    <lastmod>2026-01-30</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://sagarbiswas-multihat.github.io/blog/vibe-coding-tech-debt.html</loc>
-    <lastmod>2026-01-30</lastmod>
+    <loc>https://sagarbiswas-multihat.github.io/blog/quantum-cryptography.html</loc>
+    <lastmod>2026-01-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://sagarbiswas-multihat.github.io/blog/anonymity-opsec.html</loc>
-    <lastmod>2026-01-30</lastmod>
+    <lastmod>2026-01-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://sagarbiswas-multihat.github.io/blog/full-page-screenshot-using-inspect.html</loc>
+    <lastmod>2026-01-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://sagarbiswas-multihat.github.io/blog/printer-attack-starts-with-a-printer.html</loc>
+    <lastmod>2026-01-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://sagarbiswas-multihat.github.io/blog/vibe-coding-tech-debt.html</loc>
+    <lastmod>2026-01-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://sagarbiswas-multihat.github.io/blog/wifi-security-alert.html</loc>
-    <lastmod>2026-01-30</lastmod>
+    <lastmod>2026-01-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://sagarbiswas-multihat.github.io/blog/quantum-cryptography.html</loc>
-    <lastmod>2026-01-30</lastmod>
+    <loc>https://sagarbiswas-multihat.github.io/blog/wsl2-kali-winkex-installation.html</loc>
+    <lastmod>2026-01-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>

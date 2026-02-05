@@ -4,7 +4,8 @@
   "scripts": {
     "minify:css": "node tools/minify-css.mjs",
     "minify:js": "node tools/minify-js.mjs",
-    "build": "npm run minify:css && npm run minify:js"
+    "build": "npm run minify:css && npm run minify:js",
+    "generate:feeds": "node tools/regenerate-feeds.mjs"
   },
   "devDependencies": {
     "cssnano": "^6.0.0",

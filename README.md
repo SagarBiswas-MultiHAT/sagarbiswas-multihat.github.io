@@ -83,6 +83,11 @@ Output:
 - styles.min.css (used by all pages)
 - \*.min.js (generated if JS files exist)
 
+## Regenerate Feeds
+
+- `npm run generate:feeds` rebuilds `rss.xml`, `sitemap.xml`, and `image-sitemap.xml` from the latest blog metadata so subscribers and crawlers see the newest posts.
+- Run it before every deployment or when you publish new articles.
+
 ## Custom Domain & HTTPS (SSL)
 
 If you use a custom domain, set it in **Settings → Pages** and create a `CNAME` file
