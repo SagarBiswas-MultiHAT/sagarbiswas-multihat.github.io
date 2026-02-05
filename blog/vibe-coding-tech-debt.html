@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="bn">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vibe Coding: টেক ডেবট কেন বাড়ে | Sagar Biswas</title>
+    <meta name="description"
+        content="AI দিয়ে দ্রুত ডেলিভারি সম্ভব, কিন্তু ভুল সিদ্ধান্তে তৈরি হয় বাড়তি জটিলতা। কী রাখবেন, কী বাদ দেবেন — এই লেখায় আছে সহজ ব্যাখ্যা।" />
+    <meta name="author" content="Sagar Biswas" />
+    <meta name="theme-color" content="#04070a" />
+    <meta name="robots" content="index,follow,max-image-preview:large" />
+    <meta property="og:locale" content="bn_BD" />
+    <meta property="og:site_name" content="Sagar Biswas | MultiHAT-in-Training" />
+    <meta property="article:author" content="https://sagarbiswas-multihat.github.io/" />
+    <meta property="article:section" content="Engineering Culture" />
+    <meta property="article:tag" content="Vibe Coding" />
+    <meta property="article:tag" content="Tech Debt" />
+    <meta property="article:tag" content="AI Development" />
+    <meta property="article:tag" content="MVP" />
+    <meta property="article:tag" content="Engineering Culture" />
+    <meta property="og:title" content="Vibe Coding: টেক ডেবট কেন বাড়ে" />
+    <meta property="og:description"
+        content="স্পিড ভালো, কিন্তু সঠিক সিদ্ধান্ত না হলে টেক ডেবট বাড়ে। কেন AI-ভিত্তিক ডেভেলপমেন্টে সরলতা জরুরি — সেই গল্প।" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="https://sagarbiswas-multihat.github.io/blog/vibe-coding-tech-debt.html" />
+    <meta property="article:published_time" content="2026-01-17T00:00:00+06:00" />
+    <meta property="article:modified_time" content="2026-01-18T00:00:00+06:00" />
+    <meta property="og:image"
+        content="https://sagarbiswas-multihat.github.io/assets/blogs/blog2-vibe-coding-1200.png" />
+    <meta property="og:image:alt" content="Vibe coding and tech debt illustration" />
+    <meta property="og:image:type" content="image/png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="675" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Vibe Coding: টেক ডেবট কেন বাড়ে" />
+    <meta name="twitter:description"
+        content="AI দিয়ে দ্রুত কাজ সম্ভব, কিন্তু ভুল সিদ্ধান্তে টেক ডেবট বাড়ে। সহজ ব্যাখ্যা ও বাস্তব অভিজ্ঞতা।" />
+    <meta name="twitter:image"
+        content="https://sagarbiswas-multihat.github.io/assets/blogs/blog2-vibe-coding-1200.png" />
+    <meta name="twitter:image:alt" content="Vibe coding and tech debt illustration" />
+    <link rel="canonical" href="https://sagarbiswas-multihat.github.io/blog/vibe-coding-tech-debt.html" />
+    <link rel="alternate" hreflang="bn-BD"
+        href="https://sagarbiswas-multihat.github.io/blog/vibe-coding-tech-debt.html" />
+    <link rel="alternate" hreflang="x-default" href="https://sagarbiswas-multihat.github.io/blog/" />
+    <!-- TODO: add hreflang alternates when translations exist. -->
+    <link rel="alternate" type="application/rss+xml" title="Sagar Biswas Blog RSS"
+        href="https://sagarbiswas-multihat.github.io/rss.xml" />
+    <link rel="stylesheet" href="../styles.min.css" />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "BlogPosting",
+        "headline": "Vibe Coding: টেক ডেবট কেন বাড়ে",
+        "description": "AI দিয়ে দ্রুত ডেলিভারি সম্ভব, কিন্তু ভুল সিদ্ধান্তে তৈরি হয় বাড়তি জটিলতা। কী রাখবেন, কী বাদ দেবেন — এই লেখায় আছে সহজ ব্যাখ্যা।",
+                "image": {
+                    "@type": "ImageObject",
+                    "url": "https://sagarbiswas-multihat.github.io/assets/blogs/blog2-vibe-coding-1200.png",
+                    "width": 1200,
+                    "height": 675
+                },
+        "author": {
+          "@type": "Person",
+                    "name": "Sagar Biswas",
+                                        "url": "https://sagarbiswas-multihat.github.io/",
+                                        "sameAs": [
+                                                "https://github.com/SagarBiswas-MultiHAT",
+                                                "https://www.linkedin.com/in/sagarbiswas-multihat/",
+                                                "https://www.youtube.com/@Sagar-MultiHAT"
+                                        ]
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "Sagar Biswas",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://sagarbiswas-multihat.github.io/assets/og-preview.svg"
+          }
+        },
+        "datePublished": "2026-01-17",
+        "dateModified": "2026-01-18",
+        "keywords": ["Vibe Coding", "Tech Debt", "AI Development", "MVP", "Engineering Culture"],
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https://sagarbiswas-multihat.github.io/blog/vibe-coding-tech-debt.html"
+        }
+      }
+    </script>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://sagarbiswas-multihat.github.io/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Blog",
+            "item": "https://sagarbiswas-multihat.github.io/blog/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Vibe Coding & Tech Debt",
+            "item": "https://sagarbiswas-multihat.github.io/blog/vibe-coding-tech-debt.html"
+          }
+        ]
+      }
+    </script>
+</head>
+
+<body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <div class="grid"></div>
+    <div class="noise"></div>
+
+    <header class="site-header" id="top">
+        <nav class="nav">
+            <a class="logo" href="../index.html" aria-label="Go to homepage">
+                <span>MultiHAT</span>
+                <span class="dot">•</span>
+                <span>Ops</span>
+            </a>
+            <div class="nav-links">
+                <a href="../index.html#about">About</a>
+                <a href="../index.html#projects">Projects</a>
+                <a href="../index.html#contact">Contact</a>
+            </div>
+            <a class="cta" href="../index.html#contact">Engage</a>
+        </nav>
+    </header>
+
+    <main id="main" class="section">
+        <div class="section-header">
+            <p class="eyebrow">Engineering Culture · AI Development</p>
+            <h1>Vibe Coding মানে দ্রুত কাজের আড়ালে ধীরে ধীরে টেক ডেবট জমা করা</h1>
+            <p>
+                AI দিয়ে আজ ডেভেলপমেন্ট স্পিড সত্যিই পাগল করা। যেটা আগে করতে সপ্তাহ লাগত, এখন কয়েক দিনেই হয়ে যায়।
+                কিন্তু স্পিডের আড়ালে যদি ভুল সিদ্ধান্ত হয়, তখন ধীরে ধীরে জমে যায় টেক ডেবট।
+            </p>
+        </div>
+
+        <figure class="blog-hero">
+            <img src="../assets/blogs/blog2-vibe-coding-1200.png"
+                srcset="../assets/blogs/blog2-vibe-coding-480.png 480w, ../assets/blogs/blog2-vibe-coding-800.png 800w, ../assets/blogs/blog2-vibe-coding-1200.png 1200w"
+                sizes="(max-width: 600px) 100vw, (max-width: 1100px) 90vw, 1200px"
+                alt="Vibe coding and tech debt illustration" width="1200" height="675" loading="eager"
+                fetchpriority="high" decoding="async" />
+            <figcaption>AI দ্রুততা আনে, কিন্তু আর্কিটেকচার সিদ্ধান্ত এখনো মানুষের কাজ।</figcaption>
+        </figure>
+
+        <article class="blog-article">
+            <h2>স্পিড পাগল করা — কিন্তু সমস্যা কোথায়?</h2>
+            <p>
+                AI সবসময় ঠিক বা অপ্টিমাইজড সমাধান দেয় না। অনেক সময় এমন একটা আর্কিটেকচার দেয় যা দেখতে সুন্দর,
+                কিন্তু ভিতরে অযথা জটিল লেয়ার, অপ্রয়োজনীয় ডিজাইন প্যাটার্ন আর স্কেল করলেই ভেঙে পড়ার মতো স্ট্রাকচার থাকে।
+            </p>
+
+            <h2>যেখানে ছোট মডিউলই যথেষ্ট ছিল…</h2>
+            <p>
+                অনেক ক্ষেত্রে একটা ছোট সিম্পল মডিউলই MVP/MVT এর জন্য যথেষ্ট। কিন্তু “best practice” নাম দিয়ে
+                AI কখনো পুরো মাল্টি-লেয়ার্ড সিস্টেম গড়ে দেয়। এরপর ছয় মাস পরে টিম বুঝতেই পারে না ভিতরে কী হচ্ছে।
+            </p>
+
+            <h2>মূল স্কিল এখন কোড লেখা নয়</h2>
+            <p>
+                আজকের স্কিল হলো — কী রাখা উচিত, কী বাদ দেওয়া উচিত, আর কীভাবে আরও সহজ করা যায়।
+                সিদ্ধান্ত নেওয়ার ক্ষমতা, রুচি, অভিজ্ঞতা এবং সিম্পল সলিউশন বেছে নেওয়ার দক্ষতা— এগুলোই পার্থক্য গড়ে দেয়।
+            </p>
+
+            <h2>Tech Debt মানে কী?</h2>
+            <p>
+                টেক ডেবট হলো এমন প্রযুক্তিগত কাজ বা দায়, যেটা আপনি দ্রুত ডেলিভারির জন্য এড়িয়ে গেছেন।
+                পরে সেই ভুলগুলো ঠিক করতে হয় অতিরিক্ত সময় ও শ্রম দিয়ে — ঠিক ঋণের মতো।
+            </p>
+
+            <h2>কীভাবে বুঝবেন আপনি টেক ডেবট জমাচ্ছেন?</h2>
+            <ul class="blog-list">
+                <li>প্রায়ই “পরে ঠিক করব” বলে কাজ শিপ করা।</li>
+                <li>একই বাগ বারবার ফিরে আসা।</li>
+                <li>কোনো ফিচার যোগ করতে ভয় পাওয়া বা অতিরিক্ত সময় লাগা।</li>
+                <li>ডকুমেন্টেশন/টেস্ট নেই — ফলে কেউ বুঝতে পারে না কী চলছে।</li>
+            </ul>
+
+            <h2>Vibe Coding এর ভালো দিকও আছে</h2>
+            <p>
+                অবশ্যই আছে। দ্রুত প্রোটোটাইপ, দ্রুত আইডিয়া যাচাই, এবং কম সময়ে MVP দাঁড় করানো — এগুলোতে AI দারুণ
+                সাহায্য করে। সমস্যা তখনই, যখন সেই অস্থায়ী কোডই প্রোডাকশনে স্থায়ী হয়ে যায়। তখন ছোট ভুলগুলো বড় হয়ে ওঠে।
+            </p>
+
+            <h2>একটা সিম্পল চেকলিস্ট (শিপ করার আগে)</h2>
+            <ul class="blog-list">
+                <li>এই ফিচারটা কি সত্যিই ইউজার ভ্যালু বাড়ায়?</li>
+                <li>এটা কি ভবিষ্যতে পরিবর্তন সহজ করবে, নাকি জটিল করবে?</li>
+                <li>মডিউলটা কি ছোট রাখা সম্ভব?</li>
+                <li>অতিরিক্ত abstraction কি বাদ দেওয়া যায়?</li>
+            </ul>
+
+            <h2>শেষবার মনে রাখুন</h2>
+            <p>
+                Vibe Coding “খারাপ” না — কিন্তু অন্ধভাবে করলে সমস্যা হয়। AI আপনাকে স্পিড দেয়, কিন্তু আপনি ঠিক করবেন
+                কোন কোড রাখবেন, কোনটা ফেলে দেবেন। টেক ডেবট কমাতে সবচেয়ে গুরুত্বপূর্ণ হলো পরিষ্কার সিদ্ধান্ত এবং
+                সিম্পল আর্কিটেকচার বেছে নেওয়া।
+            </p>
+
+            <h2>শেষ কথা</h2>
+            <p>
+                AI এখন পর্যন্ত সবচেয়ে শক্তিশালী টুল। কিন্তু সুন্দর ঘর বানাতে এখনো দরকার একজন কারিগর।
+                AI ইঞ্জিনিয়ারদের রিপ্লেস করছে না — ইঞ্জিনিয়ারদের আরও শক্তিশালী করছে।
+            </p>
+
+            <p class="section-note">
+                <strong>Educational note:</strong> This post is written for learning and engineering reflection.
+            </p>
+
+            <div class="tag-list">
+                <span class="tag">Vibe Coding</span>
+                <span class="tag">Tech Debt</span>
+                <span class="tag">AI Development</span>
+                <span class="tag">MVP</span>
+                <span class="tag">Engineering Culture</span>
+            </div>
+        </article>
+    </main>
+
+    <footer class="site-footer">
+        <div>
+            <span>© 2026 Sagar Biswas</span>
+            <span class="sep">|</span>
+            <a href="../index.html">Back to home</a>
+        </div>
+        <div>
+            <span>Blog</span>
+            <span class="sep">|</span>
+            <a href="index.html">All posts</a>
+        </div>
+    </footer>
+</body>
+
+</html>

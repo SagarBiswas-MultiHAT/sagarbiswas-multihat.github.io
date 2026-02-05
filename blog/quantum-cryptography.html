@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quantum Computers vs Encryption | Sagar Biswas</title>
+    <meta name="description"
+        content="Quantum computers threaten current RSA and ECC encryption. NIST's post-quantum standards exist today. Learn what organizations should do now." />
+    <meta name="author" content="Sagar Biswas" />
+    <meta name="theme-color" content="#04070a" />
+    <meta name="robots" content="index,follow,max-image-preview:large" />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:site_name" content="Sagar Biswas | MultiHAT-in-Training" />
+    <meta property="og:title" content="Quantum Computers vs Encryption" />
+    <meta property="og:description"
+        content="RSA and ECC won't survive quantum computers. NIST has already standardized post-quantum cryptography. Here's what you need to know." />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="https://sagarbiswas-multihat.github.io/blog/quantum-cryptography.html" />
+    <meta property="article:author" content="https://sagarbiswas-multihat.github.io/" />
+    <meta property="article:section" content="Cryptography & Future Security" />
+    <meta property="article:tag" content="Quantum Computing" />
+    <meta property="article:tag" content="Post-Quantum Cryptography" />
+    <meta property="article:tag" content="Encryption" />
+    <meta property="article:tag" content="NIST" />
+    <meta property="article:tag" content="Cybersecurity" />
+    <meta property="article:published_time" content="2026-01-18T00:00:00+06:00" />
+    <meta property="article:modified_time" content="2026-01-18T00:00:00+06:00" />
+    <meta property="og:image"
+        content="https://sagarbiswas-multihat.github.io/assets/blogs/blog5-quantum-crypto-1200.png" />
+    <meta property="og:image:alt" content="Quantum cryptography and encryption illustration" />
+    <meta property="og:image:type" content="image/png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="675" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Quantum Computers vs Encryption" />
+    <meta name="twitter:description"
+        content="Quantum computers threaten RSA and ECC. NIST's post-quantum standards are here. Learn what to do now." />
+    <meta name="twitter:image"
+        content="https://sagarbiswas-multihat.github.io/assets/blogs/blog5-quantum-crypto-1200.png" />
+    <meta name="twitter:image:alt" content="Quantum cryptography and encryption illustration" />
+    <link rel="canonical" href="https://sagarbiswas-multihat.github.io/blog/quantum-cryptography.html" />
+    <link rel="alternate" hreflang="en" href="https://sagarbiswas-multihat.github.io/blog/quantum-cryptography.html" />
+    <link rel="alternate" hreflang="x-default" href="https://sagarbiswas-multihat.github.io/blog/" />
+    <!-- TODO: add hreflang alternates when translations exist. -->
+    <link rel="alternate" type="application/rss+xml" title="Sagar Biswas Blog RSS"
+        href="https://sagarbiswas-multihat.github.io/rss.xml" />
+    <link rel="stylesheet" href="../styles.min.css" />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "BlogPosting",
+        "headline": "Quantum Computers vs Encryption",
+        "description": "Quantum computers threaten current RSA and ECC encryption. NIST's post-quantum standards exist today. Learn what organizations should do now.",
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://sagarbiswas-multihat.github.io/assets/blogs/blog5-quantum-crypto-1200.png",
+          "width": 1200,
+          "height": 675
+        },
+        "author": {
+          "@type": "Person",
+          "name": "Sagar Biswas",
+                    "url": "https://sagarbiswas-multihat.github.io/",
+                    "sameAs": [
+                        "https://github.com/SagarBiswas-MultiHAT",
+                        "https://www.linkedin.com/in/sagarbiswas-multihat/",
+                        "https://www.youtube.com/@Sagar-MultiHAT"
+                    ]
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "Sagar Biswas",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://sagarbiswas-multihat.github.io/assets/og-preview.svg"
+          }
+        },
+        "datePublished": "2026-01-18",
+        "dateModified": "2026-01-18",
+        "keywords": ["Quantum Computing", "Cryptography", "Post-Quantum", "Encryption", "Cybersecurity", "NIST", "Standards"],
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https://sagarbiswas-multihat.github.io/blog/quantum-cryptography.html"
+        }
+      }
+    </script>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://sagarbiswas-multihat.github.io/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Blog",
+            "item": "https://sagarbiswas-multihat.github.io/blog/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Quantum Cryptography",
+            "item": "https://sagarbiswas-multihat.github.io/blog/quantum-cryptography.html"
+          }
+        ]
+      }
+    </script>
+</head>
+
+<body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <div class="grid"></div>
+    <div class="noise"></div>
+
+    <header class="site-header" id="top">
+        <nav class="nav">
+            <a class="logo" href="../index.html" aria-label="Go to homepage">
+                <span>MultiHAT</span>
+                <span class="dot">•</span>
+                <span>Ops</span>
+            </a>
+            <div class="nav-links">
+                <a href="../index.html#about">About</a>
+                <a href="../index.html#projects">Projects</a>
+                <a href="../index.html#contact">Contact</a>
+            </div>
+            <a class="cta" href="../index.html#contact">Engage</a>
+        </nav>
+    </header>
+
+    <main id="main" class="section">
+        <div class="section-header">
+            <p class="eyebrow">Cryptography · Future Security</p>
+            <h1>Why Quantum Computers Will Break Your Encryption (And Why We're Ready)</h1>
+            <p>
+                Quantum computers can factor large primes in polynomial time. RSA and ECC won't survive. But NIST has
+                already standardized post-quantum cryptography, and the transition starts now.
+            </p>
+        </div>
+
+        <figure class="blog-hero">
+            <img src="../assets/blogs/blog5-quantum-crypto-1200.png"
+                srcset="../assets/blogs/blog5-quantum-crypto-480.png 480w, ../assets/blogs/blog5-quantum-crypto-800.png 800w, ../assets/blogs/blog5-quantum-crypto-1200.png 1200w"
+                sizes="(max-width: 600px) 100vw, (max-width: 1100px) 90vw, 1200px"
+                alt="Quantum cryptography and encryption illustration" width="1200" height="675" loading="eager"
+                fetchpriority="high" decoding="async" />
+            <figcaption>Quantum computers threaten traditional encryption. But we already have the solutions.
+            </figcaption>
+        </figure>
+        <article class="blog-article">
+            <h2>The quantum threat is real, not theoretical</h2>
+            <p>
+                Shor's algorithm proves that a sufficiently powerful quantum computer can break RSA and ECC encryption
+                orders of magnitude faster than any classical computer. With enough qubits and error correction, it's
+                not a
+                matter of if, but when.
+            </p>
+            <p>
+                The scarier part? Adversaries are already collecting encrypted data now, betting they'll be able to
+                decrypt it
+                once quantum computers mature. This is the "harvest now, decrypt later" threat. Anything with long-term
+                confidentiality requirements (government secrets, medical records, financial data) is vulnerable today.
+            </p>
+
+            <h2>What breaks and what doesn't</h2>
+            <p>
+                <strong>Vulnerable to quantum attacks:</strong>
+            </p>
+            <ul class="blog-list">
+                <li>RSA (all key sizes)</li>
+                <li>Elliptic Curve Cryptography (ECC)</li>
+                <li>Diffie-Hellman key exchange</li>
+                <li>ECDSA digital signatures</li>
+            </ul>
+
+            <p>
+                <strong>Quantum-resistant:</strong>
+            </p>
+            <ul class="blog-list">
+                <li>Symmetric encryption (AES still works)</li>
+                <li>Hash functions (SHA still works, but cut key length in half)</li>
+                <li>Lattice-based cryptography (CRYSTALS-Kyber, CRYSTALS-Dilithium)</li>
+                <li>Hash-based signatures (SPHINCS+)</li>
+                <li>Multivariate polynomial equations</li>
+            </ul>
+
+            <h2>NIST standardized the solutions in 2024</h2>
+            <p>
+                The U.S. National Institute of Standards and Technology (NIST) finalized post-quantum cryptography
+                standards
+                in August 2024. These algorithms are production-ready and battle-tested:
+            </p>
+
+            <ul class="blog-list">
+                <li>
+                    <strong>CRYSTALS-Kyber (ML-KEM)</strong> — Key encapsulation for secure key exchange. Small
+                    ciphertexts,
+                    fast operations.
+                </li>
+                <li>
+                    <strong>CRYSTALS-Dilithium (ML-DSA)</strong> — Digital signatures. Small signatures, fast
+                    verification.
+                </li>
+                <li>
+                    <strong>SPHINCS+</strong> — Hash-based signatures. Slower but extremely conservative, mathematically
+                    simple.
+                </li>
+                <li>
+                    <strong>SLH-DSA</strong> — NIST's official name for SPHINCS+. The backup for when you want
+                    mathematical
+                    certainty.
+                </li>
+            </ul>
+
+            <h2>What organizations should do right now</h2>
+            <p>
+                You don't need to migrate everything overnight. But you need a plan:
+            </p>
+
+            <ul class="blog-list">
+                <li>
+                    <strong>Inventory your cryptography</strong> — Find all RSA, ECC, and Diffie-Hellman usage. Identify
+                    systems with long-term confidentiality needs.
+                </li>
+                <li>
+                    <strong>Hybrid deployments</strong> — Start using post-quantum and classical algorithms together. If
+                    one
+                    is broken, the other still protects you.
+                </li>
+                <li>
+                    <strong>Test NIST standards</strong> — Libraries like liboqs-python, liboqs-c++, and Google's
+                    open-source
+                    tools are ready today.
+                </li>
+                <li>
+                    <strong>Plan for cryptographic agility</strong> — Design systems so you can swap algorithms without
+                    burning everything down.
+                </li>
+                <li>
+                    <strong>Apply to certificates now</strong> — If you issue long-lived certificates (years), consider
+                    adding post-quantum signatures.
+                </li>
+            </ul>
+
+            <h2>The timeline matters</h2>
+            <p>
+                Quantum computers with sufficient qubits aren't here yet. Estimates range from 5-15 years. But the
+                migration will take longer than that. Organizations with complex infrastructure might need 10+ years. So
+                the time to start is now.
+            </p>
+
+            <p class="section-note">
+                <strong>Note:</strong> NIST's post-quantum standards aren't a "maybe" — they're the future. The
+                transition
+                is already happening in government contracts and defense systems. Private sector adoption follows.
+            </p>
+
+            <div class="tag-list">
+                <span class="tag">Quantum Computing</span>
+                <span class="tag">Cryptography</span>
+                <span class="tag">Post-Quantum</span>
+                <span class="tag">NIST</span>
+                <span class="tag">Cybersecurity</span>
+                <span class="tag">Standards</span>
+            </div>
+        </article>
+    </main>
+
+    <footer class="site-footer">
+        <div>
+            <span>© 2026 Sagar Biswas</span>
+            <span class="sep">|</span>
+            <a href="../index.html">Back to home</a>
+        </div>
+        <div>
+            <span>Blog</span>
+            <span class="sep">|</span>
+            <a href="index.html">All posts</a>
+        </div>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Anonymity Isn’t Absolute: What Works | Sagar Biswas</title>
+    <meta name="description"
+        content="Nation-state actors can correlate metadata and behavior. VPNs and proxies help, but real anonymity depends on identity separation, fewer actions, and avoiding linking accounts." />
+    <meta name="author" content="Sagar Biswas" />
+    <meta name="theme-color" content="#04070a" />
+    <meta name="robots" content="index,follow,max-image-preview:large" />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:site_name" content="Sagar Biswas | MultiHAT-in-Training" />
+    <meta property="og:title" content="Anonymity Isn’t Absolute: What Works" />
+    <meta property="og:description"
+        content="Tools like VPNs help reduce tracking, but perfect anonymity is a myth. Learn what professionals actually do to protect their identity." />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="https://sagarbiswas-multihat.github.io/blog/anonymity-opsec.html" />
+    <meta property="article:author" content="https://sagarbiswas-multihat.github.io/" />
+    <meta property="article:section" content="Privacy & OpSec" />
+    <meta property="article:tag" content="Anonymity" />
+    <meta property="article:tag" content="OpSec" />
+    <meta property="article:tag" content="Privacy" />
+    <meta property="article:tag" content="Threat Modeling" />
+    <meta property="article:tag" content="Digital Security" />
+    <meta property="article:published_time" content="2026-01-17T00:00:00+06:00" />
+    <meta property="article:modified_time" content="2026-01-18T00:00:00+06:00" />
+    <meta property="og:image" content="https://sagarbiswas-multihat.github.io/assets/blogs/blog3-anonymity-1200.png" />
+    <meta property="og:image:alt" content="Anonymity and privacy illustration" />
+    <meta property="og:image:type" content="image/png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="675" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Anonymity Isn’t Absolute: What Works" />
+    <meta name="twitter:description"
+        content="Nation-state actors can correlate metadata. Learn what professionals do instead of chasing perfect anonymity." />
+    <meta name="twitter:image" content="https://sagarbiswas-multihat.github.io/assets/blogs/blog3-anonymity-1200.png" />
+    <meta name="twitter:image:alt" content="Anonymity and privacy illustration" />
+    <link rel="canonical" href="https://sagarbiswas-multihat.github.io/blog/anonymity-opsec.html" />
+    <link rel="alternate" hreflang="en" href="https://sagarbiswas-multihat.github.io/blog/anonymity-opsec.html" />
+    <link rel="alternate" hreflang="x-default" href="https://sagarbiswas-multihat.github.io/blog/" />
+    <!-- TODO: add hreflang alternates when translations exist. -->
+    <link rel="alternate" type="application/rss+xml" title="Sagar Biswas Blog RSS"
+        href="https://sagarbiswas-multihat.github.io/rss.xml" />
+    <link rel="stylesheet" href="../styles.min.css" />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "BlogPosting",
+        "headline": "Anonymity Isn’t Absolute: What Works",
+        "description": "Nation-state actors can correlate metadata and behavior. VPNs and proxies help, but real anonymity depends on identity separation, fewer actions, and avoiding linking accounts.",
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://sagarbiswas-multihat.github.io/assets/blogs/blog3-anonymity-1200.png",
+          "width": 1200,
+          "height": 675
+        },
+        "author": {
+          "@type": "Person",
+          "name": "Sagar Biswas",
+                    "url": "https://sagarbiswas-multihat.github.io/",
+                    "sameAs": [
+                        "https://github.com/SagarBiswas-MultiHAT",
+                        "https://www.linkedin.com/in/sagarbiswas-multihat/",
+                        "https://www.youtube.com/@Sagar-MultiHAT"
+                    ]
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "Sagar Biswas",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://sagarbiswas-multihat.github.io/assets/og-preview.svg"
+          }
+        },
+        "datePublished": "2026-01-17",
+        "dateModified": "2026-01-18",
+        "keywords": ["Anonymity", "OpSec", "Privacy", "VPN", "Metadata", "Threat Modeling", "Digital Security"],
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https://sagarbiswas-multihat.github.io/blog/anonymity-opsec.html"
+        }
+      }
+    </script>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://sagarbiswas-multihat.github.io/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Blog",
+            "item": "https://sagarbiswas-multihat.github.io/blog/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Anonymity & OpSec",
+            "item": "https://sagarbiswas-multihat.github.io/blog/anonymity-opsec.html"
+          }
+        ]
+      }
+    </script>
+</head>
+
+<body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <div class="grid"></div>
+    <div class="noise"></div>
+
+    <header class="site-header" id="top">
+        <nav class="nav">
+            <a class="logo" href="../index.html" aria-label="Go to homepage">
+                <span>MultiHAT</span>
+                <span class="dot">•</span>
+                <span>Ops</span>
+            </a>
+            <div class="nav-links">
+                <a href="../index.html#about">About</a>
+                <a href="../index.html#projects">Projects</a>
+                <a href="../index.html#contact">Contact</a>
+            </div>
+            <a class="cta" href="../index.html#contact">Engage</a>
+        </nav>
+    </header>
+
+    <main id="main" class="section">
+        <div class="section-header">
+            <p class="eyebrow">Privacy · Operational Security</p>
+            <h1>Complete, Forever Anonymity Doesn't Exist — Here's What Actually Works</h1>
+            <p>
+                Nation-state actors can correlate metadata, behavior patterns, and mistakes. Tools like VPNs and proxies
+                help reduce casual tracking, but they're not a magic shield. The real difference comes from strategy.
+            </p>
+        </div>
+
+        <figure class="blog-hero">
+            <img src="../assets/blogs/blog3-anonymity-1200.png"
+                srcset="../assets/blogs/blog3-anonymity-480.png 480w, ../assets/blogs/blog3-anonymity-800.png 800w, ../assets/blogs/blog3-anonymity-1200.png 1200w"
+                sizes="(max-width: 600px) 100vw, (max-width: 1100px) 90vw, 1200px"
+                alt="Anonymity and privacy illustration" width="1200" height="675" loading="eager" fetchpriority="high"
+                decoding="async" />
+            <figcaption>Perfect anonymity is a myth. Professionals plan for compromise and limit the blast radius.
+            </figcaption>
+        </figure>
+
+        <article class="blog-article">
+            <h2>The myth of perfect anonymity</h2>
+            <p>
+                Most people think that a VPN or proxy is enough to stay completely anonymous. The truth? They're only
+                baseline hygiene. Nation-state actors can correlate metadata, link accounts through writing style,
+                analyze
+                payment patterns, and match behavioral signatures. One mistake — reusing an email, same writing pattern,
+                or visiting the same website from different "anonymous" accounts — can compromise everything.
+            </p>
+
+            <h2>Tools help, but they're not the answer</h2>
+            <p>
+                VPNs, proxies, DNS tweaks, and MAC/IP changes all reduce casual tracking. But they treat the symptoms,
+                not the cause. The cause is linking identities. Most people underestimate how much metadata tells a
+                story
+                even without content surveillance.
+            </p>
+
+            <h2>What professionals actually do</h2>
+            <p>
+                Instead of chasing perfect invisibility, professionals accept a simple truth: <strong>assume compromise
+                    will
+                    happen</strong>. Then design their operations around that.
+            </p>
+
+            <ul class="blog-list">
+                <li>Strict identity separation — separate accounts, separate browsers, separate devices if needed</li>
+                <li>Fewer actions — limit the window of exposure and the number of traces left behind</li>
+                <li>Time discipline — avoid patterns (same login time, same activity duration)</li>
+                <li>Zero linking — no shared payments, email aliases, writing style, or reused usernames</li>
+                <li>Limit blast radius — assume each identity can be compromised individually, not all at once</li>
+            </ul>
+
+            <h2>The real lesson</h2>
+            <p>
+                Anonymity isn't about being invisible. It's about making yourself not worth the effort to track, and
+                protecting everything else if one identity is burned. VPNs and proxies are tools in the toolkit, but
+                discipline and strategy are what separate the cautious from the compromised.
+            </p>
+
+            <p class="section-note">
+                <strong>Educational note:</strong> This post is for learning, threat modeling, and defensive awareness.
+                Use this knowledge responsibly and legally.
+            </p>
+
+            <div class="tag-list">
+                <span class="tag">Privacy</span>
+                <span class="tag">Anonymity</span>
+                <span class="tag">OpSec</span>
+                <span class="tag">Threat Modeling</span>
+                <span class="tag">Security Awareness</span>
+            </div>
+        </article>
+    </main>
+
+    <footer class="site-footer">
+        <div>
+            <span>© 2026 Sagar Biswas</span>
+            <span class="sep">|</span>
+            <a href="../index.html">Back to home</a>
+        </div>
+        <div>
+            <span>Blog</span>
+            <span class="sep">|</span>
+            <a href="index.html">All posts</a>
+        </div>
+    </footer>
+</body>
+
+</html>
