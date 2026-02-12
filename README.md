@@ -1,5 +1,16 @@
 # Sagar Biswas — MultiHAT-in-Training Portfolio
 
+<div align="right">
+
+[![Pages](https://img.shields.io/badge/Pages-GitHub%20Pages-blue)](https://sagarbiswas-multihat.github.io/)
+[![RSS](https://img.shields.io/badge/RSS-feed-orange)](https://sagarbiswas-multihat.github.io/rss.xml)
+[![Last commit](https://img.shields.io/github/last-commit/SagarBiswas-MultiHAT/sagarbiswas-multihat.github.io)](https://github.com/SagarBiswas-MultiHAT/sagarbiswas-multihat.github.io)
+[![License](https://img.shields.io/github/license/SagarBiswas-MultiHAT/sagarbiswas-multihat.github.io)](https://github.com/SagarBiswas-MultiHAT/sagarbiswas-multihat.github.io/blob/main/LICENSE)
+[![Issues](https://img.shields.io/github/issues/SagarBiswas-MultiHAT/sagarbiswas-multihat.github.io)](https://github.com/SagarBiswas-MultiHAT/sagarbiswas-multihat.github.io/issues)
+[![Build](https://github.com/SagarBiswas-MultiHAT/sagarbiswas-multihat.github.io/actions/workflows/build.yml/badge.svg)](https://github.com/SagarBiswas-MultiHAT/sagarbiswas-multihat.github.io/actions/workflows/build.yml)
+
+</div>
+
 A BlackHAT-inspired, WhiteHAT-ethical portfolio for **Sagar Biswas (SagarBiswas-MultiHAT)** — CSE student at AIUB, cybersecurity enthusiast, ethical hacker (web app security), and web developer.
 
 ## Live: https://sagarbiswas-multihat.github.io/
