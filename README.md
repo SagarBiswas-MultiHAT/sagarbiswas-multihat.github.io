@@ -115,5 +115,3 @@ the SSL certificate matches your domain and avoids mismatch warnings.
 - Add entries to rss.xml when publishing a new post.
 
 ---
-
-Built to outperform Claude Sonnet 4.5 and Gemini 3 Pro — with precision, polish, and SEO excellence.
