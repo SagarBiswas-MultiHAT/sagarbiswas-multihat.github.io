@@ -2,21 +2,33 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://sagarbiswas-multihat.github.io/</loc>
-    <lastmod>2026-02-05</lastmod>
+    <lastmod>2026-02-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://sagarbiswas-multihat.github.io/blog/</loc>
-    <lastmod>2026-02-05</lastmod>
+    <lastmod>2026-02-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://sagarbiswas-multihat.github.io/resume.html</loc>
-    <lastmod>2026-02-05</lastmod>
+    <lastmod>2026-02-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://sagarbiswas-multihat.github.io/blog/why-attackers-like-temp-folder.html</loc>
+    <lastmod>2026-02-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://sagarbiswas-multihat.github.io/blog/osi-layers-real-attack-examples.html</loc>
+    <lastmod>2026-02-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
   </url>
   <url>
     <loc>https://sagarbiswas-multihat.github.io/blog/quantum-cryptography.html</loc>

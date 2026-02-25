@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Why Attackers Like the Temp Folder and How You Can Protect Your PC | Sagar Biswas</title>
+    <meta name="description"
+        content="Why malware often uses the Windows Temp folder, what really happens during these attacks, and practical steps to reduce your risk." />
+    <meta name="author" content="Sagar Biswas" />
+    <meta name="theme-color" content="#04070a" />
+    <meta name="robots" content="index,follow,max-image-preview:large" />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:site_name" content="Sagar Biswas | MultiHAT-in-Training" />
+    <meta property="article:author" content="https://sagarbiswas-multihat.github.io/" />
+    <meta property="article:section" content="Windows Security Awareness" />
+    <meta property="article:tag" content="Windows Security" />
+    <meta property="article:tag" content="Temp Folder" />
+    <meta property="article:tag" content="Malware Behavior" />
+    <meta property="article:tag" content="Digital Hygiene" />
+    <meta property="article:tag" content="Security Awareness" />
+    <meta property="og:title" content="Why Attackers Like the Temp Folder and How You Can Protect Your PC" />
+    <meta property="og:description"
+        content="A defensive breakdown of why malware stages files in Temp and the practical habits that actually reduce risk." />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="https://sagarbiswas-multihat.github.io/blog/why-attackers-like-temp-folder.html" />
+    <meta property="article:published_time" content="2026-02-25T12:00:00+06:00" />
+    <meta property="article:modified_time" content="2026-02-25T12:00:00+06:00" />
+    <meta property="og:image" content="https://sagarbiswas-multihat.github.io/assets/blogs/blog9-temp-folder-1200.jpg" />
+    <meta property="og:image:alt" content="Why attackers use the temp folder and how to protect your PC" />
+    <meta property="og:image:type" content="image/jpeg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="800" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Why Attackers Like the Temp Folder and How You Can Protect Your PC" />
+    <meta name="twitter:description"
+        content="Many attacks stage files in Temp because it is writable and rarely inspected. Here is what to watch for and how to defend." />
+    <meta name="twitter:image" content="https://sagarbiswas-multihat.github.io/assets/blogs/blog9-temp-folder-1200.jpg" />
+    <meta name="twitter:image:alt" content="Why attackers use the temp folder and how to protect your PC" />
+    <link rel="canonical" href="https://sagarbiswas-multihat.github.io/blog/why-attackers-like-temp-folder.html" />
+    <link rel="alternate" hreflang="en" href="https://sagarbiswas-multihat.github.io/blog/why-attackers-like-temp-folder.html" />
+    <link rel="alternate" hreflang="x-default" href="https://sagarbiswas-multihat.github.io/blog/" />
+    <!-- TODO: add hreflang alternates when translations exist. -->
+    <link rel="alternate" type="application/rss+xml" title="Sagar Biswas Blog RSS"
+        href="https://sagarbiswas-multihat.github.io/rss.xml" />
+    <link rel="stylesheet" href="../styles.min.css" />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "BlogPosting",
+        "headline": "Why Attackers Like the Temp Folder and How You Can Protect Your PC",
+        "description": "Why malware often uses the Windows Temp folder, what really happens during these attacks, and practical steps to reduce your risk.",
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://sagarbiswas-multihat.github.io/assets/blogs/blog9-temp-folder-1200.jpg",
+          "width": 1200,
+          "height": 800
+        },
+        "author": {
+          "@type": "Person",
+          "name": "Sagar Biswas",
+          "url": "https://sagarbiswas-multihat.github.io/",
+          "sameAs": [
+            "https://github.com/SagarBiswas-MultiHAT",
+            "https://www.linkedin.com/in/sagarbiswas-multihat/",
+            "https://www.youtube.com/@Sagar-MultiHAT"
+          ]
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "Sagar Biswas",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://sagarbiswas-multihat.github.io/assets/og-preview.svg"
+          }
+        },
+        "datePublished": "2026-02-25",
+        "dateModified": "2026-02-25",
+        "keywords": ["Windows Security", "Temp Folder", "Malware Behavior", "Digital Hygiene", "Security Awareness"],
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https://sagarbiswas-multihat.github.io/blog/why-attackers-like-temp-folder.html"
+        }
+      }
+    </script>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://sagarbiswas-multihat.github.io/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Blog",
+            "item": "https://sagarbiswas-multihat.github.io/blog/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Temp Folder Security",
+            "item": "https://sagarbiswas-multihat.github.io/blog/why-attackers-like-temp-folder.html"
+          }
+        ]
+      }
+    </script>
+</head>
+
+<body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <div class="grid"></div>
+    <div class="noise"></div>
+
+    <header class="site-header" id="top">
+        <nav class="nav">
+            <a class="logo" href="../index.html" aria-label="Go to homepage">
+                <span>MultiHAT</span>
+                <span class="dot">&bull;</span>
+                <span>Ops</span>
+            </a>
+            <div class="nav-links">
+                <a href="../index.html#about">About</a>
+                <a href="../index.html#projects">Projects</a>
+                <a href="../index.html#contact">Contact</a>
+            </div>
+            <a class="cta" href="../index.html#contact">Engage</a>
+        </nav>
+    </header>
+
+    <main id="main" class="section">
+        <div class="section-header">
+            <p class="eyebrow">Windows Security Awareness - Malware Behavior</p>
+            <h1>Why Attackers Like the Temp Folder and How You Can Protect Your PC</h1>
+            <p>
+                While learning from real-world incident reports, one pattern appeared again and again: malware staging
+                files in the Windows Temp folder.
+            </p>
+            <p>
+                The folder itself is not bad. It becomes risky only when malicious software uses it as a convenient
+                launch point.
+            </p>
+        </div>
+
+        <figure class="blog-hero">
+            <img src="../assets/blogs/blog9-temp-folder-1200.jpg"
+                srcset="../assets/blogs/blog9-temp-folder-480.jpg 480w, ../assets/blogs/blog9-temp-folder-800.jpg 800w, ../assets/blogs/blog9-temp-folder-1200.jpg 1200w"
+                sizes="(max-width: 600px) 100vw, (max-width: 1100px) 90vw, 1200px"
+                alt="Visual summary of temp-folder attack flow and defensive habits" width="1200" height="800"
+                loading="eager" fetchpriority="high" decoding="async" />
+            <figcaption>Attackers like low-friction paths. Temp often gives them one.</figcaption>
+        </figure>
+
+        <article class="blog-article">
+            <h2>Temp vs Prefetch: quick clarification</h2>
+            <p>
+                The Temp folder stores temporary files created by apps and installers. Prefetch is different: it is a
+                Windows performance feature that records execution metadata so apps start faster.
+            </p>
+            <p>
+                Prefetch can also help defenders during forensics because it shows evidence of executed programs.
+            </p>
+
+            <h2>Why the Temp folder appears in malware chains</h2>
+            <p>
+                In many user-level infections, Temp is attractive because normal accounts can write there without
+                admin rights. Malware can drop payloads, execute them, and try to clean traces quickly.
+            </p>
+            <ul>
+                <li>Writable by standard users.</li>
+                <li>Already full of noisy temporary files.</li>
+                <li>Rarely monitored by casual users.</li>
+                <li>Easy place to stage and delete artifacts.</li>
+            </ul>
+
+            <h2>A typical attack sequence</h2>
+            <ol>
+                <li>User opens a malicious attachment, cracked tool, or untrusted installer.</li>
+                <li>Initial file drops a secondary payload into `%temp%`.</li>
+                <li>Payload executes from Temp in the background.</li>
+                <li>Malware steals data, logs keys, or fetches more components.</li>
+                <li>Some variants delete dropped files and add startup persistence.</li>
+            </ol>
+
+            <h2>How to reduce your risk</h2>
+            <ol>
+                <li>Avoid pirated software, unknown links, and random attachments.</li>
+                <li>Keep Windows and antivirus definitions updated.</li>
+                <li>Be careful before executing files from untrusted sources.</li>
+                <li>Periodically clean `%temp%` and review suspicious leftovers.</li>
+                <li>Review startup entries and scheduled tasks for unknown items.</li>
+            </ol>
+
+            <h2>Final thoughts</h2>
+            <p>
+                Security is mostly behavior plus awareness. Understanding attacker workflow helps you notice early
+                warning signs before a small mistake turns into a full compromise.
+            </p>
+            <p>
+                Think before you click, and treat unexpected executables as high risk by default.
+            </p>
+
+            <p class="section-note">
+                <strong>Educational use only:</strong> This post focuses on prevention and defensive awareness.
+            </p>
+
+            <div class="tag-list">
+                <span class="tag">Windows Security</span>
+                <span class="tag">Temp Folder</span>
+                <span class="tag">Malware Behavior</span>
+                <span class="tag">Digital Hygiene</span>
+                <span class="tag">Security Awareness</span>
+            </div>
+        </article>
+    </main>
+
+    <footer class="site-footer">
+        <div>
+            <span>© 2026 Sagar Biswas</span>
+            <span class="sep">|</span>
+            <a href="../index.html">Back to home</a>
+        </div>
+        <div>
+            <span>Blog</span>
+            <span class="sep">|</span>
+            <a href="index.html">All posts</a>
+        </div>
+    </footer>
+</body>
+
+</html>

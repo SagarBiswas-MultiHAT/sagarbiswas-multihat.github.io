@@ -20,6 +20,18 @@
     </image:image>
   </url>
   <url>
+    <loc>https://sagarbiswas-multihat.github.io/blog/why-attackers-like-temp-folder.html</loc>
+    <image:image>
+      <image:loc>https://sagarbiswas-multihat.github.io/assets/blogs/blog9-temp-folder-1200.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://sagarbiswas-multihat.github.io/blog/osi-layers-real-attack-examples.html</loc>
+    <image:image>
+      <image:loc>https://sagarbiswas-multihat.github.io/assets/blogs/blog8-osi-layers-cover-1200.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
     <loc>https://sagarbiswas-multihat.github.io/blog/quantum-cryptography.html</loc>
     <image:image>
       <image:loc>https://sagarbiswas-multihat.github.io/assets/blogs/blog5-quantum-crypto-1200.png</image:loc>
