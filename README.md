@@ -1,12 +1,27 @@
 # Sagar Biswas — MultiHAT-in-Training Portfolio
 
+<!-- Release badges -->
+<div align="right">
+
+[![Release](https://img.shields.io/github/v/release/sagarbiswas-multihat/sagarbiswas-multihat.github.io?style=flat-square)](https://github.com/sagarbiswas-multihat/sagarbiswas-multihat.github.io/releases)
+&nbsp;
+[![Release Date](https://img.shields.io/github/release-date/sagarbiswas-multihat/sagarbiswas-multihat.github.io?style=flat-square)](https://github.com/sagarbiswas-multihat/sagarbiswas-multihat.github.io/releases)
+&nbsp;
+
+</div>
+
 <div align="right">
 
 [![Pages](https://img.shields.io/badge/Pages-GitHub%20Pages-blue)](https://sagarbiswas-multihat.github.io/)
+&nbsp;
 [![RSS](https://img.shields.io/badge/RSS-feed-orange)](https://sagarbiswas-multihat.github.io/rss.xml)
+&nbsp;
 [![Last commit](https://img.shields.io/github/last-commit/SagarBiswas-MultiHAT/sagarbiswas-multihat.github.io)](https://github.com/SagarBiswas-MultiHAT/sagarbiswas-multihat.github.io)
+&nbsp;
 [![License](https://img.shields.io/github/license/SagarBiswas-MultiHAT/sagarbiswas-multihat.github.io)](https://github.com/SagarBiswas-MultiHAT/sagarbiswas-multihat.github.io/blob/main/LICENSE)
+&nbsp;
 [![Issues](https://img.shields.io/github/issues/SagarBiswas-MultiHAT/sagarbiswas-multihat.github.io)](https://github.com/SagarBiswas-MultiHAT/sagarbiswas-multihat.github.io/issues)
+&nbsp;
 [![Build](https://github.com/SagarBiswas-MultiHAT/sagarbiswas-multihat.github.io/actions/workflows/build.yml/badge.svg)](https://github.com/SagarBiswas-MultiHAT/sagarbiswas-multihat.github.io/actions/workflows/build.yml)
 
 </div>

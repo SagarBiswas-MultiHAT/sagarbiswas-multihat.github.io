@@ -12,4 +12,6 @@ const result = await postcss([cssnano({ preset: "default" })]).process(css, {
 });
 
 fs.writeFileSync(outputPath, result.css, "utf8");
-console.log(`Minified CSS: ${outputPath.pathname}`);
+// Log to stderr so users who redirect stdout (e.g. `> styles.min.css`) don't
+// accidentally capture this message into the generated CSS file.
+console.error(`Minified CSS: ${outputPath.pathname}`);
