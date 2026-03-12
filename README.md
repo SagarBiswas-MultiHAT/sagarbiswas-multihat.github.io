@@ -1,11 +1,16 @@
 # Sagar Biswas — MultiHAT-in-Training Portfolio
 
-<div align="right">
+<div align="center">
 
 [![Release](https://img.shields.io/github/v/release/SagarBiswas-MultiHAT/sagarbiswas-multihat.github.io)](https://github.com/SagarBiswas-MultiHAT/sagarbiswas-multihat.github.io/releases)
 &nbsp;
 [![Release Date](https://img.shields.io/github/release-date/SagarBiswas-MultiHAT/sagarbiswas-multihat.github.io)](https://github.com/SagarBiswas-MultiHAT/sagarbiswas-multihat.github.io/releases)
 &nbsp;
+
+</div>
+
+<div align="center">
+
 [![Pages](https://img.shields.io/badge/Pages-GitHub%20Pages-blue)](https://sagarbiswas-multihat.github.io/)
 &nbsp;
 [![RSS](https://img.shields.io/badge/RSS-feed-orange)](https://sagarbiswas-multihat.github.io/rss.xml)
