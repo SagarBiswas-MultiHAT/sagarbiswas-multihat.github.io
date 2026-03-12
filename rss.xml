@@ -2,70 +2,70 @@
 <rss version="2.0">
   <channel>
     <title>Sagar Biswas Blog</title>
-    <link>https://sagarbiswas-multihat.github.io/blog/</link>
+    <link>https://sagarbiswas-multihat.github.io/blogs/</link>
     <description>Security awareness posts and engineering reflections by Sagar Biswas.</description>
     <language>en</language>
     <lastBuildDate>Wed, 25 Feb 2026 20:59:58 GMT</lastBuildDate>
     <item>
       <title><![CDATA[Why Attackers Like the Temp Folder and How You Can Protect Your PC | Sagar Biswas]]></title>
-      <link>https://sagarbiswas-multihat.github.io/blog/why-attackers-like-temp-folder.html</link>
-      <guid isPermaLink="true">https://sagarbiswas-multihat.github.io/blog/why-attackers-like-temp-folder.html</guid>
+      <link>https://sagarbiswas-multihat.github.io/blogs/why-attackers-like-temp-folder.html</link>
+      <guid isPermaLink="true">https://sagarbiswas-multihat.github.io/blogs/why-attackers-like-temp-folder.html</guid>
       <pubDate>Wed, 25 Feb 2026 06:00:00 GMT</pubDate>
       <description><![CDATA[Why malware often uses the Windows Temp folder, what really happens during these attacks, and practical steps to reduce your risk.]]></description>
     </item>
     <item>
       <title><![CDATA[Understanding OSI Layers Through Real Attack Examples | Sagar Biswas]]></title>
-      <link>https://sagarbiswas-multihat.github.io/blog/osi-layers-real-attack-examples.html</link>
-      <guid isPermaLink="true">https://sagarbiswas-multihat.github.io/blog/osi-layers-real-attack-examples.html</guid>
+      <link>https://sagarbiswas-multihat.github.io/blogs/osi-layers-real-attack-examples.html</link>
+      <guid isPermaLink="true">https://sagarbiswas-multihat.github.io/blogs/osi-layers-real-attack-examples.html</guid>
       <pubDate>Tue, 24 Feb 2026 06:00:00 GMT</pubDate>
       <description><![CDATA[A practical OSI model walkthrough that maps each layer to real attack patterns and defensive habits for students and security beginners.]]></description>
     </item>
     <item>
       <title><![CDATA[Quantum Computers vs Encryption | Sagar Biswas]]></title>
-      <link>https://sagarbiswas-multihat.github.io/blog/quantum-cryptography.html</link>
-      <guid isPermaLink="true">https://sagarbiswas-multihat.github.io/blog/quantum-cryptography.html</guid>
+      <link>https://sagarbiswas-multihat.github.io/blogs/quantum-cryptography.html</link>
+      <guid isPermaLink="true">https://sagarbiswas-multihat.github.io/blogs/quantum-cryptography.html</guid>
       <pubDate>Sat, 17 Jan 2026 18:00:00 GMT</pubDate>
       <description><![CDATA[Quantum computers threaten current RSA and ECC encryption. NIST's post-quantum standards exist today. Learn what organizations should do now.]]></description>
     </item>
     <item>
       <title><![CDATA[Anonymity Isn’t Absolute: What Works | Sagar Biswas]]></title>
-      <link>https://sagarbiswas-multihat.github.io/blog/anonymity-opsec.html</link>
-      <guid isPermaLink="true">https://sagarbiswas-multihat.github.io/blog/anonymity-opsec.html</guid>
+      <link>https://sagarbiswas-multihat.github.io/blogs/anonymity-opsec.html</link>
+      <guid isPermaLink="true">https://sagarbiswas-multihat.github.io/blogs/anonymity-opsec.html</guid>
       <pubDate>Fri, 16 Jan 2026 18:00:00 GMT</pubDate>
       <description><![CDATA[Nation-state actors can correlate metadata and behavior. VPNs and proxies help, but real anonymity depends on identity separation, fewer actions, and avoiding linking accounts.]]></description>
     </item>
     <item>
       <title><![CDATA[Full‑Page Screenshot in DevTools | Sagar Biswas]]></title>
-      <link>https://sagarbiswas-multihat.github.io/blog/full-page-screenshot-using-inspect.html</link>
-      <guid isPermaLink="true">https://sagarbiswas-multihat.github.io/blog/full-page-screenshot-using-inspect.html</guid>
+      <link>https://sagarbiswas-multihat.github.io/blogs/full-page-screenshot-using-inspect.html</link>
+      <guid isPermaLink="true">https://sagarbiswas-multihat.github.io/blogs/full-page-screenshot-using-inspect.html</guid>
       <pubDate>Fri, 16 Jan 2026 18:00:00 GMT</pubDate>
       <description><![CDATA[A fast DevTools trick to capture a full-page screenshot in Chrome/Edge. No extensions, no hassle—just the Command Menu.]]></description>
     </item>
     <item>
       <title><![CDATA[Printer Attack: The Silent Entry Point | Sagar Biswas]]></title>
-      <link>https://sagarbiswas-multihat.github.io/blog/printer-attack-starts-with-a-printer.html</link>
-      <guid isPermaLink="true">https://sagarbiswas-multihat.github.io/blog/printer-attack-starts-with-a-printer.html</guid>
+      <link>https://sagarbiswas-multihat.github.io/blogs/printer-attack-starts-with-a-printer.html</link>
+      <guid isPermaLink="true">https://sagarbiswas-multihat.github.io/blogs/printer-attack-starts-with-a-printer.html</guid>
       <pubDate>Fri, 16 Jan 2026 18:00:00 GMT</pubDate>
       <description><![CDATA[How a printer can become the easiest entry point into a company network — and how to secure it before attackers do.]]></description>
     </item>
     <item>
       <title><![CDATA[Vibe Coding: টেক ডেবট কেন বাড়ে | Sagar Biswas]]></title>
-      <link>https://sagarbiswas-multihat.github.io/blog/vibe-coding-tech-debt.html</link>
-      <guid isPermaLink="true">https://sagarbiswas-multihat.github.io/blog/vibe-coding-tech-debt.html</guid>
+      <link>https://sagarbiswas-multihat.github.io/blogs/vibe-coding-tech-debt.html</link>
+      <guid isPermaLink="true">https://sagarbiswas-multihat.github.io/blogs/vibe-coding-tech-debt.html</guid>
       <pubDate>Fri, 16 Jan 2026 18:00:00 GMT</pubDate>
       <description><![CDATA[AI দিয়ে দ্রুত ডেলিভারি সম্ভব, কিন্তু ভুল সিদ্ধান্তে তৈরি হয় বাড়তি জটিলতা। কী রাখবেন, কী বাদ দেবেন — এই লেখায় আছে সহজ ব্যাখ্যা।]]></description>
     </item>
     <item>
       <title><![CDATA[Wi‑Fi Security Alert: MAC Blocking Isn’t Enough]]></title>
-      <link>https://sagarbiswas-multihat.github.io/blog/wifi-security-alert.html</link>
-      <guid isPermaLink="true">https://sagarbiswas-multihat.github.io/blog/wifi-security-alert.html</guid>
+      <link>https://sagarbiswas-multihat.github.io/blogs/wifi-security-alert.html</link>
+      <guid isPermaLink="true">https://sagarbiswas-multihat.github.io/blogs/wifi-security-alert.html</guid>
       <pubDate>Fri, 16 Jan 2026 18:00:00 GMT</pubDate>
       <description><![CDATA[Blocking a device by MAC address is easy to bypass on modern phones. Learn the safer, fast fix: change your Wi‑Fi password and tighten router settings.]]></description>
     </item>
     <item>
       <title><![CDATA[WSL2 + Kali + Win‑KeX Guide | Sagar Biswas]]></title>
-      <link>https://sagarbiswas-multihat.github.io/blog/wsl2-kali-winkex-installation.html</link>
-      <guid isPermaLink="true">https://sagarbiswas-multihat.github.io/blog/wsl2-kali-winkex-installation.html</guid>
+      <link>https://sagarbiswas-multihat.github.io/blogs/wsl2-kali-winkex-installation.html</link>
+      <guid isPermaLink="true">https://sagarbiswas-multihat.github.io/blogs/wsl2-kali-winkex-installation.html</guid>
       <pubDate>Fri, 16 Jan 2026 18:00:00 GMT</pubDate>
       <description><![CDATA[A notebook-style, beginner-friendly WSL2 + Kali Linux + Win‑KeX setup guide with exact commands, prompt answers, screenshots, and fixes.]]></description>
     </item>
