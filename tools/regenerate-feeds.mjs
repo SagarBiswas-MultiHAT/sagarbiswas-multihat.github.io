@@ -2,7 +2,7 @@ import fs from 'fs';
 import path from 'path';
 
 const SITE_BASE = 'https://sagarbiswas-multihat.github.io';
-const BLOG_DIR = path.join(process.cwd(), 'blog');
+const BLOG_DIR = path.join(process.cwd(), 'blogs');
 const ROOT_DIR = process.cwd();
 const RSS_FILE = path.join(ROOT_DIR, 'rss.xml');
 const SITEMAP_FILE = path.join(ROOT_DIR, 'sitemap.xml');
@@ -18,7 +18,7 @@ const blogHomeImages = [`${SITE_BASE}/assets/og-preview.svg`];
 
 const staticSitemapTargets = [
     { loc: `${SITE_BASE}/`, path: 'index.html', changefreq: 'weekly', priority: '1.0' },
-    { loc: `${SITE_BASE}/blog/`, path: 'blog/index.html', changefreq: 'weekly', priority: '0.8' },
+    { loc: `${SITE_BASE}/blogs/`, path: 'blogs/index.html', changefreq: 'weekly', priority: '0.8' },
     { loc: `${SITE_BASE}/resume.html`, path: 'resume.html', changefreq: 'monthly', priority: '0.7' },
 ];
 
@@ -82,7 +82,7 @@ function parseBlogPosts() {
             const filePath = path.join(BLOG_DIR, name);
             const html = fs.readFileSync(filePath, 'utf8');
             const canonical = extractLinkHref(html, 'canonical');
-            const url = canonical || `${SITE_BASE}/blog/${name}`;
+            const url = canonical || `${SITE_BASE}/blogs/${name}`;
             const title = extractTagContent(html, 'title') || 'Untitled';
             const description =
                 extractMeta(html, 'name', 'description') ||
@@ -128,7 +128,7 @@ function buildRss(posts) {
         })
         .join('\n');
 
-    return `<?xml version="1.0" encoding="UTF-8"?>\n<rss version="2.0">\n  <channel>\n    <title>Sagar Biswas Blog</title>\n    <link>${SITE_BASE}/blog/</link>\n    <description>Security awareness posts and engineering reflections by Sagar Biswas.</description>\n    <language>en</language>\n    <lastBuildDate>${lastBuildDate}</lastBuildDate>\n${items}\n  </channel>\n</rss>`;
+    return `<?xml version="1.0" encoding="UTF-8"?>\n<rss version="2.0">\n  <channel>\n    <title>Sagar Biswas Blog</title>\n    <link>${SITE_BASE}/blogs/</link>\n    <description>Security awareness posts and engineering reflections by Sagar Biswas.</description>\n    <language>en</language>\n    <lastBuildDate>${lastBuildDate}</lastBuildDate>\n${items}\n  </channel>\n</rss>`;
 }
 
 function buildSitemap(posts) {
@@ -157,7 +157,7 @@ function buildSitemap(posts) {
 function buildImageSitemap(posts) {
     const entries = [
         { loc: `${SITE_BASE}/`, images: rootImages },
-        { loc: `${SITE_BASE}/blog/`, images: blogHomeImages },
+        { loc: `${SITE_BASE}/blogs/`, images: blogHomeImages },
         ...posts.map((post) => ({ loc: post.url, images: [post.image] })),
     ];
 

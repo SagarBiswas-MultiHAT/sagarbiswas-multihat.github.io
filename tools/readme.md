@@ -6,7 +6,7 @@ This repository ships a small set of helper scripts centered on keeping the stat
 
 - `minify-css.mjs` – runs `postcss` + `cssnano` against `styles.css` and writes `styles.min.css`. It enables the production-ready stylesheet referenced by every page.
 - `minify-js.mjs` – wraps `terser` so you can safely minify any JavaScript files you add later. It mirrors the CSS pipeline and writes `*.min.js` files beside their originals.
-- `regenerate-feeds.mjs` – the brain behind the RSS, sitemap, and image sitemap automation. It crawls the `blog/` folder, extracts metadata from each post, and rewrites the three XML feeds in one go. Run it whenever you publish, edit, or delete a blog post so subscribers and crawlers see consistent dates, descriptions, and image assets.
+- `regenerate-feeds.mjs` – the brain behind the RSS, sitemap, and image sitemap automation. It crawls the `blogs/` folder, extracts metadata from each post, and rewrites the three XML feeds in one go. Run it whenever you publish, edit, or delete a blog post so subscribers and crawlers see consistent dates, descriptions, and image assets.
 
 ## Best understanding of this repo
 
@@ -14,7 +14,7 @@ Imagine a polished, SEO-first developer portfolio that lives entirely on GitHub 
 
 1. **Minify everything** – `npm run build` still runs both minifiers so every stylesheet and script stays trimmed. Use it after you edit any CSS/JS and before you push so visitors download the smallest possible assets.
 2. **Refresh metadata** – `npm run generate:feeds` is the only command you need to keep the RSS/sitemap files honest. It:
-	- Parses metadata (title, description, publish/modified dates, og:image, canonical URL) from each `blog/*.html` file.
+	- Parses metadata (title, description, publish/modified dates, og:image, canonical URL) from each `blogs/*.html` file.
 	- Regenerates `rss.xml`, `sitemap.xml`, and `image-sitemap.xml` with clean XML, fresh timestamps, and complete coverage of the blog posts, the homepage, and `resume.html`.
 
 Both commands share the same `npm` entry points documented in the repository root `README.md`, so anyone can understand how to keep the site performant and indexable.

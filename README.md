@@ -1,17 +1,11 @@
 # Sagar Biswas — MultiHAT-in-Training Portfolio
 
-<!-- Release badges -->
 <div align="right">
 
-[![Release](https://img.shields.io/github/v/release/sagarbiswas-multihat/sagarbiswas-multihat.github.io?style=flat-square)](https://github.com/sagarbiswas-multihat/sagarbiswas-multihat.github.io/releases)
+[![Release](https://img.shields.io/github/v/release/SagarBiswas-MultiHAT/sagarbiswas-multihat.github.io)](https://github.com/SagarBiswas-MultiHAT/sagarbiswas-multihat.github.io/releases)
 &nbsp;
-[![Release Date](https://img.shields.io/github/release-date/sagarbiswas-multihat/sagarbiswas-multihat.github.io?style=flat-square)](https://github.com/sagarbiswas-multihat/sagarbiswas-multihat.github.io/releases)
+[![Release Date](https://img.shields.io/github/release-date/SagarBiswas-MultiHAT/sagarbiswas-multihat.github.io)](https://github.com/SagarBiswas-MultiHAT/sagarbiswas-multihat.github.io/releases)
 &nbsp;
-
-</div>
-
-<div align="right">
-
 [![Pages](https://img.shields.io/badge/Pages-GitHub%20Pages-blue)](https://sagarbiswas-multihat.github.io/)
 &nbsp;
 [![RSS](https://img.shields.io/badge/RSS-feed-orange)](https://sagarbiswas-multihat.github.io/rss.xml)
@@ -26,118 +20,123 @@
 
 </div>
 
-A BlackHAT-inspired, WhiteHAT-ethical portfolio for **Sagar Biswas (SagarBiswas-MultiHAT)** — CSE student at AIUB, cybersecurity enthusiast, ethical hacker (web app security), and web developer.
+A dark, hacker-inspired portfolio for **Sagar Biswas (SagarBiswas-MultiHAT)** — CSE student at AIUB, cybersecurity enthusiast, ethical hacker (web app security), and web developer. This site is a static GitHub Pages project with a custom design system, narrative content, and automated RSS/sitemap tooling.
 
-## Live: https://sagarbiswas-multihat.github.io/
+## Live Site
 
-## Highlights
+- https://sagarbiswas-multihat.github.io/
 
-- SEO-first metadata and structured data
-- Fast, static, GitHub Pages-ready (HTML + CSS only)
-- Responsive layout with a dark, dangerous aesthetic
-- Clear sections for identity, skills, projects, and community
-- RSS feed for blog subscribers (rss.xml)
+## Pages & Routes
 
-## Structure
+Core pages shipped in this repo:
 
-Project Structure (TREE):
+- `/` — Homepage (Identity File, terminal, projects, certifications, contact)
+- `/about/` — Threat Actor profile
+- `/capabilities/` — Capabilities landing page
+- `/certifications/` — Certifications landing page
+- `/projects/` — Classified operations
+- `/notebooks/` — Research notebooks
+- `/cybersecurity/` — Tools and resources
+- `/blogs/` — Blog index
+- `/resume.html` — Resume viewer
+- `/404.html` — Custom error page
+
+All blog content lives under `/blogs/`.
+
+## Core Features
+
+- Dark hacker aesthetic with a custom CSS design system
+- Identity File layout, terminal simulation, and animated skill matrix
+- Custom ring/crosshair cursor
+- CRT scanlines and vignette overlay
+- SEO metadata, Open Graph, JSON-LD, and social cards
+- RSS feed + sitemap + image sitemap automation
+- Minified production CSS/JS for fast delivery
+
+## Desktop Viewport (Mobile Behavior)
+
+The site is intentionally forced into **desktop layout** on phones and desktops. All HTML pages use:
+
+```
+<meta name="viewport" content="width=1200, initial-scale=1.0" />
+```
+
+This keeps the desktop grid and typography intact on mobile screens (users can pinch-zoom).
+
+## Project Structure (Top Level)
 
 ```
 portfolio/
 ├─ index.html
+├─ 404.html
+├─ resume.html
 ├─ styles.css
+├─ styles.min.css
 ├─ robots.txt
 ├─ sitemap.xml
+├─ image-sitemap.xml
 ├─ rss.xml
-├─ INSTRUCTIONS.md
-├─ README.md
-├─ SagarBiswas-MultiHAT-Profile.md
-├─ t.html
 ├─ assets/
-│  ├─ blogs/
-│  │  ├─ Blog1 - hackByPrinter.png
-│  │  ├─ Blog2 - Vibe Coding & Tech Debt.png
-│  │  ├─ Blog3 - Anonymity.png
-│  │  ├─ Blog4 - Wi-Fi security alert.png
-│  │  ├─ Blog5 - Quantum Crypto.png
-│  │  ├─ Blog6 - WSL2, Kali-Linux, Installation.png
-│  │  └─ Blog7 - Take a FULL-PAGE Screenshot Using Inspect.png
-│  ├─ certifications/
-│  ├─ resume/
-│  ├─ favicon.svg
-│  ├─ og-preview.svg
-│  ├─ profile.jpg
-│  └─ profile_eg.svg
-└─ blog/
-	├─ index.html
-	├─ full-page-screenshot-using-inspect.html
-	├─ anonymity-opsec.html
-	├─ printer-attack-starts-with-a-printer.html
-	├─ quantum-cryptography.html
-	├─ vibe-coding-tech-debt.html
-	├─ wifi-security-alert.html
-	└─ wsl2-kali-winkex-installation.html
+├─ about/
+├─ blogs/
+├─ capabilities/
+├─ certifications/
+├─ cybersecurity/
+├─ notebooks/
+├─ projects/
+├─ scripts/
+└─ tools/
 ```
 
-## Latest Blog Posts
+## Blog System
 
-- WSL2 + Kali Linux + Win‑KeX (GUI) Installation Guide (Beginner‑Friendly)
-- Easiest Way to Take a FULL-PAGE Screenshot Using Inspect!
-- Wi‑Fi Security Alert: MAC Blocking Isn’t Enough — What to Do Instead
-- Why Quantum Computers Will Break Your Encryption (And Why We're Ready)
-- Complete, Forever Anonymity Doesn't Exist — Here's What Actually Works
-- 🧨 Fun Fact: A Cyberattack That Can Start With… a Printer 🖨️
-- Vibe Coding মানে দ্রুত কাজের আড়ালে ধীরে ধীরে টেক ডেবট জমা করা
+Blog posts live in `/blogs/` and are standard HTML files with SEO metadata (title, description, canonical, og:image, publish dates). After editing or adding a post, regenerate feeds so RSS and sitemaps stay accurate.
 
-## Deploy on GitHub Pages
+## Tooling & Scripts
 
-1. Push this repository to GitHub.
-2. In **Settings → Pages**, choose the **main** branch and root folder.
-3. Your site will be live at: https://sagarbiswas-multihat.github.io/
+This repo includes minimal build tooling under `/tools/`:
 
-## Build (Minify CSS/JS)
+- `minify-css.mjs` — minifies `styles.css` into `styles.min.css`
+- `minify-js.mjs` — minifies any JS files you add later
+- `regenerate-feeds.mjs` — builds `rss.xml`, `sitemap.xml`, and `image-sitemap.xml` from `/blogs/`
+- `scripts/test-routes.sh` — quick local route checker (status codes)
 
-This repo includes a tiny build setup to minify CSS and any JS you add later.
+## Build & Update Commands
+
+Install dependencies once:
 
 ```bash
 npm install
+```
+
+Build minified assets:
+
+```bash
 npm run build
 ```
 
-Output:
+Regenerate RSS + sitemaps after blog updates:
 
-- styles.min.css (used by all pages)
-- \*.min.js (generated if JS files exist)
+```bash
+npm run generate:feeds
+```
 
-## Regenerate Feeds
+## Deployment (GitHub Pages)
 
-- `npm run generate:feeds` rebuilds `rss.xml`, `sitemap.xml`, and `image-sitemap.xml` from the latest blog metadata so subscribers and crawlers see the newest posts.
-- Run it before every deployment or when you publish new articles.
+1. Push to GitHub.
+2. In **Settings → Pages**, choose the **main** branch and root folder.
+3. The site will be served at: https://sagarbiswas-multihat.github.io/
 
-## Custom Domain & HTTPS (SSL)
+## Common Updates
 
-If you use a custom domain, set it in **Settings → Pages** and create a `CNAME` file
-with the exact domain. Then enable **Enforce HTTPS** in GitHub Pages. This ensures
-the SSL certificate matches your domain and avoids mismatch warnings.
+- **Add a blog post**: Create a new HTML file in `/blogs/` and run `npm run generate:feeds`.
+- **Update profile imagery**: Replace images in `/assets/` and keep sizes consistent with existing filenames.
+- **Add a new page**: Create a folder with `index.html`, then update the nav links.
 
-## Hosting / DNS / Security notes
+## Troubleshooting
 
-- TODO: If using a custom domain, add a CNAME file at the repo root and verify DNS points to GitHub Pages.
-- TODO: Confirm HSTS and SNI are enabled for any custom subdomains (GitHub Pages supports both).
-
-## SEO Checklist
-
-- Update the canonical URL if the domain changes.
-- Ensure og:image and twitter:image use absolute URLs.
-- Keep sitemap.xml and robots.txt in sync with the live domain.
-- Update JSON-LD when profile details change.
-- Ensure blog posts include og:locale, article:author, and ImageObject sizes.
-
-## Customize
-
-- Replace the profile photo at assets/profile.jpg.
-- Update any new project links in index.html.
-- Add new posts in blog/ and update sitemap.xml accordingly.
-- Add entries to rss.xml when publishing a new post.
+- **CSS not loading**: Run `npm run minify:css` and make sure `styles.min.css` is committed.
+- **Broken feeds**: Run `npm run generate:feeds` after any blog change.
+- **Missing routes**: Use `scripts/test-routes.sh` to confirm every route returns 200 locally.
 
 ---
