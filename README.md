@@ -101,10 +101,10 @@ Blog posts live in `/blogs/` and are standard HTML files with SEO metadata (titl
 
 This repo includes minimal build tooling under `/tools/`:
 
-- `minify-css.mjs` — minifies `styles.css` into `styles.min.css`
-- `minify-js.mjs` — minifies any JS files you add later
-- `regenerate-feeds.mjs` — builds `rss.xml`, `sitemap.xml`, and `image-sitemap.xml` from `/blogs/`
-- `scripts/test-routes.sh` — quick local route checker (status codes)
+- `minify-css.mjs` — minifies `styles.css` into `styles.min.css`; run `npm run minify:css` so the generated `styles.min.css` stays in sync with the source CSS.
+- `minify-js.mjs` — minifies any JS files you add later; invoke it with `npm run minify:js` before committing new scripts.
+- `regenerate-feeds.mjs` — builds `rss.xml`, `sitemap.xml`, and `image-sitemap.xml` from `/blogs/`; execute `npm run generate:feeds` after adding or editing blog posts.
+- `scripts/test-routes.sh` — quick local route checker (status codes); run `./scripts/test-routes.sh` from the repo root to ensure each route returns 200 before pushing.
 
 ## Build & Update Commands
 
