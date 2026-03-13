@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=1200, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>WSL2 + Kali + Win‑KeX Guide | Sagar Biswas</title>
     <meta name="description"
         content="A notebook-style, beginner-friendly WSL2 + Kali Linux + Win‑KeX setup guide with exact commands, prompt answers, screenshots, and fixes." />
@@ -45,6 +45,9 @@
     <!-- TODO: add hreflang alternates when translations exist. -->
     <link rel="alternate" type="application/rss+xml" title="Sagar Biswas Blog RSS"
         href="https://sagarbiswas-multihat.github.io/rss.xml" />
+    <link rel="preload" as="image"
+        imagesrcset="../assets/blogs/blog6-wsl2-kali-480.webp 480w, ../assets/blogs/blog6-wsl2-kali-800.webp 800w, ../assets/blogs/blog6-wsl2-kali-1000.webp 1000w, ../assets/blogs/blog6-wsl2-kali-1200.webp 1200w"
+        imagesizes="(max-width: 600px) 100vw, (max-width: 1100px) 90vw, 1200px" />
     <link rel="stylesheet" href="../styles.min.css" />
     <script type="application/ld+json">
       {
@@ -153,11 +156,16 @@
             <p><strong>Other parts are cooking… Stay tuned for updates!</strong></p>
         </div>
         <figure class="blog-hero">
-            <img src="../assets/blogs/blog6-wsl2-kali-1200.png"
-                srcset="../assets/blogs/blog6-wsl2-kali-480.png 480w, ../assets/blogs/blog6-wsl2-kali-800.png 800w, ../assets/blogs/blog6-wsl2-kali-1200.png 1200w"
-                sizes="(max-width: 600px) 100vw, (max-width: 1100px) 90vw, 1200px"
-                alt="WSL2 Kali Linux Win-KeX installation guide cover" width="1200" height="675" loading="eager"
-                fetchpriority="high" decoding="async" />
+            <picture>
+                <source type="image/webp"
+                    srcset="../assets/blogs/blog6-wsl2-kali-480.webp 480w, ../assets/blogs/blog6-wsl2-kali-800.webp 800w, ../assets/blogs/blog6-wsl2-kali-1000.webp 1000w, ../assets/blogs/blog6-wsl2-kali-1200.webp 1200w"
+                    sizes="(max-width: 600px) 100vw, (max-width: 1100px) 90vw, 1200px" />
+                <img src="../assets/blogs/blog6-wsl2-kali-800.png"
+                    srcset="../assets/blogs/blog6-wsl2-kali-480.png 480w, ../assets/blogs/blog6-wsl2-kali-800.png 800w, ../assets/blogs/blog6-wsl2-kali-1200.png 1200w"
+                    sizes="(max-width: 600px) 100vw, (max-width: 1100px) 90vw, 1200px"
+                    alt="WSL2 Kali Linux Win-KeX installation guide cover" width="1200" height="1200" loading="eager"
+                    fetchpriority="high" decoding="async" />
+            </picture>
             <figcaption><br>WSL2 + Kali + Win‑KeX, step‑by‑step, beginner‑safe.</figcaption>
         </figure>
 

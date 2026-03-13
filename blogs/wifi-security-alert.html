@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=1200, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Wi‑Fi Security Alert: MAC Blocking Isn’t Enough</title>
     <meta name="description"
         content="Blocking a device by MAC address is easy to bypass on modern phones. Learn the safer, fast fix: change your Wi‑Fi password and tighten router settings." />
@@ -45,6 +45,9 @@
     <!-- TODO: add hreflang alternates when translations exist. -->
     <link rel="alternate" type="application/rss+xml" title="Sagar Biswas Blog RSS"
         href="https://sagarbiswas-multihat.github.io/rss.xml" />
+    <link rel="preload" as="image"
+        imagesrcset="../assets/blogs/blog4-wifi-alert-480.webp 480w, ../assets/blogs/blog4-wifi-alert-800.webp 800w, ../assets/blogs/blog4-wifi-alert-1000.webp 1000w, ../assets/blogs/blog4-wifi-alert-1200.webp 1200w"
+        imagesizes="(max-width: 600px) 100vw, (max-width: 1100px) 90vw, 1200px" />
     <link rel="stylesheet" href="../styles.min.css" />
     <script type="application/ld+json">
       {
@@ -152,11 +155,16 @@
         </div>
 
         <figure class="blog-hero">
-            <img src="../assets/blogs/blog4-wifi-alert-1200.png"
-                srcset="../assets/blogs/blog4-wifi-alert-480.png 480w, ../assets/blogs/blog4-wifi-alert-800.png 800w, ../assets/blogs/blog4-wifi-alert-1200.png 1200w"
-                sizes="(max-width: 600px) 100vw, (max-width: 1100px) 90vw, 1200px"
-                alt="Wi-Fi security alert illustration" width="1200" height="675" loading="eager" fetchpriority="high"
-                decoding="async" />
+            <picture>
+                <source type="image/webp"
+                    srcset="../assets/blogs/blog4-wifi-alert-480.webp 480w, ../assets/blogs/blog4-wifi-alert-800.webp 800w, ../assets/blogs/blog4-wifi-alert-1000.webp 1000w, ../assets/blogs/blog4-wifi-alert-1200.webp 1200w"
+                    sizes="(max-width: 600px) 100vw, (max-width: 1100px) 90vw, 1200px" />
+                <img src="../assets/blogs/blog4-wifi-alert-800.png"
+                    srcset="../assets/blogs/blog4-wifi-alert-480.png 480w, ../assets/blogs/blog4-wifi-alert-800.png 800w, ../assets/blogs/blog4-wifi-alert-1200.png 1200w"
+                    sizes="(max-width: 600px) 100vw, (max-width: 1100px) 90vw, 1200px"
+                    alt="Wi-Fi security alert illustration" width="1200" height="2539" loading="eager"
+                    fetchpriority="high" decoding="async" />
+            </picture>
             <figcaption>MAC blocking is helpful, but it’s not a reliable lock by itself.</figcaption>
         </figure>
 

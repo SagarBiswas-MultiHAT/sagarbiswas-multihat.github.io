@@ -67,8 +67,15 @@
                     href="https://drive.google.com/file/d/1Nmw1AilvcUpdACU9OHfCFCIWXuxciAJK/view?usp=sharing"
                     target="_blank" rel="noopener noreferrer">Download (Google Drive)</a>
             </div>
-            <img src="assets/resume/Resume%20-%20Sagar%20Biswar.jpg" alt="Resume of Sagar Biswas" loading="eager"
-                decoding="async" />
+            <picture>
+                <source type="image/webp"
+                    srcset="assets/resume/resume-768.webp 768w, assets/resume/resume-1200.webp 1200w"
+                    sizes="(min-width: 1200px) 1200px, 100vw" />
+                <img src="assets/resume/resume-1200.jpg"
+                    srcset="assets/resume/resume-768.jpg 768w, assets/resume/resume-1200.jpg 1200w"
+                    sizes="(min-width: 1200px) 1200px, 100vw" alt="Resume of Sagar Biswas" width="1200" height="1697"
+                    loading="eager" decoding="async" fetchpriority="high" />
+            </picture>
         </section>
     </main>
 
