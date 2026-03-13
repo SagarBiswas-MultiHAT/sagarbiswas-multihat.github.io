@@ -557,10 +557,10 @@ main {
     gap: 40px;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     margin: 0 auto;
-    margin-left: 5%;
+    margin-left: 50px;
     overflow: hidden;
     padding: 80px 32px 48px;
-    width: 95%
+    width: 90%
 }
 
 .hero-scan {
@@ -703,7 +703,8 @@ main {
     align-content: start;
     display: grid;
     gap: 24px;
-    justify-items: center
+    justify-items: center;
+    margin-right: -32%;
 }
 
 .profile {
@@ -714,7 +715,6 @@ main {
     box-shadow: 0 30px 80px rgba(0, 0, 0, .7), 0 0 40px rgba(255, 0, 51, .08);
     margin: 8px 0 0;
     margin-inline: auto;
-    margin-right: 2%;
     overflow: hidden;
     padding: 18px;
     position: relative;
@@ -1198,7 +1198,7 @@ img[src*="denvercoder1-github-readme-stats.vercel.app"] {
 }
 
 .projects {
-    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr))
+    grid-template-columns: repeat(4, minmax(240px, 1fr))
 }
 
 .tag {
@@ -1901,6 +1901,114 @@ details {
 .redirect-link {
     text-decoration: underline;
     text-underline-offset: 4px
+}
+
+.mh-mindset {
+    position: relative;
+    border: 1px solid rgba(0, 255, 65, .25);
+    background: linear-gradient(135deg, #040d06 0%, #020805 100%);
+    padding: 2rem 2rem 2rem 2.5rem;
+    overflow: hidden;
+}
+
+.mh-mindset::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 3px;
+    background: linear-gradient(180deg, transparent, #00ff41, transparent);
+    animation: linepulse 3s ease-in-out infinite;
+}
+
+@keyframes linepulse {
+
+    0%,
+    100% {
+        opacity: .3
+    }
+
+    50% {
+        opacity: 1;
+        box-shadow: 0 0 12px #00ff41
+    }
+}
+
+.mh-mindset__label {
+    font-family: 'Orbitron', monospace;
+    font-size: .9rem;
+    letter-spacing: .45em;
+    color: rgb(255, 0, 0);
+    text-transform: uppercase;
+    margin-bottom: 1.25rem;
+}
+
+.mh-mindset__label::before {
+    content: '[ '
+}
+
+.mh-mindset__label::after {
+    content: ' ]'
+}
+
+.mh-mindset__body {
+    font-size: .88rem;
+    color: rgba(0, 255, 65, .78);
+    line-height: 2;
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+
+.mh-mindset__body::before {
+    content: '" ';
+    font-family: 'VT323', monospace;
+    font-size: 3rem;
+    color: rgba(0, 255, 65, .18);
+    line-height: 0;
+    vertical-align: -.6em;
+    margin-right: .2rem;
+}
+
+.mh-mindset__tagline {
+    display: block;
+    margin-top: 1.5rem;
+    font-family: 'Orbitron', monospace;
+    font-size: .75rem;
+    font-weight: 700;
+    letter-spacing: .25em;
+    color: #00ff41;
+    text-shadow: 0 0 8px #00ff41, 0 0 20px rgba(0, 255, 65, .4);
+    text-align: center;
+}
+
+.mh-mindset__tagline::before {
+    content: '╰(..::  '
+}
+
+.mh-mindset__tagline::after {
+    content: ' ::..)╯'
+}
+
+.mh-mindset__scan {
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 1px;
+    background: linear-gradient(90deg, transparent, rgba(0, 255, 65, .35), transparent);
+    animation: mscan 5s linear infinite;
+    pointer-events: none;
+}
+
+@keyframes mscan {
+    from {
+        top: 0%
+    }
+
+    to {
+        top: 100%
+    }
 }
 
 @media (max-width:900px) {
