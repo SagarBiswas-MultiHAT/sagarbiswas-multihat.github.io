@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Sagar Biswas Portfolio Feed</title>
+  <id>https://sagarbiswas-multihat.github.io/feed.xml</id>
+  <updated>2026-03-15T00:00:00Z</updated>
+  <link href="https://sagarbiswas-multihat.github.io/feed.xml" rel="self" />
+  <link href="https://sagarbiswas-multihat.github.io/" />
+  <author>
+    <name>Sagar Biswas</name>
+  </author>
+  <entry>
+    <title>Software Developer Portfolio and Technical Notebooks</title>
+    <id>https://sagarbiswas-multihat.github.io/</id>
+    <link href="https://sagarbiswas-multihat.github.io/" />
+    <updated>2026-03-15T00:00:00Z</updated>
+    <summary>Software developer portfolio featuring cybersecurity, programming notebooks, projects, and technical blog posts.</summary>
+  </entry>
+</feed>
