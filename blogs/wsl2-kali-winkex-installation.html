@@ -5,9 +5,9 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=1200, initial-scale=1.0" />
-    <title>WSL2 + Kali + Win‑KeX Guide | Sagar Biswas</title>
+    <title>WSL2 + Kali + Win-KeX Guide | Sagar Biswas</title>
     <meta name="description"
-        content="A notebook-style, beginner-friendly WSL2 + Kali Linux + Win‑KeX setup guide with exact commands, prompt answers, screenshots, and fixes." />
+        content="A notebook-style, beginner-friendly WSL2 + Kali Linux + Win-KeX setup guide with exact commands, prompt answers, screenshots, and fixes." />
     <meta name="author" content="Sagar Biswas" />
     <meta name="theme-color" content="#04070a" />
     <meta name="robots" content="index,follow,max-image-preview:large" />
@@ -20,9 +20,9 @@
     <meta property="article:tag" content="Win-KeX" />
     <meta property="article:tag" content="Windows" />
     <meta property="article:tag" content="Beginner Guide" />
-    <meta property="og:title" content="WSL2 + Kali + Win‑KeX Guide" />
+    <meta property="og:title" content="WSL2 + Kali + Win-KeX Guide" />
     <meta property="og:description"
-        content="End‑to‑end WSL2 + Kali + Win‑KeX guide: prerequisites, exact commands, prompt answers, and common fixes." />
+        content="End-to-end WSL2 + Kali + Win-KeX guide: prerequisites, exact commands, prompt answers, and common fixes." />
     <meta property="og:type" content="article" />
     <meta property="og:url" content="https://sagarbiswas-multihat.github.io/blogs/wsl2-kali-winkex-installation.html" />
     <meta property="article:published_time" content="2026-01-17T00:00:00+06:00" />
@@ -33,9 +33,9 @@
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="675" />
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="WSL2 + Kali + Win‑KeX Guide" />
+    <meta name="twitter:title" content="WSL2 + Kali + Win-KeX Guide" />
     <meta name="twitter:description"
-        content="Beginner‑friendly WSL2 + Kali + Win‑KeX setup with exact commands, prompt answers, screenshots, and fixes." />
+        content="Beginner-friendly WSL2 + Kali + Win-KeX setup with exact commands, prompt answers, screenshots, and fixes." />
     <meta name="twitter:image" content="https://sagarbiswas-multihat.github.io/assets/blogs/blog6-wsl2-kali-1200.png" />
     <meta name="twitter:image:alt" content="WSL2 Kali Linux Win-KeX installation guide cover" />
     <link rel="canonical" href="https://sagarbiswas-multihat.github.io/blogs/wsl2-kali-winkex-installation.html" />
@@ -53,8 +53,8 @@
       {
         "@context": "https://schema.org",
         "@type": "BlogPosting",
-        "headline": "WSL2 + Kali + Win‑KeX Guide",
-        "description": "A notebook-style, beginner-friendly WSL2 + Kali Linux + Win‑KeX setup guide with exact commands, prompt answers, screenshots, and fixes.",
+        "headline": "WSL2 + Kali + Win-KeX Guide",
+        "description": "A notebook-style, beginner-friendly WSL2 + Kali Linux + Win-KeX setup guide with exact commands, prompt answers, screenshots, and fixes.",
         "image": {
           "@type": "ImageObject",
           "url": "https://sagarbiswas-multihat.github.io/assets/blogs/blog6-wsl2-kali-1200.png",
@@ -108,7 +108,7 @@
           {
             "@type": "ListItem",
             "position": 3,
-            "name": "WSL2 + Kali + Win‑KeX Installation",
+            "name": "WSL2 + Kali + Win-KeX Installation",
             "item": "https://sagarbiswas-multihat.github.io/blogs/wsl2-kali-winkex-installation.html"
           }
         ]
@@ -153,11 +153,11 @@
         </nav>
         <div class="section-header">
             <p class="eyebrow">Windows · WSL2 · Kali Linux</p>
-            <h1>WSL2 + Kali Linux + Win‑KeX (GUI) Installation Guide (Beginner‑Friendly)</h1>
+            <h1>WSL2 + Kali Linux + Win-KeX (GUI) Installation Guide (Beginner-Friendly)</h1>
             <p>
-                If you’re on Windows and want a clean, beginner‑friendly setup for WSL2 + Kali Linux + Win‑KeX (Kali
+                If you are on Windows and want a clean, beginner-friendly setup for WSL2 + Kali Linux + Win-KeX (Kali
                 GUI),
-                I wrote a notebook‑style guide that covers everything end‑to‑end with exact commands, prompt answers,
+                I wrote a notebook-style guide that covers everything end-to-end with exact commands, prompt answers,
                 screenshots, and common fixes.
             </p>
             <p><strong>Other parts are cooking… Stay tuned for updates!</strong></p>
@@ -173,11 +173,11 @@
                     alt="WSL2 Kali Linux Win-KeX installation guide cover" width="1200" height="1200" loading="eager"
                     fetchpriority="high" decoding="async" />
             </picture>
-            <figcaption><br>WSL2 + Kali + Win‑KeX, step‑by‑step, beginner‑safe.</figcaption>
+            <figcaption><br>WSL2 + Kali + Win-KeX, step-by-step, beginner-safe.</figcaption>
         </figure>
 
         <article class="blog-article">
-            <h2>What’s inside (all sections included)</h2>
+            <h2>What's inside (all sections included)</h2>
             <ul>
                 <li><strong>0) Prerequisites</strong> — virtualization check (Task Manager + BIOS/UEFI note), latest GPU
                     drivers, and required Windows features.</li>
@@ -191,7 +191,7 @@
                     notes.</li>
                 <li><strong>4) Update packages</strong> — <code>sudo apt update</code> + mirror fixes if updates fail.
                 </li>
-                <li><strong>5) Install Win‑KeX</strong> — <code>sudo apt install kali-win-kex</code> and
+                <li><strong>5) Install Win-KeX</strong> — <code>sudo apt install kali-win-kex</code> and
                     <code>kex --win</code>, with the recommended prompt answer.
                 </li>
                 <li><strong>6) (Optional) Kali toolkit</strong> — <code>sudo apt install kali-linux-large</code> with
@@ -202,13 +202,13 @@
 
             <h2>Recommended prompt answers (quick highlights)</h2>
             <ul>
-                <li><strong>KeX view‑only password?</strong> → <strong>n</strong> (so you can interact normally).</li>
+                <li><strong>KeX view-only password?</strong> → <strong>n</strong> (so you can interact normally).</li>
                 <li><strong>Kismet setuid root?</strong> → <strong>Yes</strong>.</li>
-                <li><strong>Non‑superusers capture packets?</strong> → <strong>Yes</strong> (Wireshark group).</li>
+                <li><strong>Non-superusers capture packets?</strong> → <strong>Yes</strong> (Wireshark group).</li>
                 <li><strong>sslh: inetd vs standalone?</strong> → <strong>standalone</strong>.</li>
             </ul>
 
-            <h2>Quick commands you’ll use a lot</h2>
+            <h2>Quick commands you will use a lot</h2>
             <ul>
                 <li><code>kex --status</code> / <code>kex --stop</code> / <code>kex --win</code> / <code>kex --sl</code>
                 </li>
@@ -217,13 +217,13 @@
 
             <h2>Repo link</h2>
             <p>
-                Full notebook‑style guide: <a style="font-weight: bold; color: red;"
+                Full notebook-style guide: <a style="font-weight: bold; color: red;"
                     href="https://github.com/SagarBiswas-MultiHAT/WSL-Installation_Guide">WSL-Installation_Guide</a>
             </p>
 
             <p>
                 If anyone gets stuck at any step (WSL, mirrors, KeX, Wireshark permissions, dpkg errors),
-                DM what you’re seeing and I will help.
+                DM what you are seeing and I will help.
             </p>
 
             <p class="section-note">
@@ -233,7 +233,7 @@
             <div class="tag-list">
                 <span class="tag">WSL2</span>
                 <span class="tag">Kali Linux</span>
-                <span class="tag">Win‑KeX</span>
+                <span class="tag">Win-KeX</span>
                 <span class="tag">Windows Setup</span>
                 <span class="tag">Beginner Guide</span>
             </div>
