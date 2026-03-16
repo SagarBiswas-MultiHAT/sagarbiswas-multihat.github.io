@@ -1,9 +1,13 @@
-Site: Sagar Biswas - MultiHAT-in-Training
-URL: https://sagarbiswas-multihat.github.io/
-Language: en, bn
-Contact: eng.sagar.aiub@gmail.com
+# Sagar Biswas — Software Developer Portfolio
 
-Purpose: Personal portfolio, notebook index, and cybersecurity awareness blog.
+> Full-stack software developer and cybersecurity enthusiast based in Bangladesh.
+> Publishes programming notebooks, cybersecurity blog posts, and open-source projects.
+> Languages: English, Bengali
+
+Site: https://sagarbiswas-multihat.github.io/
+Contact: sagarbiswas.multihat@gmail.com
+GitHub: https://github.com/sagarbiswas-multihat
+
 Crawl: Allowed
 
 Sitemap: https://sagarbiswas-multihat.github.io/sitemap.xml
@@ -11,17 +15,35 @@ Image-Sitemap: https://sagarbiswas-multihat.github.io/image-sitemap.xml
 Atom-Feed: https://sagarbiswas-multihat.github.io/feed.xml
 RSS-Feed: https://sagarbiswas-multihat.github.io/rss.xml
 
-Primary-Pages:
-- https://sagarbiswas-multihat.github.io/
-- https://sagarbiswas-multihat.github.io/notebooks/
-- https://sagarbiswas-multihat.github.io/projects/
-- https://sagarbiswas-multihat.github.io/blogs/
-- https://sagarbiswas-multihat.github.io/cybersecurity/
+## Primary Pages
+- Portfolio Home: https://sagarbiswas-multihat.github.io/
+- About: https://sagarbiswas-multihat.github.io/about/
+- Projects: https://sagarbiswas-multihat.github.io/projects/
+- Capabilities: https://sagarbiswas-multihat.github.io/capabilities/
+- Certifications: https://sagarbiswas-multihat.github.io/certifications/
+- Cybersecurity: https://sagarbiswas-multihat.github.io/cybersecurity/
+- Notebooks Hub: https://sagarbiswas-multihat.github.io/notebooks/
+- Blog: https://sagarbiswas-multihat.github.io/blogs/
+- Resume: https://sagarbiswas-multihat.github.io/resume.html
 
-Notebooks:
-- https://sagarbiswas-multihat.github.io/BashScript-Notebooks/
-- https://sagarbiswas-multihat.github.io/C_Cpp-Notebooks/
-- https://sagarbiswas-multihat.github.io/Cybersecurity-Notebooks/
-- https://sagarbiswas-multihat.github.io/GIT_and_GitHub-Notebooks/
-- https://sagarbiswas-multihat.github.io/JavaScript-Notebooks/
-- https://sagarbiswas-multihat.github.io/React-Notebooks/
+## Programming Notebooks
+- Bash Scripting Tutorial: https://sagarbiswas-multihat.github.io/BashScript-Notebooks/
+- C and C++ Programming: https://sagarbiswas-multihat.github.io/C_Cpp-Notebooks/
+- Cybersecurity Notes: https://sagarbiswas-multihat.github.io/Cybersecurity-Notebooks/
+- Git and GitHub Guide: https://sagarbiswas-multihat.github.io/GIT_and_GitHub-Notebooks/
+- JavaScript Tutorial: https://sagarbiswas-multihat.github.io/JavaScript-Notebooks/
+- React Tutorial: https://sagarbiswas-multihat.github.io/React-Notebooks/
+- PHP Tutorial: https://sagarbiswas-multihat.github.io/PHP-Notebooks/
+- Python Tutorial: https://sagarbiswas-multihat.github.io/Python-Notebooks/
+- NestJS Tutorial: https://sagarbiswas-multihat.github.io/NestJS-Notebooks/
+
+## Blog Posts
+- Why Attackers Like the Temp Folder: https://sagarbiswas-multihat.github.io/blogs/why-attackers-like-temp-folder.html
+- OSI Layers Through Real Attack Examples: https://sagarbiswas-multihat.github.io/blogs/osi-layers-real-attack-examples.html
+- Quantum Computers vs Encryption: https://sagarbiswas-multihat.github.io/blogs/quantum-cryptography.html
+- Anonymity Is Not Absolute — What Works: https://sagarbiswas-multihat.github.io/blogs/anonymity-opsec.html
+- Full-Page Screenshot in DevTools: https://sagarbiswas-multihat.github.io/blogs/full-page-screenshot-using-inspect.html
+- Printer Attack — The Silent Entry Point: https://sagarbiswas-multihat.github.io/blogs/printer-attack-starts-with-a-printer.html
+- Vibe Coding Tech Debt: https://sagarbiswas-multihat.github.io/blogs/vibe-coding-tech-debt.html
+- Wi-Fi Security Alert MAC Blocking Is Not Enough: https://sagarbiswas-multihat.github.io/blogs/wifi-security-alert.html
+- WSL2 + Kali + Win-KeX Setup Guide: https://sagarbiswas-multihat.github.io/blogs/wsl2-kali-winkex-installation.html
