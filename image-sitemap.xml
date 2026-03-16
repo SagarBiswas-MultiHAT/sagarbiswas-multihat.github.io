@@ -20,6 +20,42 @@
     </image:image>
   </url>
   <url>
+    <loc>https://sagarbiswas-multihat.github.io/about/</loc>
+    <image:image>
+      <image:loc>https://sagarbiswas-multihat.github.io/assets/og-preview.svg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://sagarbiswas-multihat.github.io/capabilities/</loc>
+    <image:image>
+      <image:loc>https://sagarbiswas-multihat.github.io/assets/og-preview.svg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://sagarbiswas-multihat.github.io/certifications/</loc>
+    <image:image>
+      <image:loc>https://sagarbiswas-multihat.github.io/assets/og-preview.svg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://sagarbiswas-multihat.github.io/cybersecurity/</loc>
+    <image:image>
+      <image:loc>https://sagarbiswas-multihat.github.io/assets/og-preview.svg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://sagarbiswas-multihat.github.io/notebooks/</loc>
+    <image:image>
+      <image:loc>https://sagarbiswas-multihat.github.io/assets/og-preview.svg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://sagarbiswas-multihat.github.io/projects/</loc>
+    <image:image>
+      <image:loc>https://sagarbiswas-multihat.github.io/assets/og-preview.svg</image:loc>
+    </image:image>
+  </url>
+  <url>
     <loc>https://sagarbiswas-multihat.github.io/blogs/why-attackers-like-temp-folder.html</loc>
     <image:image>
       <image:loc>https://sagarbiswas-multihat.github.io/assets/blogs/blog9-temp-folder-1200.jpg</image:loc>

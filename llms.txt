@@ -1,10 +1,27 @@
-# llms.txt
-
-Site: Sagar Biswas — MultiHAT-in-Training
+Site: Sagar Biswas - MultiHAT-in-Training
 URL: https://sagarbiswas-multihat.github.io/
 Language: en, bn
 Contact: eng.sagar.aiub@gmail.com
 
-Purpose: Personal portfolio and security-awareness blog.
+Purpose: Personal portfolio, notebook index, and cybersecurity awareness blog.
 Crawl: Allowed
+
 Sitemap: https://sagarbiswas-multihat.github.io/sitemap.xml
+Image-Sitemap: https://sagarbiswas-multihat.github.io/image-sitemap.xml
+Atom-Feed: https://sagarbiswas-multihat.github.io/feed.xml
+RSS-Feed: https://sagarbiswas-multihat.github.io/rss.xml
+
+Primary-Pages:
+- https://sagarbiswas-multihat.github.io/
+- https://sagarbiswas-multihat.github.io/notebooks/
+- https://sagarbiswas-multihat.github.io/projects/
+- https://sagarbiswas-multihat.github.io/blogs/
+- https://sagarbiswas-multihat.github.io/cybersecurity/
+
+Notebooks:
+- https://sagarbiswas-multihat.github.io/BashScript-Notebooks/
+- https://sagarbiswas-multihat.github.io/C_Cpp-Notebooks/
+- https://sagarbiswas-multihat.github.io/Cybersecurity-Notebooks/
+- https://sagarbiswas-multihat.github.io/GIT_and_GitHub-Notebooks/
+- https://sagarbiswas-multihat.github.io/JavaScript-Notebooks/
+- https://sagarbiswas-multihat.github.io/React-Notebooks/
