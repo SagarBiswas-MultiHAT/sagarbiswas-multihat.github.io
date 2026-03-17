@@ -1,21 +1,19 @@
 (function () {
-    var prefersReducedMotion = false;
+    var root = document.documentElement;
+    var canUseCustomCursor = false;
+
     try {
-        prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+        canUseCustomCursor = window.matchMedia('(any-hover: hover) and (any-pointer: fine)').matches;
     } catch (e) {
-        prefersReducedMotion = false;
+        canUseCustomCursor = !('ontouchstart' in window) && (navigator.maxTouchPoints || 0) === 0;
     }
 
-    if (prefersReducedMotion) {
-        document.body.style.cursor = 'auto';
+    if (!canUseCustomCursor) {
+        root.classList.remove('has-custom-cursor');
         return;
     }
 
-    var isTouch = 'ontouchstart' in window || navigator.maxTouchPoints > 0;
-    if (isTouch) {
-        document.body.style.cursor = 'auto';
-        return;
-    }
+    root.classList.add('has-custom-cursor');
 
     var ring = document.getElementById('cursor');
     var dot = document.getElementById('cursor-dot');

@@ -311,11 +311,14 @@ body {
     background: var(--bg);
     background-image: radial-gradient(ellipse at top, #080c11 0, #010204 50%, #000 100%);
     color: var(--text);
-    cursor: none;
     font-family: Inter, system-ui, -apple-system, sans-serif;
     line-height: 1.6;
     min-height: 100vh;
     overflow-x: hidden
+}
+
+html.has-custom-cursor body {
+    cursor: none
 }
 
 body:before {
@@ -360,6 +363,7 @@ h1 {
 }
 
 #cursor {
+    background: rgba(57, 255, 135, .06);
     border: 2px solid var(--accent);
     box-shadow: 0 0 10px var(--glow-green), inset 0 0 6px rgba(57, 255, 135, .08);
     height: 28px;
@@ -371,10 +375,16 @@ h1 {
 #cursor,
 #cursor-dot {
     border-radius: 50%;
+    display: none;
     pointer-events: none;
     position: fixed;
     transform: translate(-50%, -50%);
     z-index: 99999
+}
+
+html.has-custom-cursor #cursor,
+html.has-custom-cursor #cursor-dot {
+    display: block
 }
 
 #cursor-dot {
@@ -2083,35 +2093,5 @@ details {
 
     .error-code {
         font-size: clamp(4rem, 15vw, 6rem)
-    }
-}
-
-@media (prefers-reduced-motion:reduce) {
-
-    *,
-    :after,
-    :before {
-        animation-duration: .01ms !important;
-        animation-iteration-count: 1 !important;
-        transition-duration: .01ms !important
-    }
-
-    #hacker-intro,
-    body:after {
-        display: none
-    }
-
-    body {
-        cursor: auto
-    }
-
-    .hero-scan,
-    body:before {
-        display: none
-    }
-
-    #cursor,
-    #cursor-dot {
-        display: none !important
     }
 }
