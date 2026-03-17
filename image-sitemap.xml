@@ -1,154 +1,163 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
-
-  <!-- ═══════════════════════════════════════════ -->
-  <!-- MAIN PAGES                                  -->
-  <!-- ═══════════════════════════════════════════ -->
   <url>
     <loc>https://sagarbiswas-multihat.github.io/</loc>
     <image:image>
-      <image:loc>https://sagarbiswas-multihat.github.io/assets/og-preview.jpg</image:loc>
-      <image:title>Sagar Biswas — Software Developer Portfolio</image:title>
+      <image:loc>https://sagarbiswas-multihat.github.io/assets/og-preview.svg</image:loc>
+      <image:title>Sagar Biswas portfolio preview</image:title>
+      <image:caption>Sagar Biswas portfolio preview</image:caption>
     </image:image>
     <image:image>
-      <image:loc>https://sagarbiswas-multihat.github.io/assets/profile-480.jpg</image:loc>
-      <image:title>Sagar Biswas — Full Stack Developer and Cybersecurity Enthusiast</image:title>
+      <image:loc>https://sagarbiswas-multihat.github.io/assets/profile-720.jpg</image:loc>
+      <image:title>Sagar Biswas portrait</image:title>
+      <image:caption>Portrait of Sagar Biswas</image:caption>
     </image:image>
   </url>
-
   <url>
     <loc>https://sagarbiswas-multihat.github.io/about/</loc>
     <image:image>
-      <image:loc>https://sagarbiswas-multihat.github.io/assets/og-preview.jpg</image:loc>
-      <image:title>About Sagar Biswas — Software Developer and Cybersecurity Enthusiast</image:title>
+      <image:loc>https://sagarbiswas-multihat.github.io/assets/og-preview.svg</image:loc>
+      <image:title>Sagar Biswas about page preview</image:title>
+      <image:caption>Sagar Biswas about page preview</image:caption>
     </image:image>
-  </url>
-
-  <url>
-    <loc>https://sagarbiswas-multihat.github.io/projects/</loc>
     <image:image>
-      <image:loc>https://sagarbiswas-multihat.github.io/assets/og-preview.jpg</image:loc>
-      <image:title>Sagar Biswas — Software Development Projects</image:title>
+      <image:loc>https://sagarbiswas-multihat.github.io/assets/profile-720.jpg</image:loc>
+      <image:title>Sagar Biswas portrait</image:title>
+      <image:caption>Portrait of Sagar Biswas</image:caption>
     </image:image>
   </url>
-
   <url>
     <loc>https://sagarbiswas-multihat.github.io/capabilities/</loc>
     <image:image>
-      <image:loc>https://sagarbiswas-multihat.github.io/assets/og-preview.jpg</image:loc>
-      <image:title>Sagar Biswas — Technical Capabilities and Skills</image:title>
+      <image:loc>https://sagarbiswas-multihat.github.io/assets/og-preview.svg</image:loc>
+      <image:title>Capabilities page preview</image:title>
+      <image:caption>Capabilities page preview</image:caption>
     </image:image>
   </url>
-
   <url>
     <loc>https://sagarbiswas-multihat.github.io/certifications/</loc>
     <image:image>
-      <image:loc>https://sagarbiswas-multihat.github.io/assets/og-preview.jpg</image:loc>
-      <image:title>Sagar Biswas — Certifications and Achievements</image:title>
+      <image:loc>https://sagarbiswas-multihat.github.io/assets/og-preview.svg</image:loc>
+      <image:title>Certifications page preview</image:title>
+      <image:caption>Certifications page preview</image:caption>
     </image:image>
   </url>
-
   <url>
     <loc>https://sagarbiswas-multihat.github.io/cybersecurity/</loc>
     <image:image>
-      <image:loc>https://sagarbiswas-multihat.github.io/assets/og-preview.jpg</image:loc>
-      <image:title>Sagar Biswas — Cybersecurity Notes and Resources</image:title>
+      <image:loc>https://sagarbiswas-multihat.github.io/assets/og-preview.svg</image:loc>
+      <image:title>Sagar Biswas cybersecurity resources preview</image:title>
+      <image:caption>Sagar Biswas cybersecurity resources preview</image:caption>
     </image:image>
   </url>
-
   <url>
     <loc>https://sagarbiswas-multihat.github.io/notebooks/</loc>
     <image:image>
-      <image:loc>https://sagarbiswas-multihat.github.io/assets/og-preview.jpg</image:loc>
-      <image:title>Sagar Biswas — Programming Notebooks Hub</image:title>
+      <image:loc>https://sagarbiswas-multihat.github.io/assets/og-preview.svg</image:loc>
+      <image:title>Sagar Biswas notebooks preview</image:title>
+      <image:caption>Sagar Biswas notebooks preview</image:caption>
     </image:image>
   </url>
-
-  <!-- ═══════════════════════════════════════════ -->
-  <!-- BLOG HUB                                    -->
-  <!-- ═══════════════════════════════════════════ -->
+  <url>
+    <loc>https://sagarbiswas-multihat.github.io/projects/</loc>
+    <image:image>
+      <image:loc>https://sagarbiswas-multihat.github.io/assets/og-preview.svg</image:loc>
+      <image:title>Sagar Biswas projects preview</image:title>
+      <image:caption>Sagar Biswas projects preview</image:caption>
+    </image:image>
+  </url>
   <url>
     <loc>https://sagarbiswas-multihat.github.io/blogs/</loc>
     <image:image>
-      <image:loc>https://sagarbiswas-multihat.github.io/assets/og-preview.jpg</image:loc>
-      <image:title>Sagar Biswas Blog — Cybersecurity and Software Engineering</image:title>
+      <image:loc>https://sagarbiswas-multihat.github.io/assets/og-preview.svg</image:loc>
+      <image:title>Sagar Biswas blog preview</image:title>
+      <image:caption>Sagar Biswas blog preview</image:caption>
     </image:image>
   </url>
-
-  <!-- ═══════════════════════════════════════════ -->
-  <!-- BLOG POSTS                                  -->
-  <!-- ═══════════════════════════════════════════ -->
+  <url>
+    <loc>https://sagarbiswas-multihat.github.io/resume.html</loc>
+    <image:image>
+      <image:loc>https://sagarbiswas-multihat.github.io/assets/og-preview.svg</image:loc>
+      <image:title>Sagar Biswas portfolio preview</image:title>
+      <image:caption>Sagar Biswas portfolio preview</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://sagarbiswas-multihat.github.io/assets/resume/resume-1200.jpg</image:loc>
+      <image:title>Sagar Biswas resume preview</image:title>
+      <image:caption>Resume preview for Sagar Biswas</image:caption>
+    </image:image>
+  </url>
   <url>
     <loc>https://sagarbiswas-multihat.github.io/blogs/why-attackers-like-temp-folder.html</loc>
     <image:image>
       <image:loc>https://sagarbiswas-multihat.github.io/assets/blogs/blog9-temp-folder-1200.jpg</image:loc>
-      <image:title>Why Attackers Like the Temp Folder — Sagar Biswas</image:title>
+      <image:title>Why attackers use the temp folder and how to protect your PC</image:title>
+      <image:caption>Why attackers use the temp folder and how to protect your PC</image:caption>
     </image:image>
   </url>
-
   <url>
     <loc>https://sagarbiswas-multihat.github.io/blogs/osi-layers-real-attack-examples.html</loc>
     <image:image>
       <image:loc>https://sagarbiswas-multihat.github.io/assets/blogs/blog8-osi-layers-cover-1200.jpg</image:loc>
-      <image:title>OSI Layers Through Real Attack Examples — Sagar Biswas</image:title>
+      <image:title>OSI layers mapped to common attack patterns</image:title>
+      <image:caption>OSI layers mapped to common attack patterns</image:caption>
     </image:image>
   </url>
-
   <url>
     <loc>https://sagarbiswas-multihat.github.io/blogs/quantum-cryptography.html</loc>
     <image:image>
       <image:loc>https://sagarbiswas-multihat.github.io/assets/blogs/blog5-quantum-crypto-1200.png</image:loc>
-      <image:title>Quantum Computers vs Encryption — Sagar Biswas</image:title>
+      <image:title>Quantum cryptography and encryption illustration</image:title>
+      <image:caption>Quantum cryptography and encryption illustration</image:caption>
     </image:image>
   </url>
-
   <url>
     <loc>https://sagarbiswas-multihat.github.io/blogs/anonymity-opsec.html</loc>
     <image:image>
       <image:loc>https://sagarbiswas-multihat.github.io/assets/blogs/blog3-anonymity-1200.png</image:loc>
-      <image:title>Anonymity Is Not Absolute — What Works — Sagar Biswas</image:title>
+      <image:title>Anonymity and privacy illustration</image:title>
+      <image:caption>Anonymity and privacy illustration</image:caption>
     </image:image>
   </url>
-
   <url>
     <loc>https://sagarbiswas-multihat.github.io/blogs/full-page-screenshot-using-inspect.html</loc>
     <image:image>
       <image:loc>https://sagarbiswas-multihat.github.io/assets/blogs/blog7-fullpage-screenshot-1200.png</image:loc>
-      <image:title>Full-Page Screenshot in DevTools — Sagar Biswas</image:title>
+      <image:title>Full-page screenshot using DevTools</image:title>
+      <image:caption>Full-page screenshot using DevTools</image:caption>
     </image:image>
   </url>
-
   <url>
     <loc>https://sagarbiswas-multihat.github.io/blogs/printer-attack-starts-with-a-printer.html</loc>
     <image:image>
       <image:loc>https://sagarbiswas-multihat.github.io/assets/blogs/blog1-printer-1200.png</image:loc>
-      <image:title>Printer Attack — The Silent Entry Point — Sagar Biswas</image:title>
+      <image:title>Printer compromise awareness illustration</image:title>
+      <image:caption>Printer compromise awareness illustration</image:caption>
     </image:image>
   </url>
-
   <url>
     <loc>https://sagarbiswas-multihat.github.io/blogs/vibe-coding-tech-debt.html</loc>
     <image:image>
       <image:loc>https://sagarbiswas-multihat.github.io/assets/blogs/blog2-vibe-coding-1200.png</image:loc>
-      <image:title>Vibe Coding Tech Debt — Sagar Biswas</image:title>
+      <image:title>Vibe coding and tech debt illustration</image:title>
+      <image:caption>Vibe coding and tech debt illustration</image:caption>
     </image:image>
   </url>
-
   <url>
     <loc>https://sagarbiswas-multihat.github.io/blogs/wifi-security-alert.html</loc>
     <image:image>
       <image:loc>https://sagarbiswas-multihat.github.io/assets/blogs/blog4-wifi-alert-1200.png</image:loc>
-      <image:title>Wi-Fi Security Alert MAC Blocking Is Not Enough — Sagar Biswas</image:title>
+      <image:title>Wi-Fi security alert illustration</image:title>
+      <image:caption>Wi-Fi security alert illustration</image:caption>
     </image:image>
   </url>
-
   <url>
     <loc>https://sagarbiswas-multihat.github.io/blogs/wsl2-kali-winkex-installation.html</loc>
     <image:image>
       <image:loc>https://sagarbiswas-multihat.github.io/assets/blogs/blog6-wsl2-kali-1200.png</image:loc>
-      <image:title>WSL2 Kali Linux Win-KeX Setup Guide — Sagar Biswas</image:title>
+      <image:title>WSL2 Kali Linux Win-KeX installation guide cover</image:title>
+      <image:caption>WSL2 Kali Linux Win-KeX installation guide cover</image:caption>
     </image:image>
   </url>
-
 </urlset>

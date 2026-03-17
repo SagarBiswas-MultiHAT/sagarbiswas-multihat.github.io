@@ -3,127 +3,155 @@
   <channel>
     <title>Sagar Biswas Blog</title>
     <link>https://sagarbiswas-multihat.github.io/blogs/</link>
-    <description>Security awareness posts and software engineering reflections by Sagar Biswas — covering cybersecurity, ethical hacking, and full-stack development.</description>
+    <description>Security awareness posts and software engineering reflections by Sagar Biswas.</description>
     <language>en</language>
-    <lastBuildDate>Mon, 16 Mar 2026 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 25 Feb 2026 06:00:00 GMT</lastBuildDate>
     <managingEditor>sagarbiswas.multihat@gmail.com (Sagar Biswas)</managingEditor>
     <webMaster>sagarbiswas.multihat@gmail.com (Sagar Biswas)</webMaster>
-    <copyright>© 2026 Sagar Biswas. All rights reserved.</copyright>
+    <copyright>Copyright 2026 Sagar Biswas. All rights reserved.</copyright>
     <ttl>1440</ttl>
-    <atom:link href="https://sagarbiswas-multihat.github.io/rss.xml"
-               rel="self"
-               type="application/rss+xml" />
+    <docs>https://www.rssboard.org/rss-specification</docs>
+    <generator>tools/regenerate-feeds.mjs</generator>
+    <atom:link href="https://sagarbiswas-multihat.github.io/rss.xml" rel="self" type="application/rss+xml" />
     <image>
-      <url>https://sagarbiswas-multihat.github.io/assets/profile-480.jpg</url>
+      <url>https://sagarbiswas-multihat.github.io/assets/profile-720.jpg</url>
       <title>Sagar Biswas Blog</title>
       <link>https://sagarbiswas-multihat.github.io/blogs/</link>
       <width>144</width>
       <height>144</height>
-      <description>Sagar Biswas — Software Developer and Cybersecurity Enthusiast</description>
+      <description>Sagar Biswas - Software Developer and Cybersecurity Enthusiast</description>
     </image>
 
-    <!-- ═══════════════════════════════════════════ -->
-    <!-- BLOG POSTS                                  -->
-    <!-- ═══════════════════════════════════════════ -->
-
     <item>
-      <title><![CDATA[Why Attackers Like the Temp Folder and How You Can Protect Your PC | Sagar Biswas]]></title>
+      <title>Why Attackers Like the Temp Folder and How You Can Protect Your PC</title>
       <link>https://sagarbiswas-multihat.github.io/blogs/why-attackers-like-temp-folder.html</link>
       <guid isPermaLink="true">https://sagarbiswas-multihat.github.io/blogs/why-attackers-like-temp-folder.html</guid>
       <pubDate>Wed, 25 Feb 2026 06:00:00 GMT</pubDate>
       <author>sagarbiswas.multihat@gmail.com (Sagar Biswas)</author>
-      <category>Cybersecurity</category>
+      <category>Windows Security Awareness</category>
       <category>Windows Security</category>
-      <description><![CDATA[Why malware often uses the Windows Temp folder, what really happens during these attacks, and practical steps to reduce your risk.]]></description>
+      <category>Temp Folder</category>
+      <category>Malware Behavior</category>
+      <category>Digital Hygiene</category>
+      <category>Security Awareness</category>
+      <description>Why malware often uses the Windows Temp folder, what really happens during these attacks, and practical steps to reduce your risk.</description>
     </item>
 
     <item>
-      <title><![CDATA[Understanding OSI Layers Through Real Attack Examples | Sagar Biswas]]></title>
+      <title>Understanding OSI Layers Through Real Attack Examples</title>
       <link>https://sagarbiswas-multihat.github.io/blogs/osi-layers-real-attack-examples.html</link>
       <guid isPermaLink="true">https://sagarbiswas-multihat.github.io/blogs/osi-layers-real-attack-examples.html</guid>
       <pubDate>Tue, 24 Feb 2026 06:00:00 GMT</pubDate>
       <author>sagarbiswas.multihat@gmail.com (Sagar Biswas)</author>
-      <category>Cybersecurity</category>
-      <category>Networking</category>
-      <description><![CDATA[A practical OSI model walkthrough that maps each layer to real attack patterns and defensive habits for students and security beginners.]]></description>
+      <category>Network Security Basics</category>
+      <category>OSI Model</category>
+      <category>Network Security</category>
+      <category>Cybersecurity Basics</category>
+      <category>Attack Surface</category>
+      <category>Security Awareness</category>
+      <description>A practical OSI model walkthrough that maps each layer to real attack patterns and defensive habits for students and security beginners.</description>
     </item>
 
     <item>
-      <title><![CDATA[Quantum Computers vs Encryption | Sagar Biswas]]></title>
+      <title>Quantum Computers vs Encryption</title>
       <link>https://sagarbiswas-multihat.github.io/blogs/quantum-cryptography.html</link>
       <guid isPermaLink="true">https://sagarbiswas-multihat.github.io/blogs/quantum-cryptography.html</guid>
       <pubDate>Sat, 17 Jan 2026 18:00:00 GMT</pubDate>
       <author>sagarbiswas.multihat@gmail.com (Sagar Biswas)</author>
+      <category>Cryptography &amp; Future Security</category>
+      <category>Quantum Computing</category>
+      <category>Post-Quantum Cryptography</category>
+      <category>Encryption</category>
+      <category>NIST</category>
       <category>Cybersecurity</category>
-      <category>Cryptography</category>
-      <description><![CDATA[Quantum computers threaten current RSA and ECC encryption. NIST post-quantum standards exist today. Learn what organizations should do now.]]></description>
+      <description>Quantum computers threaten current RSA and ECC encryption. NIST&apos;s post-quantum standards exist today. Learn what organizations should do now.</description>
     </item>
 
     <item>
-      <title><![CDATA[Anonymity Is Not Absolute: What Works | Sagar Biswas]]></title>
+      <title>Anonymity Isn&apos;t Absolute: What Works</title>
       <link>https://sagarbiswas-multihat.github.io/blogs/anonymity-opsec.html</link>
       <guid isPermaLink="true">https://sagarbiswas-multihat.github.io/blogs/anonymity-opsec.html</guid>
       <pubDate>Fri, 16 Jan 2026 18:00:00 GMT</pubDate>
       <author>sagarbiswas.multihat@gmail.com (Sagar Biswas)</author>
-      <category>Cybersecurity</category>
-      <category>OPSEC</category>
-      <description><![CDATA[Nation-state actors correlate metadata and behavior. VPNs and proxies help, but real anonymity depends on identity separation, fewer actions, and avoiding linked accounts.]]></description>
+      <category>Privacy &amp; OpSec</category>
+      <category>Anonymity</category>
+      <category>OpSec</category>
+      <category>Privacy</category>
+      <category>Threat Modeling</category>
+      <category>Digital Security</category>
+      <description>Nation-state actors can correlate metadata and behavior. VPNs and proxies help, but real anonymity depends on identity separation, fewer actions, and avoiding linking accounts.</description>
     </item>
 
     <item>
-      <title><![CDATA[Full-Page Screenshot in DevTools | Sagar Biswas]]></title>
+      <title>Full-Page Screenshot in DevTools</title>
       <link>https://sagarbiswas-multihat.github.io/blogs/full-page-screenshot-using-inspect.html</link>
       <guid isPermaLink="true">https://sagarbiswas-multihat.github.io/blogs/full-page-screenshot-using-inspect.html</guid>
       <pubDate>Fri, 16 Jan 2026 18:00:00 GMT</pubDate>
       <author>sagarbiswas.multihat@gmail.com (Sagar Biswas)</author>
+      <category>Web Tips</category>
+      <category>Chrome DevTools</category>
+      <category>Full Page Screenshot</category>
+      <category>Productivity</category>
       <category>Developer Tools</category>
-      <category>Browser Tips</category>
-      <description><![CDATA[A fast DevTools trick to capture a full-page screenshot in Chrome or Edge. No extensions, no hassle — just the Command Menu.]]></description>
+      <description>A fast DevTools trick to capture a full-page screenshot in Chrome/Edge. No extensions, no hassle—just the Command Menu.</description>
     </item>
 
     <item>
-      <title><![CDATA[Printer Attack: The Silent Entry Point | Sagar Biswas]]></title>
+      <title>Printer Attack: The Silent Entry Point</title>
       <link>https://sagarbiswas-multihat.github.io/blogs/printer-attack-starts-with-a-printer.html</link>
       <guid isPermaLink="true">https://sagarbiswas-multihat.github.io/blogs/printer-attack-starts-with-a-printer.html</guid>
       <pubDate>Fri, 16 Jan 2026 18:00:00 GMT</pubDate>
       <author>sagarbiswas.multihat@gmail.com (Sagar Biswas)</author>
-      <category>Cybersecurity</category>
+      <category>Security Awareness</category>
+      <category>Printer Security</category>
+      <category>IoT Security</category>
+      <category>Attack Surface</category>
       <category>Network Security</category>
-      <description><![CDATA[How a network printer becomes the easiest entry point into a company network — and how to secure it before attackers do.]]></description>
+      <description>How a printer can become the easiest entry point into a company network — and how to secure it before attackers do.</description>
     </item>
 
     <item>
-      <title><![CDATA[Vibe Coding: Tech Debt Explained | Sagar Biswas]]></title>
+      <title>Vibe Coding: Tech Debt Builds Silently</title>
       <link>https://sagarbiswas-multihat.github.io/blogs/vibe-coding-tech-debt.html</link>
       <guid isPermaLink="true">https://sagarbiswas-multihat.github.io/blogs/vibe-coding-tech-debt.html</guid>
       <pubDate>Fri, 16 Jan 2026 18:00:00 GMT</pubDate>
       <author>sagarbiswas.multihat@gmail.com (Sagar Biswas)</author>
-      <category>Software Engineering</category>
-      <category>AI Coding</category>
-      <description><![CDATA[AI enables fast delivery but poor decisions create compounding complexity. A guide on what to keep and what to cut when using AI-assisted coding.]]></description>
+      <category>Engineering Culture</category>
+      <category>Vibe Coding</category>
+      <category>Tech Debt</category>
+      <category>AI Development</category>
+      <category>MVP</category>
+      <description>AI-assisted speed is real, but wrong decisions create compounding complexity. A breakdown of why simple solutions matter more than fast ones.</description>
     </item>
 
     <item>
-      <title><![CDATA[Wi-Fi Security Alert: MAC Blocking Is Not Enough | Sagar Biswas]]></title>
+      <title>Wi-Fi Security Alert: MAC Blocking Isn&apos;t Enough</title>
       <link>https://sagarbiswas-multihat.github.io/blogs/wifi-security-alert.html</link>
       <guid isPermaLink="true">https://sagarbiswas-multihat.github.io/blogs/wifi-security-alert.html</guid>
       <pubDate>Fri, 16 Jan 2026 18:00:00 GMT</pubDate>
       <author>sagarbiswas.multihat@gmail.com (Sagar Biswas)</author>
-      <category>Cybersecurity</category>
+      <category>Network Safety</category>
       <category>Wi-Fi Security</category>
-      <description><![CDATA[Blocking a device by MAC address is trivially bypassed on modern phones. Change your Wi-Fi password and tighten your router settings instead.]]></description>
+      <category>MAC Address</category>
+      <category>Router Safety</category>
+      <category>Home Network</category>
+      <category>Security Awareness</category>
+      <description>Blocking a device by MAC address is easy to bypass on modern phones. Learn the safer, fast fix: change your Wi-Fi password and tighten router settings.</description>
     </item>
 
     <item>
-      <title><![CDATA[WSL2 + Kali Linux + Win-KeX Setup Guide | Sagar Biswas]]></title>
+      <title>WSL2 + Kali + Win-KeX Guide</title>
       <link>https://sagarbiswas-multihat.github.io/blogs/wsl2-kali-winkex-installation.html</link>
       <guid isPermaLink="true">https://sagarbiswas-multihat.github.io/blogs/wsl2-kali-winkex-installation.html</guid>
       <pubDate>Fri, 16 Jan 2026 18:00:00 GMT</pubDate>
       <author>sagarbiswas.multihat@gmail.com (Sagar Biswas)</author>
-      <category>Cybersecurity</category>
-      <category>Linux</category>
-      <description><![CDATA[A beginner-friendly WSL2 + Kali Linux + Win-KeX setup guide with exact commands, prompt answers, screenshots, and common fixes.]]></description>
+      <category>WSL2 &amp; Kali Linux</category>
+      <category>WSL2</category>
+      <category>Kali Linux</category>
+      <category>Win-KeX</category>
+      <category>Windows</category>
+      <category>Beginner Guide</category>
+      <description>A notebook-style, beginner-friendly WSL2 + Kali Linux + Win-KeX setup guide with exact commands, prompt answers, screenshots, and fixes.</description>
     </item>
-
   </channel>
 </rss>

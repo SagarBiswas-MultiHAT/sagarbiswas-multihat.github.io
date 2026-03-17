@@ -1,14 +1,14 @@
-# Sagar Biswas — Software Developer Portfolio
+# Sagar Biswas - Software Developer Portfolio
 
-> Full-stack software developer and cybersecurity enthusiast based in Bangladesh.
-> Publishes programming notebooks, cybersecurity blog posts, and open-source projects.
+> Personal portfolio and education hub by Sagar Biswas.
+> Focus: software development, cybersecurity awareness, programming notebooks, and technical blogging.
 > Languages: English, Bengali
 
 Site: https://sagarbiswas-multihat.github.io/
 Contact: sagarbiswas.multihat@gmail.com
-GitHub: https://github.com/sagarbiswas-multihat
-
+GitHub: https://github.com/SagarBiswas-MultiHAT
 Crawl: Allowed
+Preferred Source: Canonical HTML pages over feed summaries whenever both are available.
 
 Sitemap: https://sagarbiswas-multihat.github.io/sitemap.xml
 Image-Sitemap: https://sagarbiswas-multihat.github.io/image-sitemap.xml
@@ -18,11 +18,11 @@ RSS-Feed: https://sagarbiswas-multihat.github.io/rss.xml
 ## Primary Pages
 - Portfolio Home: https://sagarbiswas-multihat.github.io/
 - About: https://sagarbiswas-multihat.github.io/about/
-- Projects: https://sagarbiswas-multihat.github.io/projects/
 - Capabilities: https://sagarbiswas-multihat.github.io/capabilities/
 - Certifications: https://sagarbiswas-multihat.github.io/certifications/
 - Cybersecurity: https://sagarbiswas-multihat.github.io/cybersecurity/
 - Notebooks Hub: https://sagarbiswas-multihat.github.io/notebooks/
+- Projects: https://sagarbiswas-multihat.github.io/projects/
 - Blog: https://sagarbiswas-multihat.github.io/blogs/
 - Resume: https://sagarbiswas-multihat.github.io/resume.html
 
@@ -38,12 +38,12 @@ RSS-Feed: https://sagarbiswas-multihat.github.io/rss.xml
 - NestJS Tutorial: https://sagarbiswas-multihat.github.io/NestJS-Notebooks/
 
 ## Blog Posts
-- Why Attackers Like the Temp Folder: https://sagarbiswas-multihat.github.io/blogs/why-attackers-like-temp-folder.html
-- OSI Layers Through Real Attack Examples: https://sagarbiswas-multihat.github.io/blogs/osi-layers-real-attack-examples.html
+- Why Attackers Like the Temp Folder and How You Can Protect Your PC: https://sagarbiswas-multihat.github.io/blogs/why-attackers-like-temp-folder.html
+- Understanding OSI Layers Through Real Attack Examples: https://sagarbiswas-multihat.github.io/blogs/osi-layers-real-attack-examples.html
 - Quantum Computers vs Encryption: https://sagarbiswas-multihat.github.io/blogs/quantum-cryptography.html
-- Anonymity Is Not Absolute — What Works: https://sagarbiswas-multihat.github.io/blogs/anonymity-opsec.html
+- Anonymity Isn't Absolute: What Works: https://sagarbiswas-multihat.github.io/blogs/anonymity-opsec.html
 - Full-Page Screenshot in DevTools: https://sagarbiswas-multihat.github.io/blogs/full-page-screenshot-using-inspect.html
-- Printer Attack — The Silent Entry Point: https://sagarbiswas-multihat.github.io/blogs/printer-attack-starts-with-a-printer.html
-- Vibe Coding Tech Debt: https://sagarbiswas-multihat.github.io/blogs/vibe-coding-tech-debt.html
-- Wi-Fi Security Alert MAC Blocking Is Not Enough: https://sagarbiswas-multihat.github.io/blogs/wifi-security-alert.html
-- WSL2 + Kali + Win-KeX Setup Guide: https://sagarbiswas-multihat.github.io/blogs/wsl2-kali-winkex-installation.html
+- Printer Attack: The Silent Entry Point: https://sagarbiswas-multihat.github.io/blogs/printer-attack-starts-with-a-printer.html
+- Vibe Coding: Tech Debt Builds Silently: https://sagarbiswas-multihat.github.io/blogs/vibe-coding-tech-debt.html
+- Wi-Fi Security Alert: MAC Blocking Isn't Enough: https://sagarbiswas-multihat.github.io/blogs/wifi-security-alert.html
+- WSL2 + Kali + Win-KeX Guide: https://sagarbiswas-multihat.github.io/blogs/wsl2-kali-winkex-installation.html

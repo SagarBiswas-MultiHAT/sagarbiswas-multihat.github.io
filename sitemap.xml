@@ -1,65 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-
-  <!-- ═══════════════════════════════════════════ -->
-  <!-- MAIN PAGES                                  -->
-  <!-- ═══════════════════════════════════════════ -->
   <url>
     <loc>https://sagarbiswas-multihat.github.io/</loc>
-    <lastmod>2026-03-16</lastmod>
+    <lastmod>2026-03-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://sagarbiswas-multihat.github.io/about/</loc>
-    <lastmod>2026-03-16</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://sagarbiswas-multihat.github.io/projects/</loc>
-    <lastmod>2026-03-16</lastmod>
+    <lastmod>2026-03-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://sagarbiswas-multihat.github.io/capabilities/</loc>
-    <lastmod>2026-03-16</lastmod>
+    <lastmod>2026-03-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://sagarbiswas-multihat.github.io/certifications/</loc>
-    <lastmod>2026-03-16</lastmod>
+    <lastmod>2026-03-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://sagarbiswas-multihat.github.io/cybersecurity/</loc>
-    <lastmod>2026-03-16</lastmod>
+    <lastmod>2026-03-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://sagarbiswas-multihat.github.io/resume.html</loc>
-    <lastmod>2026-03-16</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <!-- ═══════════════════════════════════════════ -->
-  <!-- NOTEBOOKS HUB                               -->
-  <!-- ═══════════════════════════════════════════ -->
-  <url>
     <loc>https://sagarbiswas-multihat.github.io/notebooks/</loc>
-    <lastmod>2026-03-16</lastmod>
+    <lastmod>2026-03-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
-
-  <!-- ═══════════════════════════════════════════ -->
-  <!-- NOTEBOOK SUB-SITES                          -->
-  <!-- ═══════════════════════════════════════════ -->
+  <url>
+    <loc>https://sagarbiswas-multihat.github.io/projects/</loc>
+    <lastmod>2026-03-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://sagarbiswas-multihat.github.io/blogs/</loc>
+    <lastmod>2026-03-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://sagarbiswas-multihat.github.io/resume.html</loc>
+    <lastmod>2026-03-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
   <url>
     <loc>https://sagarbiswas-multihat.github.io/BashScript-Notebooks/</loc>
     <lastmod>2026-03-16</lastmod>
@@ -114,20 +108,6 @@
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
-
-  <!-- ═══════════════════════════════════════════ -->
-  <!-- BLOG HUB                                    -->
-  <!-- ═══════════════════════════════════════════ -->
-  <url>
-    <loc>https://sagarbiswas-multihat.github.io/blogs/</loc>
-    <lastmod>2026-03-16</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <!-- ═══════════════════════════════════════════ -->
-  <!-- BLOG POSTS                                  -->
-  <!-- ═══════════════════════════════════════════ -->
   <url>
     <loc>https://sagarbiswas-multihat.github.io/blogs/why-attackers-like-temp-folder.html</loc>
     <lastmod>2026-02-25</lastmod>
@@ -182,5 +162,4 @@
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
-
 </urlset>

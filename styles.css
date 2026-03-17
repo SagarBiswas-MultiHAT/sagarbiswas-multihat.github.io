@@ -1208,7 +1208,7 @@ img[src*="denvercoder1-github-readme-stats.vercel.app"] {
 }
 
 .projects {
-    grid-template-columns: repeat(4, minmax(240px, 1fr))
+    grid-template-columns: repeat(3, minmax(240px, 1fr))
 }
 
 .tag {

@@ -1,8 +1,5 @@
 User-agent: *
 Allow: /
-Disallow:
 
 Sitemap: https://sagarbiswas-multihat.github.io/sitemap.xml
 Sitemap: https://sagarbiswas-multihat.github.io/image-sitemap.xml
-Sitemap: https://sagarbiswas-multihat.github.io/feed.xml
-Sitemap: https://sagarbiswas-multihat.github.io/rss.xml

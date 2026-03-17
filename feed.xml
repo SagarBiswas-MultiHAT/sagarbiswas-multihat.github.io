@@ -1,241 +1,330 @@
-<?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom">
-
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <title>Sagar Biswas Portfolio Feed</title>
-  <subtitle>Software developer portfolio, programming notebooks, and cybersecurity blog by Sagar Biswas</subtitle>
+  <subtitle>Software developer portfolio, programming notebooks, and cybersecurity blog by Sagar Biswas.</subtitle>
   <id>https://sagarbiswas-multihat.github.io/feed.xml</id>
-  <updated>2026-03-16T00:00:00Z</updated>
-  <link href="https://sagarbiswas-multihat.github.io/feed.xml"
-        rel="self" type="application/atom+xml" />
-  <link href="https://sagarbiswas-multihat.github.io/"
-        rel="alternate" type="text/html" />
-  <rights>© 2026 Sagar Biswas. All rights reserved.</rights>
-
+  <updated>2026-03-17T15:45:59Z</updated>
+  <link href="https://sagarbiswas-multihat.github.io/feed.xml" rel="self" type="application/atom+xml" />
+  <link href="https://sagarbiswas-multihat.github.io/" rel="alternate" type="text/html" />
+  <rights>Copyright 2026 Sagar Biswas. All rights reserved.</rights>
+  <generator>tools/regenerate-feeds.mjs</generator>
+  <icon>https://sagarbiswas-multihat.github.io/assets/profile-720.jpg</icon>
+  <logo>https://sagarbiswas-multihat.github.io/assets/og-preview.svg</logo>
   <author>
     <name>Sagar Biswas</name>
     <email>sagarbiswas.multihat@gmail.com</email>
     <uri>https://sagarbiswas-multihat.github.io/</uri>
   </author>
 
-  <!-- ═══════════════════════════════════════════ -->
-  <!-- PORTFOLIO PAGES                             -->
-  <!-- ═══════════════════════════════════════════ -->
-
   <entry>
-    <title>Software Developer Portfolio — Sagar Biswas</title>
-    <id>https://sagarbiswas-multihat.github.io/</id>
-    <link href="https://sagarbiswas-multihat.github.io/"
-          rel="alternate" type="text/html" />
-    <updated>2026-03-16T00:00:00Z</updated>
-    <category term="Portfolio" />
-    <category term="Software Development" />
-    <summary>Full-stack software developer portfolio featuring cybersecurity notes, programming notebooks, open-source projects, and a technical blog by Sagar Biswas.</summary>
+    <title>Resume | Sagar Biswas</title>
+    <id>https://sagarbiswas-multihat.github.io/resume.html</id>
+    <link href="https://sagarbiswas-multihat.github.io/resume.html" rel="alternate" type="text/html" />
+    <updated>2026-03-17T15:45:59Z</updated>
+    <category term="Resume" />
+    <category term="Career" />
+    <summary>View and download the latest resume of Sagar Biswas (MultiHAT-in-Training).</summary>
   </entry>
 
-  <!-- ═══════════════════════════════════════════ -->
-  <!-- NOTEBOOK SUB-SITES                          -->
-  <!-- ═══════════════════════════════════════════ -->
+  <entry>
+    <title>Classified Operations — MultiHAT Projects</title>
+    <id>https://sagarbiswas-multihat.github.io/projects/</id>
+    <link href="https://sagarbiswas-multihat.github.io/projects/" rel="alternate" type="text/html" />
+    <updated>2026-03-17T15:45:59Z</updated>
+    <category term="Projects" />
+    <category term="Software Development" />
+    <summary>Active exploits and weaponized tools from Sagar Biswas (Sagar MultiHAT). Web vulnerability scanners, cybersecurity handbooks, and ethical hacking projects.</summary>
+  </entry>
+
+  <entry>
+    <title>Research Notebooks — MultiHAT Field Manuals</title>
+    <id>https://sagarbiswas-multihat.github.io/notebooks/</id>
+    <link href="https://sagarbiswas-multihat.github.io/notebooks/" rel="alternate" type="text/html" />
+    <updated>2026-03-17T15:45:59Z</updated>
+    <category term="Research" />
+    <category term="Notebooks" />
+    <summary>Comprehensive cybersecurity and programming notebooks by Sagar Biswas (Sagar MultiHAT). Networking, Bash scripting, Python for cybersecurity, C programming DSA, and PHP fundamentals.</summary>
+  </entry>
+
+  <entry>
+    <title>Capabilities — MultiHAT Operations</title>
+    <id>https://sagarbiswas-multihat.github.io/capabilities/</id>
+    <link href="https://sagarbiswas-multihat.github.io/capabilities/" rel="alternate" type="text/html" />
+    <updated>2026-03-17T15:45:59Z</updated>
+    <category term="Capabilities" />
+    <category term="Skills" />
+    <summary>Capabilities and operational focus areas for Sagar Biswas (MultiHAT).</summary>
+  </entry>
+
+  <entry>
+    <title>Certifications — MultiHAT Operations</title>
+    <id>https://sagarbiswas-multihat.github.io/certifications/</id>
+    <link href="https://sagarbiswas-multihat.github.io/certifications/" rel="alternate" type="text/html" />
+    <updated>2026-03-17T15:45:59Z</updated>
+    <category term="Certifications" />
+    <category term="Career" />
+    <summary>Certifications and training milestones for Sagar Biswas (MultiHAT).</summary>
+  </entry>
+
+  <entry>
+    <title>Cybersecurity Arsenal — MultiHAT Resources</title>
+    <id>https://sagarbiswas-multihat.github.io/cybersecurity/</id>
+    <link href="https://sagarbiswas-multihat.github.io/cybersecurity/" rel="alternate" type="text/html" />
+    <updated>2026-03-17T15:45:59Z</updated>
+    <category term="Cybersecurity" />
+    <category term="Learning" />
+    <summary>Cybersecurity tools, training platforms, and resources curated by Sagar Biswas (Sagar MultiHAT). Burp Suite, OWASP ZAP, Metasploit, TryHackMe, HackTheBox, and more.</summary>
+  </entry>
+
+  <entry>
+    <title>Intercepted Transmissions | MultiHAT Blog</title>
+    <id>https://sagarbiswas-multihat.github.io/blogs/</id>
+    <link href="https://sagarbiswas-multihat.github.io/blogs/" rel="alternate" type="text/html" />
+    <updated>2026-03-17T15:45:59Z</updated>
+    <category term="Blog" />
+    <category term="Cybersecurity" />
+    <summary>Intercepted transmissions — threat stories, security awareness, and offensive research notes from Sagar Biswas (Sagar MultiHAT).</summary>
+  </entry>
+
+  <entry>
+    <title>Threat Actor Profile — Sagar Biswas</title>
+    <id>https://sagarbiswas-multihat.github.io/about/</id>
+    <link href="https://sagarbiswas-multihat.github.io/about/" rel="alternate" type="text/html" />
+    <updated>2026-03-17T15:45:59Z</updated>
+    <category term="About" />
+    <category term="Portfolio" />
+    <summary>About Sagar Biswas (Sagar MultiHAT) — CSE student at AIUB, cybersecurity enthusiast, ethical hacker, and web developer. The full story behind MultiHAT Operations.</summary>
+  </entry>
+
+  <entry>
+    <title>Sagar Biswas | MultiHAT Operations — Threat Actor Portfolio</title>
+    <id>https://sagarbiswas-multihat.github.io/</id>
+    <link href="https://sagarbiswas-multihat.github.io/" rel="alternate" type="text/html" />
+    <updated>2026-03-17T15:23:20Z</updated>
+    <category term="Portfolio" />
+    <category term="Software Development" />
+    <summary>Sagar Biswas (Sagar MultiHAT) — CSE student at AIUB, cybersecurity enthusiast, ethical hacker (web security), and web developer pursuing MultiHAT mastery.</summary>
+  </entry>
 
   <entry>
     <title>Bash Scripting Tutorial and Shell Script Examples</title>
     <id>https://sagarbiswas-multihat.github.io/BashScript-Notebooks/</id>
-    <link href="https://sagarbiswas-multihat.github.io/BashScript-Notebooks/"
-          rel="alternate" type="text/html" />
+    <link href="https://sagarbiswas-multihat.github.io/BashScript-Notebooks/" rel="alternate" type="text/html" />
     <updated>2026-03-16T00:00:00Z</updated>
+    <category term="Notebook" />
     <category term="Bash Scripting" />
-    <category term="Linux" />
     <summary>Comprehensive bash scripting tutorial and shell script examples covering Linux command line essentials for beginners and intermediate users.</summary>
   </entry>
 
   <entry>
     <title>C and C++ Programming Notebook</title>
     <id>https://sagarbiswas-multihat.github.io/C_Cpp-Notebooks/</id>
-    <link href="https://sagarbiswas-multihat.github.io/C_Cpp-Notebooks/"
-          rel="alternate" type="text/html" />
+    <link href="https://sagarbiswas-multihat.github.io/C_Cpp-Notebooks/" rel="alternate" type="text/html" />
     <updated>2026-03-16T00:00:00Z</updated>
+    <category term="Notebook" />
     <category term="C Programming" />
-    <category term="C++ Tutorial" />
     <summary>C programming tutorial and C++ notebook covering headers, projects, tricks, and practical examples for students and beginners.</summary>
   </entry>
 
   <entry>
     <title>Cybersecurity Notes and Ethical Hacking Guide</title>
     <id>https://sagarbiswas-multihat.github.io/Cybersecurity-Notebooks/</id>
-    <link href="https://sagarbiswas-multihat.github.io/Cybersecurity-Notebooks/"
-          rel="alternate" type="text/html" />
+    <link href="https://sagarbiswas-multihat.github.io/Cybersecurity-Notebooks/" rel="alternate" type="text/html" />
     <updated>2026-03-16T00:00:00Z</updated>
+    <category term="Notebook" />
     <category term="Cybersecurity" />
-    <category term="Ethical Hacking" />
     <summary>Cybersecurity notes and ethical hacking guide covering CTF writeups, network security, and practical defense techniques.</summary>
   </entry>
 
   <entry>
     <title>Git Commands Cheat Sheet and GitHub Workflow Guide</title>
     <id>https://sagarbiswas-multihat.github.io/GIT_and_GitHub-Notebooks/</id>
-    <link href="https://sagarbiswas-multihat.github.io/GIT_and_GitHub-Notebooks/"
-          rel="alternate" type="text/html" />
+    <link href="https://sagarbiswas-multihat.github.io/GIT_and_GitHub-Notebooks/" rel="alternate" type="text/html" />
     <updated>2026-03-16T00:00:00Z</updated>
+    <category term="Notebook" />
     <category term="Git" />
-    <category term="GitHub" />
-    <summary>Complete Git commands cheat sheet and GitHub workflow guide for beginners — covering branching, merging, pull requests, and collaboration.</summary>
+    <summary>Complete Git commands cheat sheet and GitHub workflow guide for beginners covering branching, merging, pull requests, and collaboration.</summary>
   </entry>
 
   <entry>
     <title>JavaScript Tutorial and Vanilla JS Examples</title>
     <id>https://sagarbiswas-multihat.github.io/JavaScript-Notebooks/</id>
-    <link href="https://sagarbiswas-multihat.github.io/JavaScript-Notebooks/"
-          rel="alternate" type="text/html" />
+    <link href="https://sagarbiswas-multihat.github.io/JavaScript-Notebooks/" rel="alternate" type="text/html" />
     <updated>2026-03-16T00:00:00Z</updated>
+    <category term="Notebook" />
     <category term="JavaScript" />
-    <category term="Web Development" />
-    <summary>JavaScript tutorial and vanilla JS examples notebook — covering core language features, DOM manipulation, and practical programming patterns.</summary>
+    <summary>JavaScript tutorial and vanilla JS examples notebook covering core language features, DOM manipulation, and practical programming patterns.</summary>
   </entry>
 
   <entry>
-    <title>React Tutorial and React Hooks Guide</title>
-    <id>https://sagarbiswas-multihat.github.io/React-Notebooks/</id>
-    <link href="https://sagarbiswas-multihat.github.io/React-Notebooks/"
-          rel="alternate" type="text/html" />
+    <title>NestJS Tutorial and NestJS Project Examples</title>
+    <id>https://sagarbiswas-multihat.github.io/NestJS-Notebooks/</id>
+    <link href="https://sagarbiswas-multihat.github.io/NestJS-Notebooks/" rel="alternate" type="text/html" />
     <updated>2026-03-16T00:00:00Z</updated>
-    <category term="React" />
-    <category term="Frontend Development" />
-    <summary>React tutorial and hooks guide with practical project examples — covering components, state management, and modern React patterns for beginners.</summary>
+    <category term="Notebook" />
+    <category term="NestJS" />
+    <summary>NestJS tutorial and project examples notebook covering modules, controllers, services, and scalable Node.js backend patterns.</summary>
   </entry>
 
   <entry>
     <title>PHP Tutorial and PHP Examples Notebook</title>
     <id>https://sagarbiswas-multihat.github.io/PHP-Notebooks/</id>
-    <link href="https://sagarbiswas-multihat.github.io/PHP-Notebooks/"
-          rel="alternate" type="text/html" />
+    <link href="https://sagarbiswas-multihat.github.io/PHP-Notebooks/" rel="alternate" type="text/html" />
     <updated>2026-03-16T00:00:00Z</updated>
+    <category term="Notebook" />
     <category term="PHP" />
-    <category term="Web Development" />
     <summary>PHP programming tutorial and example notebook covering server-side scripting, forms, databases, and practical PHP development patterns.</summary>
   </entry>
 
   <entry>
     <title>Python Tutorial and Python Examples Notebook</title>
     <id>https://sagarbiswas-multihat.github.io/Python-Notebooks/</id>
-    <link href="https://sagarbiswas-multihat.github.io/Python-Notebooks/"
-          rel="alternate" type="text/html" />
+    <link href="https://sagarbiswas-multihat.github.io/Python-Notebooks/" rel="alternate" type="text/html" />
     <updated>2026-03-16T00:00:00Z</updated>
+    <category term="Notebook" />
     <category term="Python" />
-    <category term="Programming" />
     <summary>Python programming tutorial and notebook covering core syntax, data structures, scripting, and practical Python examples for beginners.</summary>
   </entry>
 
   <entry>
-    <title>NestJS Tutorial and NestJS Project Examples</title>
-    <id>https://sagarbiswas-multihat.github.io/NestJS-Notebooks/</id>
-    <link href="https://sagarbiswas-multihat.github.io/NestJS-Notebooks/"
-          rel="alternate" type="text/html" />
+    <title>React Tutorial and React Hooks Guide</title>
+    <id>https://sagarbiswas-multihat.github.io/React-Notebooks/</id>
+    <link href="https://sagarbiswas-multihat.github.io/React-Notebooks/" rel="alternate" type="text/html" />
     <updated>2026-03-16T00:00:00Z</updated>
-    <category term="NestJS" />
-    <category term="Node.js" />
-    <summary>NestJS tutorial and project examples notebook covering modules, controllers, services, and building scalable Node.js backend applications.</summary>
-  </entry>
-
-  <!-- ═══════════════════════════════════════════ -->
-  <!-- BLOG POSTS                                  -->
-  <!-- ═══════════════════════════════════════════ -->
-
-  <entry>
-    <title>Why Attackers Like the Temp Folder and How You Can Protect Your PC</title>
-    <id>https://sagarbiswas-multihat.github.io/blogs/why-attackers-like-temp-folder.html</id>
-    <link href="https://sagarbiswas-multihat.github.io/blogs/why-attackers-like-temp-folder.html"
-          rel="alternate" type="text/html" />
-    <updated>2026-02-25T06:00:00Z</updated>
-    <category term="Cybersecurity" />
-    <category term="Windows Security" />
-    <summary>Why malware targets the Windows Temp folder and practical steps to reduce your exposure to these attacks.</summary>
+    <category term="Notebook" />
+    <category term="React" />
+    <summary>React tutorial and hooks guide with practical project examples covering components, state management, and modern React patterns for beginners.</summary>
   </entry>
 
   <entry>
     <title>Understanding OSI Layers Through Real Attack Examples</title>
     <id>https://sagarbiswas-multihat.github.io/blogs/osi-layers-real-attack-examples.html</id>
-    <link href="https://sagarbiswas-multihat.github.io/blogs/osi-layers-real-attack-examples.html"
-          rel="alternate" type="text/html" />
-    <updated>2026-02-24T06:00:00Z</updated>
-    <category term="Cybersecurity" />
-    <category term="Networking" />
-    <summary>A practical OSI model walkthrough mapping each layer to real attack patterns and defensive habits for beginners.</summary>
+    <link href="https://sagarbiswas-multihat.github.io/blogs/osi-layers-real-attack-examples.html" rel="alternate" type="text/html" />
+    <updated>2026-02-25T06:00:00Z</updated>
+    <published>2026-02-24T06:00:00Z</published>
+    <category term="Network Security Basics" />
+    <category term="OSI Model" />
+    <category term="Network Security" />
+    <category term="Cybersecurity Basics" />
+    <category term="Attack Surface" />
+    <category term="Security Awareness" />
+    <summary>A practical OSI model walkthrough that maps each layer to real attack patterns and defensive habits for students and security beginners.</summary>
   </entry>
 
   <entry>
-    <title>Quantum Computers vs Encryption</title>
-    <id>https://sagarbiswas-multihat.github.io/blogs/quantum-cryptography.html</id>
-    <link href="https://sagarbiswas-multihat.github.io/blogs/quantum-cryptography.html"
-          rel="alternate" type="text/html" />
-    <updated>2026-01-17T18:00:00Z</updated>
-    <category term="Cybersecurity" />
-    <category term="Cryptography" />
-    <summary>Quantum computers threaten RSA and ECC encryption. Learn what NIST post-quantum standards exist and what organizations should do now.</summary>
+    <title>Why Attackers Like the Temp Folder and How You Can Protect Your PC</title>
+    <id>https://sagarbiswas-multihat.github.io/blogs/why-attackers-like-temp-folder.html</id>
+    <link href="https://sagarbiswas-multihat.github.io/blogs/why-attackers-like-temp-folder.html" rel="alternate" type="text/html" />
+    <updated>2026-02-25T06:00:00Z</updated>
+    <published>2026-02-25T06:00:00Z</published>
+    <category term="Windows Security Awareness" />
+    <category term="Windows Security" />
+    <category term="Temp Folder" />
+    <category term="Malware Behavior" />
+    <category term="Digital Hygiene" />
+    <category term="Security Awareness" />
+    <summary>Why malware often uses the Windows Temp folder, what really happens during these attacks, and practical steps to reduce your risk.</summary>
   </entry>
 
   <entry>
-    <title>Anonymity Is Not Absolute — What Works</title>
+    <title>Anonymity Isn&apos;t Absolute: What Works</title>
     <id>https://sagarbiswas-multihat.github.io/blogs/anonymity-opsec.html</id>
-    <link href="https://sagarbiswas-multihat.github.io/blogs/anonymity-opsec.html"
-          rel="alternate" type="text/html" />
-    <updated>2026-01-16T18:00:00Z</updated>
-    <category term="Cybersecurity" />
-    <category term="OPSEC" />
-    <summary>Real anonymity depends on identity separation and behavioral discipline — not just VPNs and proxies.</summary>
+    <link href="https://sagarbiswas-multihat.github.io/blogs/anonymity-opsec.html" rel="alternate" type="text/html" />
+    <updated>2026-01-17T18:00:00Z</updated>
+    <published>2026-01-16T18:00:00Z</published>
+    <category term="Privacy &amp; OpSec" />
+    <category term="Anonymity" />
+    <category term="OpSec" />
+    <category term="Privacy" />
+    <category term="Threat Modeling" />
+    <category term="Digital Security" />
+    <summary>Nation-state actors can correlate metadata and behavior. VPNs and proxies help, but real anonymity depends on identity separation, fewer actions, and avoiding linking accounts.</summary>
   </entry>
 
   <entry>
     <title>Full-Page Screenshot in DevTools</title>
     <id>https://sagarbiswas-multihat.github.io/blogs/full-page-screenshot-using-inspect.html</id>
-    <link href="https://sagarbiswas-multihat.github.io/blogs/full-page-screenshot-using-inspect.html"
-          rel="alternate" type="text/html" />
-    <updated>2026-01-16T18:00:00Z</updated>
+    <link href="https://sagarbiswas-multihat.github.io/blogs/full-page-screenshot-using-inspect.html" rel="alternate" type="text/html" />
+    <updated>2026-01-17T18:00:00Z</updated>
+    <published>2026-01-16T18:00:00Z</published>
+    <category term="Web Tips" />
+    <category term="Chrome DevTools" />
+    <category term="Full Page Screenshot" />
+    <category term="Productivity" />
     <category term="Developer Tools" />
-    <category term="Browser Tips" />
-    <summary>Capture a full-page screenshot in Chrome or Edge using the DevTools Command Menu — no extensions needed.</summary>
+    <summary>A fast DevTools trick to capture a full-page screenshot in Chrome/Edge. No extensions, no hassle—just the Command Menu.</summary>
   </entry>
 
   <entry>
-    <title>Printer Attack — The Silent Entry Point</title>
+    <title>Printer Attack: The Silent Entry Point</title>
     <id>https://sagarbiswas-multihat.github.io/blogs/printer-attack-starts-with-a-printer.html</id>
-    <link href="https://sagarbiswas-multihat.github.io/blogs/printer-attack-starts-with-a-printer.html"
-          rel="alternate" type="text/html" />
-    <updated>2026-01-16T18:00:00Z</updated>
-    <category term="Cybersecurity" />
+    <link href="https://sagarbiswas-multihat.github.io/blogs/printer-attack-starts-with-a-printer.html" rel="alternate" type="text/html" />
+    <updated>2026-01-17T18:00:00Z</updated>
+    <published>2026-01-16T18:00:00Z</published>
+    <category term="Security Awareness" />
+    <category term="Printer Security" />
+    <category term="IoT Security" />
+    <category term="Attack Surface" />
     <category term="Network Security" />
-    <summary>How a network printer becomes an easy entry point for attackers and practical steps to secure it.</summary>
+    <summary>How a printer can become the easiest entry point into a company network — and how to secure it before attackers do.</summary>
   </entry>
 
   <entry>
-    <title>Vibe Coding Tech Debt</title>
+    <title>Quantum Computers vs Encryption</title>
+    <id>https://sagarbiswas-multihat.github.io/blogs/quantum-cryptography.html</id>
+    <link href="https://sagarbiswas-multihat.github.io/blogs/quantum-cryptography.html" rel="alternate" type="text/html" />
+    <updated>2026-01-17T18:00:00Z</updated>
+    <published>2026-01-17T18:00:00Z</published>
+    <category term="Cryptography &amp; Future Security" />
+    <category term="Quantum Computing" />
+    <category term="Post-Quantum Cryptography" />
+    <category term="Encryption" />
+    <category term="NIST" />
+    <category term="Cybersecurity" />
+    <summary>Quantum computers threaten current RSA and ECC encryption. NIST&apos;s post-quantum standards exist today. Learn what organizations should do now.</summary>
+  </entry>
+
+  <entry>
+    <title>Vibe Coding: Tech Debt Builds Silently</title>
     <id>https://sagarbiswas-multihat.github.io/blogs/vibe-coding-tech-debt.html</id>
-    <link href="https://sagarbiswas-multihat.github.io/blogs/vibe-coding-tech-debt.html"
-          rel="alternate" type="text/html" />
-    <updated>2026-01-16T18:00:00Z</updated>
-    <category term="Software Engineering" />
-    <category term="AI Coding" />
-    <summary>AI enables fast delivery but poor decisions create compounding complexity — a guide on what to keep and what to cut.</summary>
+    <link href="https://sagarbiswas-multihat.github.io/blogs/vibe-coding-tech-debt.html" rel="alternate" type="text/html" />
+    <updated>2026-01-17T18:00:00Z</updated>
+    <published>2026-01-16T18:00:00Z</published>
+    <category term="Engineering Culture" />
+    <category term="Vibe Coding" />
+    <category term="Tech Debt" />
+    <category term="AI Development" />
+    <category term="MVP" />
+    <summary>AI-assisted speed is real, but wrong decisions create compounding complexity. A breakdown of why simple solutions matter more than fast ones.</summary>
   </entry>
 
   <entry>
-    <title>Wi-Fi Security Alert — MAC Blocking Is Not Enough</title>
+    <title>Wi-Fi Security Alert: MAC Blocking Isn&apos;t Enough</title>
     <id>https://sagarbiswas-multihat.github.io/blogs/wifi-security-alert.html</id>
-    <link href="https://sagarbiswas-multihat.github.io/blogs/wifi-security-alert.html"
-          rel="alternate" type="text/html" />
-    <updated>2026-01-16T18:00:00Z</updated>
-    <category term="Cybersecurity" />
+    <link href="https://sagarbiswas-multihat.github.io/blogs/wifi-security-alert.html" rel="alternate" type="text/html" />
+    <updated>2026-01-17T18:00:00Z</updated>
+    <published>2026-01-16T18:00:00Z</published>
+    <category term="Network Safety" />
     <category term="Wi-Fi Security" />
-    <summary>MAC address blocking is trivially bypassed on modern devices. Change your Wi-Fi password and tighten router settings instead.</summary>
+    <category term="MAC Address" />
+    <category term="Router Safety" />
+    <category term="Home Network" />
+    <category term="Security Awareness" />
+    <summary>Blocking a device by MAC address is easy to bypass on modern phones. Learn the safer, fast fix: change your Wi-Fi password and tighten router settings.</summary>
   </entry>
 
   <entry>
-    <title>WSL2 + Kali Linux + Win-KeX Setup Guide</title>
+    <title>WSL2 + Kali + Win-KeX Guide</title>
     <id>https://sagarbiswas-multihat.github.io/blogs/wsl2-kali-winkex-installation.html</id>
-    <link href="https://sagarbiswas-multihat.github.io/blogs/wsl2-kali-winkex-installation.html"
-          rel="alternate" type="text/html" />
-    <updated>2026-01-16T18:00:00Z</updated>
-    <category term="Cybersecurity" />
-    <category term="Linux" />
-    <summary>Beginner-friendly WSL2 + Kali Linux + Win-KeX setup guide with exact commands, screenshots, and fixes.</summary>
+    <link href="https://sagarbiswas-multihat.github.io/blogs/wsl2-kali-winkex-installation.html" rel="alternate" type="text/html" />
+    <updated>2026-01-17T18:00:00Z</updated>
+    <published>2026-01-16T18:00:00Z</published>
+    <category term="WSL2 &amp; Kali Linux" />
+    <category term="WSL2" />
+    <category term="Kali Linux" />
+    <category term="Win-KeX" />
+    <category term="Windows" />
+    <category term="Beginner Guide" />
+    <summary>A notebook-style, beginner-friendly WSL2 + Kali Linux + Win-KeX setup guide with exact commands, prompt answers, screenshots, and fixes.</summary>
   </entry>
-
 </feed>
