@@ -111,7 +111,103 @@
         </section>
 
         <section class="section" style="padding-top:0;">
-            <div class="section-header">
+            <div class="section-header" style="margin-top: 40px;">
+                <h2>// Public Reports</h2>
+                <p>Explore my public security reports and findings.</p>
+            </div>
+            <article class="project">
+                <h3 class="heading-underline">ReserveX Security Public Report</h3>
+                <p>
+                    I just did my first security assessment of reservexbd.com. I only performed passive recon, which
+                    means
+                    I did not run active scans or exploit anything. Below is a clear, student-style bullet summary that
+                    contains everything from the public report.
+                    <br><br>
+                    - Overview: 15 security issues found in total; 2 of them are critical.
+                    <br>
+                    - RXBD-001 (critical): DNS leaks the real server IP behind Cloudflare. Attackers can bypass
+                    Cloudflare
+                    protections (firewall, DDoS protection, rate limits) and talk directly to the origin server, which
+                    makes all other issues much worse.
+                    <br>
+                    - RXBD-002 (critical): The media storage bucket is publicly accessible. File paths are present in
+                    the
+                    page HTML, so anyone can download stored media such as restaurant photos and possibly user uploads.
+                    <br>
+                    - RXBD-003: Open redirect on the login page via the unvalidated ?next= parameter. This can be abused
+                    for phishing by sending users to a malicious site after login.
+                    <br>
+                    - RXBD-004: Signup OTP has no visible rate limiting. Four or six digit OTPs are brute-forceable
+                    without
+                    an account lockout or throttling.
+                    <br>
+                    - RXBD-005: Login error messages reveal account existence by returning different messages for wrong
+                    password versus account not found. This enables phone number enumeration.
+                    <br>
+                    - RXBD-006: Missing important security headers such as Content Security Policy (CSP), HSTS, and
+                    X-Frame-Options, increasing risk of clickjacking, mixed content, and other attacks.
+                    <br>
+                    - RXBD-007: Payment iframe for bKash and Nagad fails to load on restaurant pages. Likely a CSP
+                    misconfiguration is blocking the provider, causing users to be unable to pay and resulting in
+                    immediate revenue loss until fixed.
+                    <br>
+                    - RXBD-008: Potential authorization issue with bookings that use simple numeric IDs (for example,
+                    /bookings/1234/). If ownership checks are missing, a logged-in user could view or cancel others'
+                    bookings. I could not verify this with authenticated testing, so it remains a possible but common
+                    mistake.
+                    <br>
+                    - RXBD-009: Contact form lacks CAPTCHA, increasing spam and automated abuse risk.
+                    <br>
+                    - RXBD-010: Django admin is exposed at the default /admin/ path and is frequently probed by bots,
+                    increasing the attack surface.
+                    <br>
+                    - RXBD-011: No robots.txt is present, so search engines may index sensitive paths unintentionally.
+                    <br>
+                    - RXBD-012: Email addresses are obfuscated with a trivial XOR scheme in the HTML; this can be
+                    decoded in seconds and offers no real protection.
+                    <br>
+                    - RXBD-013: No sitemap.xml is provided.
+                    <br>
+                    - RXBD-014: Password reset OTP lacks visible rate limiting as well, mirroring RXBD-004 and allowing
+                    brute force of reset codes.
+                    <br>
+                    - RXBD-015: Registration does not verify email ownership, so someone can sign up with another
+                    person's
+                    email and cause that person to receive booking notifications without consent.
+                    <br><br>
+                    - Chain risk: These findings can chain together. For example, find the real server IP (RXBD-001),
+                    bypass Cloudflare, brute force OTPs (RXBD-004/RXBD-014), take over accounts using enumeration
+                    (RXBD-005), and then view or cancel bookings (RXBD-008) or steal deposits. Each step in the chain
+                    is supported by findings in the report.
+                    <br>
+                    - What worked: HTTPS is active, Cloudflare is configured (but bypassable by RXBD-001), phone OTP is
+                    implemented for registration, and payment gateways use authorized providers.
+                    <br>
+                    - Report status: I prepared a full sanitized report with CVSS scores, evidence, and remediation
+                    steps
+                    for all 15 findings. The private report containing exact hostnames and paths was delivered to the
+                    ReserveX team. This public version redacts sensitive technical details.
+                    <br><br>
+                    If you do security research or web development, I would appreciate any feedback or suggestions.
+                </p>
+                <br>
+                <a class="project-link"
+                    style="color: #0008ff; font-weight: bold; margin-top: 10px; display: block; text-align: right; font-size: 20px;"
+                    href="https://drive.google.com/file/d/1lYKqYK1_mIBSEbu7LtOPlFh8oFrWC6y3/view?usp=sharing"
+                    target="_blank" rel="noopener noreferrer">
+                    View:&nbsp;ReserveX_Security_Report_Public(Google Drive)
+                </a>
+                <br>
+                <div style="text-align: left;">
+                    <span class="tag">Security</span>
+                    <span class="tag">Web App</span>
+                    <span class="tag">Recon</span>
+                    <span class="tag">Django</span>
+                </div>
+            </article>
+        </section>
+        <section class="section" style="padding-top:0;">
+            <div class="section-header" style="margin-top: 40px;">
                 <h2>// Core Focus</h2>
                 <p>These capabilities summarize the primary skill tracks referenced across the site.</p>
             </div>
