@@ -1581,6 +1581,7 @@ details {
     font-size: .8rem;
     letter-spacing: .04em;
     padding: 32px;
+    padding-top: 0px;
     text-align: center
 }
 

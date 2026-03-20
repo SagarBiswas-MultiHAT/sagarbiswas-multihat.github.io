@@ -20,6 +20,9 @@ This repository ships helper scripts centered on keeping the static portfolio po
 ## Prerequisites
 
 - Node.js (v16+ recommended).
+```
+sudo apt install nodejs
+```
 - From the repository root, install developer dependencies if you haven't already:
 
 ```
@@ -29,6 +32,12 @@ npm install --save-dev postcss cssnano terser
 ## Usage
 
 All commands are intended to be run from the repository root. Replace `node` with your node runtime if different.
+
+```
+sudo apt install npm
+npm install
+```
+
 
 ### Minify CSS
 

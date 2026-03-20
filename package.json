@@ -8,8 +8,8 @@
     "generate:feeds": "node tools/regenerate-feeds.mjs"
   },
   "devDependencies": {
-    "cssnano": "^6.0.0",
-    "postcss": "^8.4.38",
-    "terser": "^5.30.0"
+    "cssnano": "^6.1.2",
+    "postcss": "^8.5.8",
+    "terser": "^5.46.1"
   }
 }
