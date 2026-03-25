@@ -1624,7 +1624,7 @@ details {
 
 .intro-matrix {
     inset: 0;
-    opacity: .15;
+    opacity: 0.85;
     overflow: hidden;
     position: absolute
 }
