@@ -1914,10 +1914,139 @@ details {
     text-underline-offset: 4px
 }
 
+.section-exposure {
+    padding-top: 18px
+}
+
+.section-mindset {
+    padding-top: 14px
+}
+
+.mh-exposure-grid {
+    align-items: stretch;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: minmax(0, 1.35fr) minmax(0, 1fr)
+}
+
+.mh-weakness-card {
+    background: radial-gradient(circle at 14% 12%, rgba(255, 0, 51, .18) 0%, transparent 40%), linear-gradient(145deg, rgba(16, 4, 7, .96), rgba(4, 10, 8, .92));
+    border: 1px solid rgba(255, 0, 51, .35);
+    border-radius: 12px;
+    box-shadow: var(--shadow), 0 0 34px rgba(255, 0, 51, .12);
+    overflow: hidden;
+    padding: 1.8rem;
+    position: relative
+}
+
+.mh-weakness-card::before {
+    background: repeating-linear-gradient(0deg, rgba(255, 0, 51, .05) 0, rgba(255, 0, 51, .05) 1px, transparent 1px, transparent 6px);
+    content: "";
+    inset: 0;
+    opacity: .45;
+    pointer-events: none;
+    position: absolute
+}
+
+.mh-weakness-card::after {
+    color: rgba(255, 0, 51, .07);
+    content: "EXPOSED";
+    font-family: var(--mono);
+    font-size: clamp(2.4rem, 7vw, 4rem);
+    font-weight: 700;
+    letter-spacing: .16em;
+    pointer-events: none;
+    position: absolute;
+    right: 1rem;
+    text-transform: uppercase;
+    top: .8rem
+}
+
+.mh-weakness-card>* {
+    position: relative;
+    z-index: 1
+}
+
+.mh-weakness-card__label {
+    align-items: center;
+    color: rgba(240, 240, 240, .92);
+    display: inline-flex;
+    font-family: var(--mono);
+    font-size: .72rem;
+    gap: .5rem;
+    letter-spacing: .2em;
+    margin: 0 0 .9rem;
+    text-transform: uppercase
+}
+
+.mh-weakness-card__label::before {
+    animation: mh-alert-pulse 1.8s ease-in-out infinite;
+    background: var(--danger);
+    border-radius: 50%;
+    box-shadow: 0 0 10px var(--glow-red);
+    content: "";
+    display: inline-block;
+    height: 8px;
+    width: 8px
+}
+
+.mh-weakness-card h3 {
+    color: var(--text-bright);
+    font-size: clamp(1.25rem, 2.4vw, 1.8rem);
+    margin: 0;
+    text-transform: uppercase
+}
+
+.mh-weakness-list {
+    counter-reset: weakness;
+    display: grid;
+    gap: 12px;
+    list-style: none;
+    margin: 1.1rem 0 0;
+    padding: 0
+}
+
+.mh-weakness-list li {
+    background: rgba(0, 0, 0, .38);
+    border: 1px solid rgba(255, 0, 51, .24);
+    border-left: 3px solid rgba(57, 255, 135, .45);
+    border-radius: 8px;
+    padding: .95rem .95rem .95rem 2.8rem;
+    position: relative
+}
+
+.mh-weakness-list li::before {
+    color: rgba(57, 255, 135, .95);
+    content: "0" counter(weakness);
+    counter-increment: weakness;
+    font-family: var(--mono);
+    font-size: .82rem;
+    left: .85rem;
+    line-height: 1;
+    position: absolute;
+    top: 1.08rem
+}
+
+.mh-weakness-list h4 {
+    color: var(--text-bright);
+    font-size: .9rem;
+    letter-spacing: .08em;
+    margin: 0;
+    text-transform: uppercase
+}
+
+.mh-weakness-list p {
+    color: rgba(192, 204, 218, .88);
+    font-size: .9rem;
+    line-height: 1.7;
+    margin: .45rem 0 0
+}
+
 .mh-mindset {
     position: relative;
     border: 1px solid rgba(0, 255, 65, .25);
-    background: linear-gradient(135deg, #040d06 0%, #020805 100%);
+    background: linear-gradient(135deg, #040d06 0%, #020805 72%, #120306 100%);
+    box-shadow: var(--shadow), inset 0 0 22px rgba(57, 255, 135, .05);
     padding: 2rem 2rem 2rem 2.5rem;
     overflow: hidden;
 }
@@ -1994,6 +2123,24 @@ details {
     margin-right: .2rem;
 }
 
+.mh-mindset__signal {
+    color: rgba(240, 240, 240, .72);
+    display: flex;
+    flex-wrap: wrap;
+    font-family: var(--mono);
+    font-size: .7rem;
+    gap: .8rem 1.2rem;
+    letter-spacing: .11em;
+    margin-top: 1rem;
+    text-transform: uppercase
+}
+
+.mh-mindset__signal span {
+    border: 1px solid rgba(57, 255, 135, .18);
+    border-radius: 999px;
+    padding: .25rem .5rem
+}
+
 .mh-mindset__tagline {
     display: block;
     margin-top: 1.5rem;
@@ -2034,7 +2181,30 @@ details {
     }
 }
 
+@keyframes mh-alert-pulse {
+
+    0%,
+    100% {
+        opacity: .5;
+        transform: scale(.9)
+    }
+
+    50% {
+        opacity: 1;
+        transform: scale(1.08)
+    }
+}
+
 @media (max-width:900px) {
+    .mh-exposure-grid {
+        grid-template-columns: 1fr
+    }
+
+    .mh-weakness-card,
+    .mh-mindset {
+        padding: 1.45rem
+    }
+
     .nav {
         align-items: center;
         flex-direction: row;
@@ -2070,6 +2240,14 @@ details {
 }
 
 @media (max-width:600px) {
+    .mh-weakness-card h3 {
+        letter-spacing: .04em
+    }
+
+    .mh-mindset__label {
+        letter-spacing: .3em
+    }
+
     .hero {
         padding-top: 84px
     }
